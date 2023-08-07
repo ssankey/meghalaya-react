@@ -1,0 +1,14 @@
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+  }

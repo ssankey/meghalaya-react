@@ -1,0 +1,14 @@
+.square-image {
+    width: 400px; /* Set the desired width here */
+    height: 400px; /* Set the same value as the width to make it square */
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .square-image img {
+    width: 100%;
+    height: auto
+  }
+  

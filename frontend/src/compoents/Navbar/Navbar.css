@@ -1,0 +1,23 @@
+ul li{
+    padding: 15px 20px ;
+    cursor: pointer;   
+}
+
+ul li a{
+    font-weight: 900;
+}
+
+.mainLocation{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.showNavbar{
+    background-color: aqua;
+    padding: 14px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
