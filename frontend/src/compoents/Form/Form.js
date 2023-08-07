@@ -47,7 +47,7 @@ const Form = () => {
        .join('&');
 
      // Send a GET request with form data as query parameters
-     axios.get(`http://localhost:5000/send-message?${queryString}`)
+     axios.get(`https://meghalaya-tourism.onrender.com/send-message?${queryString}`)
        .then((response) => {
          console.log('API call successful:', response.data);
          // Handle successful response here (e.g., show a success message)

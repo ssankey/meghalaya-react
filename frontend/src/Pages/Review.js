@@ -30,7 +30,7 @@ const FormPage = () => {
       address: address,
       message: message,
     };
-    axios.post('http://localhost:5000/api/reviews', formData)
+    axios.post('https://meghalaya-tourism.onrender.com/api/reviews', formData)
     .then((response) => {
       console.log('Data saved successfully:', response.data);
     })

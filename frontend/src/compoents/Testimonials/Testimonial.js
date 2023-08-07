@@ -16,7 +16,7 @@ const TestimonialsSlider = () => {
 
   const fetchReviews = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/reviews');
+      const response = await axios.get('https://meghalaya-tourism.onrender.com/api/reviews');
       settestimonials(response.data)
       console.log(testimonials);
     } catch (error) {
