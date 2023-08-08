@@ -9,7 +9,7 @@ import nongriat from '../../assets/images/image25.jpg';
 import jainitia from '../../assets/images/breathtaking-scenery-amazing-landscape-view.webp'
 import assam from '../../assets/images/ashwina-kumar-MZS-QFeeVPc-unsplash.webp'
 import Mawlyngbna from '../../assets/images/image29.jpg'
-import Mawsynram from '../../assets/images/mawsy.webp'
+import Mawsynram from '../../assets/images/mawsy2.jpg'
 import './styles.css'
 const ImageSlider = () => {
   const responsiveSettings = [

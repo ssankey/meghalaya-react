@@ -1,4 +1,5 @@
 import shillong1 from '../../assets/images/beautiful-shot-waterfall-surrounded-by-trees-hills.jpg'
+import shillong_bg from '../../assets/images/shillong-bg.jpg'
 import khasi from '../../assets/images/image18.jpg'
 import jainitia from '../../assets/images/breathtaking-scenery-amazing-landscape-view.jpg'
 import don_bosco1 from '../../assets/images/image32.jpg'
@@ -39,7 +40,7 @@ import Lyngksiar_Falls from '../images/image11.jpg'
 import mawkma_falls from '../images/image3.jpg'
 import prut_falls from '../images/image9.jpg'
 import nohkalikai from '../images/chirayu-sharma-KAXnXl_S6K4-unsplash.jpg'
-import krang_suri from '../images/iftekhar-nibir-XKCFg-wJx8M-unsplash.jpg'
+import krang_suri from '../images/mawlynnong-new.jpg'
 import khasi_cuisine from '../images/khasi-food.jpg'
 import khasi_tradition from '../images/khasi-tradition.jpg'
 import nartiang from '../images/Nartiang_Monoliths_in_Meghalaya_are_tallest_in_the_world.jpg'
@@ -127,7 +128,7 @@ export const locationData = {
     {
       "name": "Shillong",
       "description": "The Shillong journey package offers a charming tour to the adorable city of Shillong, which is located some of the lush Meghalayan hills. Shillong, additionally known as the 'Scotland of the East',enchants tourists with its lovely surroundings, agreeable weather, and lively way of life. With this excursion package deal, you could discover Shillong's pinnacle points of interest, consisting of as the well-known Elephant Falls, the tranquil Ward's Lake, the beautiful Shillong Peak, and the bustling marketplaces wherein you could buy neighborhood specialties and handicrafts. The Shillong tour package ensures a memorable revel in so that it will enthrall you, whether you're a fan of nature, an adventurer, or a tradition vulture.",
-      "image": shillong1,
+      "image": shillong_bg,
       "facts":[
         "Shillong is the capital and largest city of the Indian state of Meghalaya.",
         "It is known as the 'Scotland of the East' due to its scenic beauty and pleasant climate.",
@@ -740,7 +741,7 @@ export const TourPackages = {
       "packageName": "SHILLONG AND CHERRAPUNJI TOUR",
       "Title": "Shillong And Cherrapunji Tour",
       "location": "Meghalaya",
-      "image": shillong1,
+      "image": shillong_bg,
       "duration": "4 days",
       "description": "The Shillong journey package offers a charming tour to the adorable city of Shillong, which is located some of the lush Meghalayan hills. Shillong, additionally known as the Scotland of the East, enchants tourists with its lovely surroundings, agreeable weather, and lively way of life. With this excursion package deal, you could discover Shillong's pinnacle points of interest, consisting of as the well-known Elephant Falls, the tranquil Ward's Lake, the beautiful Shillong Peak, and the bustling marketplaces wherein you could buy neighborhood specialties and handicrafts. The Shillong tour package ensures a memorable revel in so that it will enthrall you, whether you're a fan of nature, an adventurer, or a tradition vulture",
       "inclusions": [

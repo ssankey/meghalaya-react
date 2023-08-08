@@ -41,7 +41,7 @@ const TestimonialsSlider = () => {
     {
       breakpoint: 400,
       settings: {
-        slidesToShow: Math.min(1, testimonials.length),
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }
