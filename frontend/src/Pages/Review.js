@@ -32,7 +32,6 @@ const FormPage = () => {
     };
     axios.post('https://meghalaya-tourism.onrender.com/api/reviews', formData)
     .then((response) => {
-      console.log('Data saved successfully:', response.data);
     })
     .catch((error) => {
       console.error('Error saving data:', error);

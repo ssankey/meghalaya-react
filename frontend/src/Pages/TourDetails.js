@@ -20,12 +20,10 @@ const TourDetails = () => {
     setActiveSection((prevSection) => (prevSection === section ? null : section));
   };
   const packageName = useParams();
-  console.log(packageName);
 
   const selectedPackage = TourPackages.tourPackages.find(
     (pkg) => pkg.packageName === packageName.packageDetails
   );
-  console.log({ selectedPackage })
 
   return (
     <div>

@@ -44,7 +44,7 @@ const TestimonialsSlider = () => {
     {
       breakpoint: 400,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }
@@ -52,7 +52,7 @@ const TestimonialsSlider = () => {
 
 
   return (
-    <div className="mt-10 w-[90%] mx-auto">
+    <div className="mt-10 ">
       <h2 className='text-[30px] sm:text-5xl'>
         Don't just take our word for it...
         <br />

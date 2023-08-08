@@ -30,7 +30,6 @@ const Tour = () => {
     }
   ];
 
-  console.log(selectedMainLocationData.sublocations.description)
 
 
   return (
