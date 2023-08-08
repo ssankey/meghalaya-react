@@ -1,11 +1,8 @@
-import shillong1 from '../../assets/images/beautiful-shot-waterfall-surrounded-by-trees-hills.jpg'
 import shillong_bg from '../../assets/images/shillong-bg.jpg'
 import khasi from '../../assets/images/image18.jpg'
 import jainitia from '../../assets/images/breathtaking-scenery-amazing-landscape-view.jpg'
-import don_bosco1 from '../../assets/images/image32.jpg'
 import elephant_falls1 from '../../assets/images/image21.jpg'
 import silk from '../../assets/images/silk-vill.webp'
-import golf_course1 from '../../assets/images/image28.jpg'
 import sohra1 from '../../assets/images/image5.jpg'
 import arrival from '../../assets/images/arrival.jpg'
 import departure from '../../assets/images/departure.jpg'
@@ -15,6 +12,7 @@ import mawkdok_bridge5 from '../../assets/images/image16.jpg'
 import dawki1 from '../../assets/images/image38.jpg'
 import Wei_Sawdong_Falls from '../../assets/images/wei.jpg'
 import Kudengrim from '../../assets/images/evenezer-marak-xVvc3L5quPU-unsplash.jpg'
+import garoHills from '../images/garoHillls.jpg'
 import tura1 from '../../assets/images/image25.jpg'
 import balpakram1 from '../../assets/images/image5.jpg'
 import wardLake from '../../assets/images/Ward__Lake.jpg'
@@ -67,8 +65,15 @@ import manas from '../images/manas.jpg'
 import assam_zoo from '../images/assam-zoo.png'
 import river_brahma from '../images/river-bramha.jpg'
 import bihu from '../images/bihu.jpg'
-import Assamese_Cuisine from '../images/assam-cuisine.avif'
-
+import Assamese_Cuisine from '../images/assam-cuisine.jpeg'
+import garo_cuisine from '../images/garo_cuisine.jpg'
+import jadesii from '../images/Jadesil-Fish-Sanctuary.jpeg'
+import nengman from '../images/Nengmandalgre-mahseers.jpg'
+import nonkred from '../images/nonkrekad.jpg'
+import siju from '../images/siju-cave.jpg'
+import wari from '../images/Wari-chora.jpg'
+import rongren from '../images/Meghalaya2.jpg'
+import garo_culture from '../images/garo-culture.webp'
 export const navLinks = {
   "locations": [
     {
@@ -89,6 +94,11 @@ export const navLinks = {
     {
       "main_heading": "South West Khasi Hills",
       "main_link": "/South West Khasi Hills",
+
+    },
+    {
+      "main_heading": "Garo Hills",
+      "main_link": "/Garo Hills",
 
     },
     {
@@ -129,7 +139,7 @@ export const locationData = {
       "name": "Shillong",
       "description": "The Shillong journey package offers a charming tour to the adorable city of Shillong, which is located some of the lush Meghalayan hills. Shillong, additionally known as the 'Scotland of the East',enchants tourists with its lovely surroundings, agreeable weather, and lively way of life. With this excursion package deal, you could discover Shillong's pinnacle points of interest, consisting of as the well-known Elephant Falls, the tranquil Ward's Lake, the beautiful Shillong Peak, and the bustling marketplaces wherein you could buy neighborhood specialties and handicrafts. The Shillong tour package ensures a memorable revel in so that it will enthrall you, whether you're a fan of nature, an adventurer, or a tradition vulture.",
       "image": shillong_bg,
-      "facts":[
+      "facts": [
         "Shillong is the capital and largest city of the Indian state of Meghalaya.",
         "It is known as the 'Scotland of the East' due to its scenic beauty and pleasant climate.",
         "Shillong Peak, located at an altitude of 1,965 meters, offers stunning views of the city.",
@@ -172,7 +182,7 @@ export const locationData = {
           "name": "Umiam Lake",
           "description": "One of the major attractions of Meghalaya, Shillong's Umiam Lake is also known as the Barapani Lake and Umiam literally means 'Water of tears'. It is bounded by the scenic Sylvan hills on all sides making it an unforgettable sightseeing experience..",
           "images":
-          umiam_lake,
+            umiam_lake,
 
 
         },
@@ -248,7 +258,7 @@ export const locationData = {
       "name": "Sohra",
       "description": "Khasi Hills, a part of the Meghalaya plateau, is a mesmerizing region blessed with lush greenery, cascading waterfalls, and captivating valleys. This area is predominantly inhabited by the Khasi tribe, known for their unique customs and traditions. The town of Sohra, formerly known as Cherrapunji, is famous for being one of the wettest places on Earth and offers breathtaking vistas of verdant landscapes and cascading waterfalls. Visitors to Khasi Hills can explore attractions like Mawkdok Bridge Viewpoint, Wah Kba Falls, and the Garden of Caves, immersing themselves in the natural beauty and cultural richness of the region.",
       "image": khasi,
-      "facts":[
+      "facts": [
         "Sohra, also known as Cherrapunji, is famous for being one of the wettest places on Earth.",
         "It holds the record for the highest annual rainfall, making it a lush and green region.",
         "The Seven Sisters Falls and Nohkalikai Falls are among the most spectacular waterfalls in Sohra.",
@@ -473,13 +483,19 @@ export const locationData = {
     {
       "name": "Garo Hills",
       "description": "Garo Hills is known for its diverse wildlife and picturesque landscapes.",
-      "images": 'images',
+      "image": garoHills,
+      "facts": [
+        "Garo Hills is a picturesque region known for its breathtaking landscapes and rich cultural heritage.",
+        "The region is inhabited by the Garo tribe, known for their vibrant traditions and unique customs.",
+        "Cherrapunji, located in the East Khasi Hills, is one of the wettest places on Earth, receiving heavy rainfall throughout the year.",
+        "Tura, the largest town in Garo Hills, is surrounded by lush forests and is a gateway to various natural wonders.",
+        "Garo Hills is famous for its traditional musical instruments, intricate handwoven textiles, and skilled artisans.",
+      ],
       "sublocations": [
         {
           "name": "Jadisil Fish Sanctuary",
           "description": "The Jadisil Fish Sanctuary is placed in Meghalaya's Garo Hills area. It is a main vacationer appeal in addition to a conservation place for quite a few fish species. The Jadisil Fish Sanctuary turned into developed to shield and conserve the sanctuary's fish species even as also selling sustainable tourism within the vicinity.",
-          "images":
-            tura1,
+          "images": jadesii
         },
         {
           "name": "Balpakram National Park",
@@ -498,48 +514,54 @@ export const locationData = {
           "name": "Siju Cave and Rock Formations ",
           "description": "Siju cave, a world-long cave system, features unique visuals and formations, including rock formations and bats. Visitors can explore the state-run tourist lodge and nearby reserves, while bird sanctuary and forests provide a glimpse into the Garo Hills wilderness",
           "images":
-            tura1,
+            siju,
         },
         {
           "name": "Nengmandal Fish Sanctuary",
           "description": "Nengmandal Fish Sanctuary, located in Chibok river, is a riverine fish sanctuary near Williamnagar town. It is home to major fish species like Chocolate Masheers, minor caps, and eel. Accessible via motorable tarred road in 20 minutes.          ",
           "images":
-            tura1,
+            nengman,
         },
         {
           "name": "Nokrek Biospher Reserve",
           "description": "Nokrek National Park, situated in the serene Garo Hills of Meghalaya, is a UNESCO Biosphere Reserve and a haven for biodiversity. The park, covering 47.48 sq Km, hosts wildlife species like elephants, tigers, rare cats, Red Panda, clouded leopard, Serow, Giant flying squirrel, and wild buffalo. Visitors can do activities include camping, trekking, bird watching, and observing wild elephants",
           "images":
-            tura1,
+            nonkred,
         },
         {
           "name": "Wari Chora",
           "description": "Wari Chora, a hidden place in Meghalaya's Garo Hills, offers a paradise for rafting through a narrow canyon. Discover its location, access, and accommodations for a memorable experience.",
           "images":
-            tura1,
+            wari,
         },
       ],
       "thingsToDo": [
-        {
-          "name": "Visiting Fish Sanctuaries",
-          "description": "Nature lovers can go to Tura's Fish Sanctuaries to witness natural beauty and capture photos of diverse fish species. These sanctuaries also provide opportunities for fishing enthusiasts, with local experts guiding them in catching diverse fish species. Explore the diverse range of fish species at the fish sanctuaries, witnessing mind-blowing creatures up close and enjoying a serene environment."
-        },
-        {
-          "name": "Embark on Nature Walks",
-          "description": "Wari Chora offers nature walks through scenic landscapes, allowing visitors to explore various flora and fauna."
-        },
+
         {
           "name": "Visit the Waterfalls",
           "description": "Rongrenggiri Falls and Pandalam Falls are nearby waterfalls in Garo Hills region, offering fresh water and breathtaking views."
+          , "image": rongren
         },
         {
           "name": "Indulge in Traditional Garo Cuisine",
           "description": "Garo Hills offers a unique culinary experience with traditional Garo cuisine, such as Nakham Bitchi, Wak Pura, and Chigong Dare."
+          , "image": garo_cuisine
         },
         {
           "name": "Experience the Rural Lifestyle",
           "description": "Experience the rural lifestyle of the local communities by engaging and understanding their customs and traditions."
-        }
+          , "image": garo_culture
+        },
+        {
+          "name": "Visiting Fish Sanctuaries",
+          "description": "Nature lovers can go to Tura's Fish Sanctuaries to witness natural beauty and capture photos of diverse fish species. These sanctuaries also provide opportunities for fishing enthusiasts, with local experts guiding them in catching diverse fish species. Explore the diverse range of fish species at the fish sanctuaries, witnessing mind-blowing creatures up close and enjoying a serene environment."
+          , "image": jadesii
+        },
+        {
+          "name": "Embark on Nature Walks",
+          "description": "Wari Chora offers nature walks through scenic landscapes, allowing visitors to explore various flora and fauna."
+          , "image": wari
+        },
       ]
 
     },
@@ -547,7 +569,7 @@ export const locationData = {
       "name": "South West Khasi Hills",
       "description": "Explore the enchanting beauty of South West Khasi Hills, Meghalaya. This region offers breathtaking views of magnificent hills, lush green forests, and charming villages. It is a paradise for nature lovers and adventurous travelers seeking a getaway from city life.",
       "image": chum_chum_falls,
-      "facts":[
+      "facts": [
         "South West Khasi Hills is a district known for its serene beauty and lush greenery.",
         "The region is home to sacred forests and natural pools with crystal-clear water.",
         "Mawkyrwat, the district headquarters, is a charming town with a laid-back atmosphere.",
@@ -613,7 +635,7 @@ export const locationData = {
       "name": "Assam",
       "description": "Assam, a northeastern state in India, is known for its breathtaking landscapes, diverse wildlife, colorful culture, and rich history. Here are some of the best things to do in Assam, making it a must-visit tourist destination.",
       "image": Kaziranga,
-      "facts":[
+      "facts": [
         "Assam is a northeastern state of India known for its tea gardens and wildlife reserves.",
         "The Kaziranga National Park is a UNESCO World Heritage Site and home to one-horned rhinos.",
         "Majuli, the largest river island in the world, is located in the Brahmaputra River in Assam.",

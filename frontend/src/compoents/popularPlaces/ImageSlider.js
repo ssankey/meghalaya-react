@@ -3,7 +3,7 @@ import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css';
 import shillong from '../../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.webp'
 import sohra from '../../assets/images/image15.jpg'
-import dawki from '../../assets/images/dawki.avif'
+import dawki from '../../assets/images/image38.jpg'
 import Shnongpdeng from '../../assets/images/image31.jpg'
 import nongriat from '../../assets/images/image25.jpg';
 import jainitia from '../../assets/images/breathtaking-scenery-amazing-landscape-view.webp'

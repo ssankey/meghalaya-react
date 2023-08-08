@@ -97,7 +97,7 @@ const Tour = () => {
 
         <div className='flex flex-col sm:flex-row w-full gap-40 justify-around sm:px-[12rem] p-2  sm:p-14 '>
           <div className=' sm:w-1/2 w-full bg-[#80b328]  rounded-lg relative z-10 p-5'>
-            <h1 className='text-2xl text-center font-extrabold  pb-3'>Places To Visit</h1>
+            <h1 className='text-2xl text-white text-center font-extrabold  pb-3'>Places To Visit</h1>
             <Slide infinite responsive={responsiveSettings}>
               {selectedMainLocationData.sublocations.map((subLocation) => (
                 <div className="each-slide-effect-2 text-center " >
@@ -112,7 +112,7 @@ const Tour = () => {
             </Slide>
           </div>
           <div className=' sm:w-1/2 bg-green-900 relative z-10  rounded-lg p-5'>
-            <h1 className='text-2xl font-extrabold pb-3 text-center'>Things To Do</h1>
+            <h1 className='text-2xl text-white font-extrabold pb-3 text-center'>Things To Do</h1>
             <Slide infinite responsive={responsiveSettings}>
               {selectedMainLocationData.thingsToDo.map((todo, index) => (
                 <div className="each-slide-effect-2 text-center"  key={index}>
