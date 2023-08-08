@@ -6,7 +6,7 @@ import sohra from '../../assets/images/image15.jpg'
 import dawki from '../../assets/images/image38.jpg'
 import Shnongpdeng from '../../assets/images/image31.jpg'
 import nongriat from '../../assets/images/image25.jpg';
-import jainitia from '../../assets/images/breathtaking-scenery-amazing-landscape-view.webp'
+import jainitia from '../../assets/images/shillongImage.jpg'
 import assam from '../../assets/images/ashwina-kumar-MZS-QFeeVPc-unsplash.webp'
 import Mawlyngbna from '../../assets/images/image29.jpg'
 import Mawsynram from '../../assets/images/mawsy2.jpg'
@@ -39,7 +39,7 @@ const ImageSlider = () => {
             <div className="absolute inset-0 bg-black opacity-40"></div>
 
             <div className='text-5xl popularDestinations  font-extrabold text-white  rounded-lg p-1 relative top-36'>
-              <h1>Shillong</h1>
+              <h1>Jaintia Hills</h1>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const ImageSlider = () => {
           <div style={{ 'backgroundImage': `url(${jainitia})`,backgroundSize:'cover',backgroundPosition:'center',objectFit:'cover' }}>
             <div className="absolute inset-0 bg-black opacity-40"></div>
             <div className='text-5xl popularDestinations  font-extrabold text-white  rounded-lg p-1 relative top-36 '>
-              <h1>Jaintia Hills</h1>
+              <h1>Shillong</h1>
             </div>
           </div>
         </div>
