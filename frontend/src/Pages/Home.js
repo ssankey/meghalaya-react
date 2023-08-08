@@ -139,7 +139,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='bg-[#555555] p-10 relative bg-opacity-10 '>
+      <section className='bg-[#555555] relative bg-opacity-10 '>
         <div className='flex flex-col my-20'>
           <Fade direction='up'>
             <h1 className='text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'> MOST VISITED DESTINATIONS </h1>
