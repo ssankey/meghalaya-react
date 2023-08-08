@@ -12,14 +12,14 @@ const ContactBar = () => {
         </div>
         <div className="flex items-center gap-2">
           <FiPhoneCall />
-          <span>+91 88284 61237</span>
+          <span>+91 81198 29466</span>
         </div>
         <div className="flex items-center gap-2 sm:ml-4">
           <span>meghalayaintothemountains@gmail.com</span>
         </div>
       </div>
-      <Link to={'/write-review'}>
-        <button className="bg-green-900 px-4 py-2 font-black sm:inline-block hidden rounded-md">Submit Feedback</button>
+      <Link to={'/contact-us'}>
+        <button className="bg-green-900 px-4 py-2 font-black sm:inline-block hidden rounded-md">Submit Enquiry</button>
       </Link>
     </div>
   );

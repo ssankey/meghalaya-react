@@ -84,7 +84,7 @@ export const navLinks = {
 
     {
       "main_heading": "Jaintia Hills",
-      "main_link": "/Jainitia hills",
+      "main_link": "/Jaintia hills",
     },
     {
       "main_heading": "South West Khasi Hills",
@@ -177,14 +177,14 @@ export const locationData = {
 
         },
         {
-          "name": "boating and view point",
+          "name": "Boating And View Point",
           "description": "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
           "images":
             dawki1,
 
         },
         {
-          "name": "Umden silk weaving village",
+          "name": "Umden Silk Weaving Village",
           "description": "The Elephant Falls is a popular waterfall near Shillong, cascading down in multiple steps.",
           "images":
             silk,
@@ -345,7 +345,7 @@ export const locationData = {
 
     },
     {
-      "name": "Jainitia hills",
+      "name": "Jaintia hills",
       "description": "Jaintia Hills, another enchanting region in Meghalaya, is a land of pristine natural beauty and cultural heritage. It is predominantly inhabited by the Jaintia tribe, known for their vibrant festivals and traditional practices. Dawki and Shnongpdeng, situated on the banks of the Umngot River, offer crystal-clear waters that are perfect for boating and mesmerizing views. Krangsuri Falls is another popular attraction, drawing visitors with its pristine pool and scenic surroundings. The Jaintia Hills are a haven for nature lovers and adventure enthusiasts, offering a serene escape from the hustle and bustle of city life.",
       "image": jainitia,
       "facts": [
@@ -690,7 +690,7 @@ export const sellingPackages = {
   "sellingPackages": [
     {
       "title": "SHILLONG AND CHERRAPUNJI TOUR",
-      "image": shillong1,
+      "image": shillong_bg,
       "description": "This package takes you to the capital city of Shillong famous for its pristine lakes, waterfalls, and pleasant weather. You will also visit Cherrapunji, which is renowned as one of the wettest places on earth and is adorned with stunning landscapes, living root bridges, and beautiful waterfalls.",
 
     },
@@ -758,7 +758,7 @@ export const TourPackages = {
           "day": "Day 2",
           "title": "Sightseeing in Shillong",
           "description": "After breakfast, head out for a full day sightseeing tour in Shillong. Visit the popular attractions like Shillong Peak, Elephant Falls, Ward's Lake, and Don Bosco Museum. Return to the hotel in the evening. Overnight stay at the hotel in Shillong."
-          , "image": shillong1,
+          , "image": shillong_bg,
         },
         {
           "day": "Day 3",
@@ -805,7 +805,7 @@ export const TourPackages = {
           "day": "Day 2",
           "title": "Explore Shillong and Drive to Sohra (Cherrapunji)",
           "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra (Cherrapunji), known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
-          , "image": shillong1,
+          , "image": shillong_bg,
         },
         {
           "day": "Day 3",
@@ -1153,7 +1153,7 @@ export const TourPackages = {
           "day": "Day 2",
           "title": "SIGHTSEEING IN SHILLONG - SOHRA",
           "description": " After breakfast, set out for a full day of sightseeing in Shillong, also known as the 'Scotland of the East'. Visit popular attractions like the Shillong Peak, Elephant Falls, and the Don Bosco Museum. In the afternoon, continue your journey to the enchanting town of Sohra (Cherrapunji), famous for its breathtaking waterfalls and living root bridges. Check into your hotel and enjoy a relaxing evening. "
-          , "image": shillong1,
+          , "image": shillong_bg,
         },
         {
           "day": "Day 3",
@@ -1217,7 +1217,7 @@ export const TourPackages = {
           "day": "Day 2",
           "title": "Explore Shillong",
           "description": "Explore Shillong, visit Elephant Falls, Don Bosco Museum, Shillong Peak, Lady Hydari Park, and enjoy local cafes and nightlife before staying overnight."
-          , "image": shillong1
+          , "image": shillong_bg
         },
         {
           "day": "Day 3",
@@ -1274,7 +1274,7 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Shillong",
           "description": "Arrive at Guwahati Airport and drive to Shillong, Meghalaya's capital city. Visit the Don Bosco Centre for Indigenous Cultures, explore Ward's Lake, and enjoy boating. Explore Police Bazaar, a vibrant commercial hub, and enjoy local delicacies before returning to the hotel for a comfortable overnight stay."
-          , "image": shillong1
+          , "image": shillong_bg
         },
         {
           "day": "Day 2",

@@ -106,7 +106,7 @@ const Tour = () => {
                   </div>
                   <section className='py-5'>
                     <h1 className='text-2xl text-white  font-bold'>{subLocation.name}</h1>
-                    <p className='text-[1.1rem] font-semibold py-5'>{subLocation.description}</p>
+                    <p className='text-[1.1rem] text-white font-semibold py-5'>{subLocation.description}</p>
                   </section>
                 </div>
               ))}
@@ -121,7 +121,7 @@ const Tour = () => {
                   </div>
                   <section className='py-5'>
                     <h1 className='text-2xl text-white font-bold'>{todo.name}</h1>
-                    <p className='text-[1.1rem] font-semibold py-5'>{todo.description}</p>
+                    <p className='text-[1.1rem] text-white font-semibold py-5'>{todo.description}</p>
                   </section>
                 </div>
               ))}
