@@ -61,6 +61,7 @@ import Kaziranga from '../images/Kaziranga-National-Park.jpg'
 import kamakhya_temple from '../images/Kamakhya-Temple-full-color-edited.jpg'
 import Behdeinkhlam from '../images/Behdeinkhlam.jpeg'
 import tea from '../images/tea.jpg'
+import seven_sisters from '../images/seven-sisters.jpg'
 import manas from '../images/manas.jpg'
 import assam_zoo from '../images/assam-zoo.png'
 import river_brahma from '../images/river-bramha.jpg'
@@ -320,7 +321,7 @@ export const locationData = {
       "thingsToDo": [
         {
           "name": "Visit Seven Sisters' Falls",
-          "image": wah_kba,
+          "image": seven_sisters,
           "description": "Take in the breathtaking Seven Sisters' Falls, an outstanding cascade of 7 interwoven waterfalls."
         },
         {
