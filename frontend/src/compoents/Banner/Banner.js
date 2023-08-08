@@ -4,7 +4,7 @@ import './Banner.css'
 import 'react-slideshow-image/dist/styles.css'
 import image1 from '../../assets/images/new-bg.jpg'
 import image2 from '../../assets/images/chirayu-sharma-KAXnXl_S6K4-unsplash.jpg'
-import image3 from '../../assets/images/new-bg.jpg'
+import image3 from '../../assets/images/new-bg1.jpg'
 import image4 from '../../assets/images/hadwt-bcb-JeMSzUo-unsplash.jpg'
 import image5 from '../../assets/images/image11.jpg'
 const Banner = () => {
