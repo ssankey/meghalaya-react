@@ -5,7 +5,7 @@ import shillong from '../../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.we
 import sohra from '../../assets/images/image15.jpg'
 import dawki from '../../assets/images/image38.jpg'
 import Shnongpdeng from '../../assets/images/image31.jpg'
-import nongriat from '../../assets/images/image25.jpg';
+import nongriat from '../../assets/../images/image23.jpg';
 import jainitia from '../../assets/images/shillongImage.jpg'
 import assam from '../../assets/images/ashwina-kumar-MZS-QFeeVPc-unsplash.webp'
 import Mawlyngbna from '../../assets/images/image29.jpg'
