@@ -257,10 +257,10 @@ export const locationData = {
     },
     {
       "name": "Sohra",
-      "description": "Khasi Hills, a part of the Meghalaya plateau, is a mesmerizing region blessed with lush greenery, cascading waterfalls, and captivating valleys. This area is predominantly inhabited by the Khasi tribe, known for their unique customs and traditions. The town of Sohra, formerly known as Cherrapunji, is famous for being one of the wettest places on Earth and offers breathtaking vistas of verdant landscapes and cascading waterfalls. Visitors to Khasi Hills can explore attractions like Mawkdok Bridge Viewpoint, Wah Kba Falls, and the Garden of Caves, immersing themselves in the natural beauty and cultural richness of the region.",
+      "description": "Khasi Hills, a part of the Meghalaya plateau, is a mesmerizing region blessed with lush greenery, cascading waterfalls, and captivating valleys. This area is predominantly inhabited by the Khasi tribe, known for their unique customs and traditions. The town of Sohra, formerly known as Sohra, is famous for being one of the wettest places on Earth and offers breathtaking vistas of verdant landscapes and cascading waterfalls. Visitors to Khasi Hills can explore attractions like Mawkdok Bridge Viewpoint, Wah Kba Falls, and the Garden of Caves, immersing themselves in the natural beauty and cultural richness of the region.",
       "image": khasi,
       "facts": [
-        "Sohra, also known as Cherrapunji, is famous for being one of the wettest places on Earth.",
+        "Sohra, also known as Sohra, is famous for being one of the wettest places on Earth.",
         "It holds the record for the highest annual rainfall, making it a lush and green region.",
         "The Seven Sisters Falls and Nohkalikai Falls are among the most spectacular waterfalls in Sohra.",
         "The Mawsmai Caves, formed from limestone, attract tourists for their unique formations.",
@@ -270,21 +270,21 @@ export const locationData = {
 
         {
           "name": "Mawkdok Bridge View Point",
-          "description": "On the Shillong - Cherrapunji road in Meghalaya, the Mawkdok-Dympep Valley Viewpoint is an alluring valley to behold. It is also called Duwan Sing Syiem Bridge Viewpoint and is one of the major destinations to visit in Cherrapunji. ",
+          "description": "On the Shillong - Sohra road in Meghalaya, the Mawkdok-Dympep Valley Viewpoint is an alluring valley to behold. It is also called Duwan Sing Syiem Bridge Viewpoint and is one of the major destinations to visit in Sohra. ",
           "images":
             mawkdok_bridge1,
 
         },
         {
           "name": "Wah Kba Falls",
-          "description": "Wah-Kaba Falls is a seasonal waterfall located in Cherrapunji. It is one of the most popular waterfalls in Cherrapunji. It is located on the Shillong-Cherrapunji road. This waterfall's roar is audible from a distance and descends from a cliff into a deep gorge. It is a treat to the eyes. The water of the falls is crystal clear in nature. Tourists are amazed at the views of the gushing waters surrounded by beautiful green hills.",
+          "description": "Wah-Kaba Falls is a seasonal waterfall located in Sohra. It is one of the most popular waterfalls in Sohra. It is located on the Shillong-Sohra road. This waterfall's roar is audible from a distance and descends from a cliff into a deep gorge. It is a treat to the eyes. The water of the falls is crystal clear in nature. Tourists are amazed at the views of the gushing waters surrounded by beautiful green hills.",
           "images":
             wah_kba,
 
         },
         {
           "name": "Garden of Caves",
-          "description": "The Garden of Caves is a natural cave system in the Jaintia Hills. One's trip to Cherrapunji is incomplete without this hidden gem that Meghalaya has nestled. It is also called Ka Bri Ki Synrang. This heavenly cave system comprises rock formations, stalagmites, stalactites, waterfalls, and narrow streams",
+          "description": "The Garden of Caves is a natural cave system in the Jaintia Hills. One's trip to Sohra is incomplete without this hidden gem that Meghalaya has nestled. It is also called Ka Bri Ki Synrang. This heavenly cave system comprises rock formations, stalagmites, stalactites, waterfalls, and narrow streams",
           "images":
             Garden_of_Caves,
 
@@ -305,7 +305,7 @@ export const locationData = {
         },
         {
           "name": "Prut Falls",
-          "description": "The Prut Falls is situated at the Laitlyndop village in Cherrapunji. The falls have gained popularity since they were inaugurated and are steadily becoming a tourist hub.Tourists will love to visit this waterfall as it offers an opportunity to view it from behind the falls, unlike most other waterfalls.",
+          "description": "The Prut Falls is situated at the Laitlyndop village in Sohra. The falls have gained popularity since they were inaugurated and are steadily becoming a tourist hub.Tourists will love to visit this waterfall as it offers an opportunity to view it from behind the falls, unlike most other waterfalls.",
           "images":
             prut_falls,
 
@@ -488,7 +488,7 @@ export const locationData = {
       "facts": [
         "Garo Hills is a picturesque region known for its breathtaking landscapes and rich cultural heritage.",
         "The region is inhabited by the Garo tribe, known for their vibrant traditions and unique customs.",
-        "Cherrapunji, located in the East Khasi Hills, is one of the wettest places on Earth, receiving heavy rainfall throughout the year.",
+        "Sohra, located in the East Khasi Hills, is one of the wettest places on Earth, receiving heavy rainfall throughout the year.",
         "Tura, the largest town in Garo Hills, is surrounded by lush forests and is a gateway to various natural wonders.",
         "Garo Hills is famous for its traditional musical instruments, intricate handwoven textiles, and skilled artisans.",
       ],
@@ -712,9 +712,9 @@ export const locationData = {
 export const sellingPackages = {
   "sellingPackages": [
     {
-      "title": "SHILLONG AND CHERRAPUNJI TOUR",
+      "title": "SHILLONG AND Sohra TOUR",
       "image": shillong_bg,
-      "description": "This package takes you to the capital city of Shillong famous for its pristine lakes, waterfalls, and pleasant weather. You will also visit Cherrapunji, which is renowned as one of the wettest places on earth and is adorned with stunning landscapes, living root bridges, and beautiful waterfalls.",
+      "description": "This package takes you to the capital city of Shillong famous for its pristine lakes, waterfalls, and pleasant weather. You will also visit Sohra, which is renowned as one of the wettest places on earth and is adorned with stunning landscapes, living root bridges, and beautiful waterfalls.",
 
     },
     {
@@ -761,8 +761,8 @@ export const sellingPackages = {
 export const TourPackages = {
   "tourPackages": [
     {
-      "packageName": "SHILLONG AND CHERRAPUNJI TOUR",
-      "Title": "Shillong And Cherrapunji Tour",
+      "packageName": "SHILLONG AND Sohra TOUR",
+      "Title": "Shillong And Sohra Tour",
       "location": "Meghalaya",
       "image": shillong_bg,
       "duration": "4 days",
@@ -826,20 +826,20 @@ export const TourPackages = {
         },
         {
           "day": "Day 2",
-          "title": "Explore Shillong and Drive to Sohra (Cherrapunji)",
-          "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra (Cherrapunji), known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
+          "title": "Explore Shillong and Drive to Sohra (Sohra)",
+          "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra (Sohra), known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
           , "image": shillong_bg,
         },
         {
           "day": "Day 3",
-          "title": "Explore Sohra (Cherrapunji)",
+          "title": "Explore Sohra (Sohra)",
           "description": "After breakfast, set out to explore the magnificent attractions of Sohra. Visit popular sites like Nohkalikai Falls (the tallest plunge waterfall in India), Mawsmai Cave, Seven Sisters Falls, and Eco Park. Immerse yourself in the breathtaking landscapes and marvel at the natural wonders. Return to the hotel for a peaceful overnight stay."
           , "image": sohra1,
         },
         {
           "day": "Day 4",
-          "title": "Sohra (Cherrapunji) to Mawlynnong and Dawki",
-          "description": "Begin the day with a delightful breakfast at the hotel. Depart for Mawlynnong village, often referred to as \"Asia's Cleanest Village.\" Explore the picturesque village, known for its well-maintained cleanliness and fascinating living root bridges. Later, proceed to Dawki and visit the breathtaking Umngot River, renowned for its crystal clear waters. Enjoy boating on the river and soak in the scenic beauty surrounding you. Return to Sohra (Cherrapunji) and spend a comfortable night at the hotel."
+          "title": "Sohra (Sohra) to Mawlynnong and Dawki",
+          "description": "Begin the day with a delightful breakfast at the hotel. Depart for Mawlynnong village, often referred to as \"Asia's Cleanest Village.\" Explore the picturesque village, known for its well-maintained cleanliness and fascinating living root bridges. Later, proceed to Dawki and visit the breathtaking Umngot River, renowned for its crystal clear waters. Enjoy boating on the river and soak in the scenic beauty surrounding you. Return to Sohra (Sohra) and spend a comfortable night at the hotel."
           , "image": dawki1,
         },
         {
@@ -1006,19 +1006,19 @@ export const TourPackages = {
         },
         {
           "day": "Day 2",
-          "title": "Sightseeing in Shillong and Sohra (Cherrapunji)",
-          "description": "Explore the enchanting sights of Shillong, including the famous Elephant Falls, Shillong Peak, and the captivating Ward's Lake. In the afternoon, proceed to Sohra, commonly known as Cherrapunji, famous for its stunning waterfalls and lush green landscapes."
+          "title": "Sightseeing in Shillong and Sohra (Sohra)",
+          "description": "Explore the enchanting sights of Shillong, including the famous Elephant Falls, Shillong Peak, and the captivating Ward's Lake. In the afternoon, proceed to Sohra, commonly known as Sohra, famous for its stunning waterfalls and lush green landscapes."
           , "image": shillong_market,
         },
         {
           "day": "Day 3",
-          "title": "Explore Sohra (Cherrapunji)",
+          "title": "Explore Sohra (Sohra)",
           "description": "Spend an entire day exploring the wonders of Sohra. Visit the mesmerizing Nohkalikai Falls, Seven Sisters Falls, and the living root bridges of Mawlynnong, an award-winning cleanest village in Asia."
           , "image": davi_scott,
         },
         {
           "day": "Day 4",
-          "title": "Sohra (Cherrapunji) to Mawlynnong",
+          "title": "Sohra (Sohra) to Mawlynnong",
           "description": "After breakfast, travel to Mawlynnong, a picturesque village known for its pristine natural beauty. Explore the village and experience the warm hospitality of the locals. Don't miss the opportunity to walk across the famous skywalk and enjoy panoramic views of the surrounding forests."
           , "image": mawsy,
         },
@@ -1175,7 +1175,7 @@ export const TourPackages = {
         {
           "day": "Day 2",
           "title": "SIGHTSEEING IN SHILLONG - SOHRA",
-          "description": " After breakfast, set out for a full day of sightseeing in Shillong, also known as the 'Scotland of the East'. Visit popular attractions like the Shillong Peak, Elephant Falls, and the Don Bosco Museum. In the afternoon, continue your journey to the enchanting town of Sohra (Cherrapunji), famous for its breathtaking waterfalls and living root bridges. Check into your hotel and enjoy a relaxing evening. "
+          "description": " After breakfast, set out for a full day of sightseeing in Shillong, also known as the 'Scotland of the East'. Visit popular attractions like the Shillong Peak, Elephant Falls, and the Don Bosco Museum. In the afternoon, continue your journey to the enchanting town of Sohra (Sohra), famous for its breathtaking waterfalls and living root bridges. Check into your hotel and enjoy a relaxing evening. "
           , "image": shillong_bg,
         },
         {
