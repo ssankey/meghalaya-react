@@ -55,7 +55,7 @@ const ImageSlider = () => {
           <div style={{ 'backgroundImage': `url(${dawki})`,backgroundSize:'cover',backgroundPosition:'center',objectFit:'cover' }}>
             <div className="absolute inset-0 bg-black opacity-40"></div>
             <div className='text-5xl  popularDestinations font-extrabold text-white  rounded-lg p-1 relative top-36   '>
-              <h1>Mawlynnong Dawki</h1>
+              <h1>Dawki (Umngot River)</h1>
             </div>
           </div>
         </div>
