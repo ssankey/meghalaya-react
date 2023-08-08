@@ -51,7 +51,7 @@ import mawtynhiang_caves from '../images/Mawtynhiang.jpeg'
 import chum_chum_falls from '../images/Chum.jpeg'
 import od_ringai_falls from '../images/od.jpeg'
 import Nongkhnum from '../images/Nongkhnum.jpeg'
-import Noh from '../images/Noh-ka.jpeg'
+import Noh from '../images/chum-chum-content.jpg'
 import mawsy from '../images/mawsy.jpeg'
 import krang from '../images/Krang.jpeg'
 import Tyrshi from '../images/Tyrshi.jpeg'
@@ -586,6 +586,11 @@ export const locationData = {
           "name": "Explore Nongkhnum Island",
           "description": "Visit the largest river island in Meghalaya, Nongkhnum Island, located at the confluence of the Kynshi and Symper rivers. It offers beautiful landscapes, sandy beaches, and opportunities for camping and hiking.",
           "image": Nongkhnum
+        },
+        {
+          "name": "Explore Waterfalls",
+          "description": " The breathtaking waterfalls in South West Khasi Hills is placed near Pongtung village and is a famous spot amongst nature fanatics. Cascading waterfalls in the surrounding lush landscapes offer beautiful views. One of the well-known fall is Chum Chum Falls, close to Kharkutta village, gives cascading waters surrounded with the aid of a pristine forest, making it a famous destination for nature lovers.",
+          "image": Noh
         },
         {
           "name": "Experience Local Cuisine",
