@@ -21,6 +21,7 @@ import donBosco from '../../assets/images/don-bosco-center.jpg'
 import shillongPeak from '../../assets/images/shillong-peak.jpg'
 import canyons from '../../assets/images/Laitlum_Canyons.jpg'
 import golf_course from '../../assets/images/Golf-course.jpeg'
+import doubleBridge from '../images/image23.jpg'
 import lady_hyadri from '../../assets/images/Meghalaya-Lady-Hydari.webp'
 import shillong_market from '../../assets/images/shillong-market.jpg'
 import local_cuisine from '../../assets/images/local-cuisine.jpg'
@@ -712,7 +713,7 @@ export const locationData = {
 export const sellingPackages = {
   "sellingPackages": [
     {
-      "title": "SHILLONG AND Sohra TOUR",
+      "title": "SHILLONG AND SOHRA TOUR",
       "image": shillong_bg,
       "description": "This package takes you to the capital city of Shillong famous for its pristine lakes, waterfalls, and pleasant weather. You will also visit Sohra, which is renowned as one of the wettest places on earth and is adorned with stunning landscapes, living root bridges, and beautiful waterfalls.",
 
@@ -729,7 +730,7 @@ export const sellingPackages = {
     },
     {
       "title": "NONGRIAT AND DOUBLE DECKER LIVING ROOT BRIDGE TREK",
-      "image": tura1,
+      "image": doubleBridge,
       "description": "This tour package is perfect for adventure enthusiasts. It takes you to Nongriat village, where you can trek through the dense jungles and witness the architectural marvels of the Double Decker Living Root Bridge, an incredible example of bioengineering.",
     },
     {

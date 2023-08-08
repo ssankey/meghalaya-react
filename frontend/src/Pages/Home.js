@@ -244,7 +244,7 @@ const Home = () => {
                   <img src={hiking} alt="Adventurous" />
                 </div>
                 <h3 className="text-lg font-extrabold">ADVENTUROUS</h3>
-                <p className="max-w-md text-center">Meghalaya Mountains Tours is an excellent choice for those looking to explore the beauty and diversity of Meghalaya, a state in northeast India known for its stunning natural landscapes and rich cultural heritage.</p>
+                <p className="max-w-md text-center">Meghalaya - Into the Mountains is an excellent choice for those looking to explore the beauty and diversity of Meghalaya, a state in northeast India known for its stunning natural landscapes and rich cultural heritage.</p>
               </div>
 
               <div className="flex flex-col items-center ftco-animate">
@@ -325,7 +325,7 @@ const Home = () => {
               The company's focus on high-end services, along with the use of modern and comfortable tourist vehicles, has helped to attract more tourists to the region, thereby promoting local tourism and boosting the economy.
             </p>
             <p className="text-black text-lg mb-8">
-              We are confidently saying that Meghalaya Mountain Tours' award is a significant achievement and an acknowledgment of its contribution to the development of tourism in Meghalaya.
+              We are confidently saying that Meghalaya Tourism award is a significant achievement and an acknowledgment of its contribution to the development of tourism in Meghalaya.
             </p>
             <p className="text-black text-lg mb-8">
               With the company's continued focus on providing top-quality services, it is likely to remain a leading player in the tourism industry in the region for years to come.
