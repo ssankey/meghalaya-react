@@ -291,7 +291,7 @@ export const locationData = {
         },
         {
           "name": "Mawkma Falls",
-          "description": "Mawkdok Bridge View Point offers panoramic views of the valley and the bridge over a deep gorge.",
+          "description": "Mawkma Falls, nestled in the lush landscapes of Meghalaya, India, is a captivating natural wonder that enchants all who visit. Plunging from a considerable height, the falls cascade down in multiple tiers, creating a mesmerizing spectacle of frothy white water against the backdrop of dense greenery. The serene ambiance surrounding Mawkma Falls is heightened by the melodious symphony of nature, making it a serene escape for nature enthusiasts and adventure seekers alike.",
           "images":
             mawkma_falls,
 
