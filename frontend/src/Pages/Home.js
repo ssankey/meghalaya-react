@@ -300,7 +300,7 @@ const Home = () => {
               <div className="text-black">
                 <h4 className="text-[30px] sm:text-[44px] font-black mb-4">PERSON BEHIND MEGHALAYA – INTO THE MOUNTAINS</h4>
                 <p className="mb-4">
-                  <span className='text-xl underline'>Mr. Raynauld Mark </span>Pasi which everyone loves to call him Bonn is the person behind Meghalaya ~ Into the Mountains, who started this tour operator 15 years ago. He underwent a change in career path after completing his master's degree in engineering.</p>
+                  <span className='text-xl underline'>Mr. Raynauld Mark Pasi </span> which everyone loves to call him Bonn is the person behind Meghalaya ~ Into the Mountains, who started this tour operator 15 years ago. He underwent a change in career path after completing his master's degree in engineering.</p>
                 <p className="mb-4">
                   Despite his academic achievements, his love for nature outweighed his interest in the technical field. Driven by his passion, he made a career switch and became a tour operator. He now shares his love and knowledge of nature with others, providing guided tours and an unforgettable experience for his clients            </p>
                 <p>

@@ -21,7 +21,6 @@ const TestimonialsSlider = () => {
       const response = await axios.get('https://meghalaya-tourism.onrender.com/api/reviews');
       settestimonials(response.data)
       setIsDataFetched(true);
-      console.log(testimonials);
     } catch (error) {
       console.error('Error fetching reviews', error.message);
     }
@@ -64,7 +63,7 @@ const TestimonialsSlider = () => {
             {testimonials.map((testimonial, index) => (
               <div key={index} className="mx-5 p-8 shadow-lg text-center testimonial-text h-full  rounded-lg flex flex-col gap-16 my-20 bg-white">
                 <p className="text-gray-900 text-[18px]" style={{ maxWidth: "900px", maxHeight: "auto", overflow: 'auto' }}>
-                  {testimonial.message}
+                  "{testimonial.message}"
                 </p>
                 <h3 className="text-lg font-semibold mb-2">{testimonial.name}</h3>
               </div>

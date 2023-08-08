@@ -9,11 +9,11 @@ import golf_course1 from '../../assets/images/image28.jpg'
 import sohra1 from '../../assets/images/image5.jpg'
 import arrival from '../../assets/images/arrival.jpg'
 import departure from '../../assets/images/departure.jpg'
-import mawkdok_bridge1 from '../images/image31.jpg'
+import mawkdok_bridge1 from '../images/mawkdok.jpg'
 import mawlynong from '../../assets/images/Mawlynnong-The-cleanest-city-in-Asia-soulveda.jpg'
 import mawkdok_bridge5 from '../../assets/images/image16.jpg'
-import dawki1 from '../../assets/images/dawki.avif'
-import Wei_Sawdong_Falls from '../../assets/images/image21.jpg'
+import dawki1 from '../../assets/images/image38.jpg'
+import Wei_Sawdong_Falls from '../../assets/images/wei.jpg'
 import Kudengrim from '../../assets/images/evenezer-marak-xVvc3L5quPU-unsplash.jpg'
 import tura1 from '../../assets/images/image25.jpg'
 import balpakram1 from '../../assets/images/image5.jpg'
@@ -586,11 +586,6 @@ export const locationData = {
           "name": "Explore Nongkhnum Island",
           "description": "Visit the largest river island in Meghalaya, Nongkhnum Island, located at the confluence of the Kynshi and Symper rivers. It offers beautiful landscapes, sandy beaches, and opportunities for camping and hiking.",
           "image": Nongkhnum
-        },
-        {
-          "name": "Trek to Nohkalikai Falls",
-          "description": "Embark on a thrilling trek to Nohkalikai Falls, one of the tallest waterfalls in India. The journey through dense forests and rugged terrain rewards you with breathtaking views of the cascading waterfall.",
-          "image": Noh
         },
         {
           "name": "Experience Local Cuisine",
