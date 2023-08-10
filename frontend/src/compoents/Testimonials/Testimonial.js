@@ -52,7 +52,7 @@ const TestimonialsSlider = () => {
 
   return (
     <div className="mt-10 ">
-      <h2 className='text-[30px] sm:text-5xl'>
+      <h2 className='text-[30px] leading-10 px-5 sm:text-5xl'>
         Don't just take our word for it...
         <br />
         Read reviews from our customers

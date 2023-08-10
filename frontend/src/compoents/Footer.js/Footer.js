@@ -71,20 +71,21 @@ const Footer = () => {
           <Link to="/" className="text-white hover:text-blue-200">
             <FiHome size={20} />
           </Link>
-          <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
+          {/* <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
             <FiFacebook size={20} />
           </a>
           <a href="https://www.twitter.com/example" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
-            <FiTwitter size={20} />
-          </a>
-          <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
+            <FiTwitter size={20} /> */}
+          {/* </a>
+           */}
+          <a href="https://www.instagram.com/meghalaya_into_the_mountains/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
             <FiInstagram size={20} />
           </a>
         </div>
 
         {/* Copyright Statement */}
         <p className="mt-8 text-white">
-          © {new Date().getFullYear()} Meghalaya: Into the Mountains. All rights reserved.
+          © {new Date().getFullYear()} Meghalaya- Into the Mountains. All rights reserved.
         </p>
       </div>
     </footer>

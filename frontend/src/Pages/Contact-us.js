@@ -54,11 +54,13 @@ const ContactUs = () => {
             <h3 className="text-2xl font-semibold">Contact Numbers:</h3>
             <p>
               <MdPhone className="inline-block mr-2" />
-              +91 87944 13317
+              +91 87947 95255
+
             </p>
             <p>
               <MdPhone className="inline-block mr-2" />
-              +91 87947 95255
+              +91 81198 29466
+
             </p>
           </div>
 
@@ -68,11 +70,6 @@ const ContactUs = () => {
               <strong>Mr. Raynauld Mark Pasi</strong>
               <br />
               Business Director
-            </p>
-            <p>
-              <strong>Mrs. Lynette Kharsati</strong>
-              <br />
-              Managing Director
             </p>
           </div>
 
@@ -84,7 +81,7 @@ const ContactUs = () => {
             </p>
             <p>
               <MdEmail className="inline-block mr-2" />
-              lynette.kharsati@gmail.com
+              raynauld1318@gmail.com  
             </p>
           </div>
         </div>

@@ -216,7 +216,7 @@ const Home = () => {
                     <img src={activities} alt='img' />
                   </span>
                 </div>
-                <h3 className="text-lg font-bold mb-2">Activity</h3>
+                <h3 className="text-lg font-bold mb-2">Activities</h3>
                 <p className=" max-w-md">Engage in various exciting activities like trekking, caving, and more to make your trip adventurous and unforgettable.</p>
               </div>
             </div>
@@ -253,7 +253,7 @@ const Home = () => {
                   <img src={travelItinerary} alt="Itineraries" />
                 </div>
                 <h3 className="text-lg font-extrabold">ITINERARIES</h3>
-                <p className="max-w-md text-center">With years of experience in the travel industry, Meghalaya Mountains Tour offers customized itineraries that cater to the unique interests and needs of each traveler.</p>
+                <p className="max-w-md text-center">With years of experience in the travel industry, MEGHALAYA INTO THE MOUNTAINS Tour offers customized itineraries that cater to the unique interests and needs of each traveler.</p>
               </div>
 
               <div className="flex flex-col items-center ftco-animate">

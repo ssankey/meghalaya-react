@@ -6,6 +6,7 @@ import silk from '../../assets/images/silk-vill.webp'
 import sohra1 from '../../assets/images/image5.jpg'
 import arrival from '../../assets/images/arrival.jpg'
 import departure from '../../assets/images/departure.jpg'
+import boating from '../images/boating.jpg'
 import mawkdok_bridge1 from '../images/mawkdok.jpg'
 import mawlynong from '../../assets/images/Mawlynnong-The-cleanest-city-in-Asia-soulveda.jpg'
 import mawkdok_bridge5 from '../../assets/images/image16.jpg'
@@ -192,7 +193,7 @@ export const locationData = {
           "name": "Boating And View Point",
           "description": "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
           "images":
-            dawki1,
+            boating,
 
         },
         {
@@ -869,7 +870,7 @@ export const TourPackages = {
       "Title": "Dawki And Umngot River Tour",
       "duration": "6 days",
       "image": dawki1,
-      "description": "Write a small description for this package.",
+      "description": "DAWKI AND UMNGOT RIVER TOUR gives you the fine opportunity to enjoy the fascinating beauty of Dawki and its famous Umngot River. In this short day trip, you may move the stunning panorama of Meghalaya.You will see the emerald inexperienced waters of the Umngot River, that's famous for its distinct satisfactory. Sail in comfort and experience the tranquil scenery. Take stunning snap shots of a stunning placing and create memories in an effort to ultimate an entire life. The DAWKI AND UMNGOT RIVER TOUR package deal is ideal for human beings looking for a relaxing vacation and an opportunity to realize the natural beauty.     ",
       "itinerary": [
         {
           "day": "Day 1",
