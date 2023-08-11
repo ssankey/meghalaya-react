@@ -763,7 +763,7 @@ export const sellingPackages = {
 export const TourPackages = {
   "tourPackages": [
     {
-      "packageName": "SHILLONG AND Sohra TOUR",
+      "packageName": "SHILLONG AND SOHRA TOUR",
       "Title": "Shillong And Sohra Tour",
       "location": "Meghalaya",
       "image": shillong_bg,
