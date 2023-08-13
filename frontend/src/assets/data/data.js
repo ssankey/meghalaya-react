@@ -1388,7 +1388,7 @@ export const TourPackages = {
     {
       "packageName": "BUSINESS TRIP",
       "duration": "3 days, 2 nights",
-      "Title": "Essence of Meghalaya Package",
+      "Title": "BUSINESS TRIP PACKAGE",
       "description": "Meghalaya offers a perfect blend of natural beauty and business opportunities in Package 1: Essence of Meghalaya (3 days, 2 nights). Arrive at Guwahati Airport, transfer to Shillong, visit Umiam Lake, relax, explore local markets, and enjoy dinner and an overnight stay. Explore Sohra, the wettest place on Earth, including Mawsmai Cave and Sisters Falls, and engage in corporate meetings. On Day 3, visit Shillong Peak for panoramic views, explore Don Bosco Museum, and explore charming streets with vibrant cafes and traditional food stalls before departing from Guwahati Airport/Railway Station.",
       "image": business_trip,
       "itinerary": [

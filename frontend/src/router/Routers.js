@@ -8,6 +8,7 @@ import ThankYou from '../Pages/ThankYou';
 import Review from '../Pages/Review';
 import Services from '../Pages/Services';
 import ContactUs from '../Pages/Contact-us';
+import ScrollToTop from '../compoents/scrollToTop/scrollTop';
 
 const Routers = () =>  {
     return(
