@@ -8,7 +8,7 @@ const ContactBar = () => {
       <div className="text-center sm:text-left sm:flex sm:items-center sm:gap-4">
         <div className="flex items-center gap-2 sm:mr-4">
           <FiPhoneCall />
-          <span>+91 87944 13317</span>
+          <span>+91 87947 95255</span>
         </div>
         <div className="flex items-center gap-2">
           <FiPhoneCall />

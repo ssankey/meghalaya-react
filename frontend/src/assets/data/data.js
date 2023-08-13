@@ -26,7 +26,7 @@ import doubleBridge from '../images/image23.jpg'
 import lady_hyadri from '../../assets/images/Meghalaya-Lady-Hydari.webp'
 import shillong_market from '../../assets/images/shillong-market.jpg'
 import local_cuisine from '../../assets/images/local-cuisine.jpg'
-import davi_scott from '../../assets/images/davi-scott.avif'
+import davi_scott from '../../assets/images/davi-scott.jpeg'
 import assam from '../../assets/images/ashwina-kumar-MZS-QFeeVPc-unsplash.webp'
 import local_festival from '../../assets/images/local-festival.jpg'
 import couple_trip from '../../assets/images/couple-trip.jpg'
@@ -189,13 +189,7 @@ export const locationData = {
 
 
         },
-        {
-          "name": "Boating And View Point",
-          "description": "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
-          "images":
-            boating,
 
-        },
         {
           "name": "Umden Silk Weaving Village",
           "description": "The Elephant Falls is a popular waterfall near Shillong, cascading down in multiple steps.",
@@ -254,7 +248,14 @@ export const locationData = {
           name: "Enjoy Local Festivals",
           "image": local_festival,
           description: "The Khasi people, an indigenous ethnic group in Meghalaya, form the majority of the eastern part of the state, accounting for 48% of the population. They follow a matrilineal system of descent and inheritance and are granted Scheduled Tribe status under the Indian Constitution."
-        }
+        },
+                {
+          "name": "Boating And View Point",
+          "description": "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
+          "images":
+            boating,
+
+        },
       ]
     },
     {
@@ -828,19 +829,19 @@ export const TourPackages = {
         },
         {
           "day": "Day 2",
-          "title": "Explore Shillong and Drive to Sohra (Sohra)",
+          "title": "Explore Shillong and Drive to Sohra",
           "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra (Sohra), known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
           , "image": shillong_bg,
         },
         {
           "day": "Day 3",
-          "title": "Explore Sohra (Sohra)",
+          "title": "Explore Sohra",
           "description": "After breakfast, set out to explore the magnificent attractions of Sohra. Visit popular sites like Nohkalikai Falls (the tallest plunge waterfall in India), Mawsmai Cave, Seven Sisters Falls, and Eco Park. Immerse yourself in the breathtaking landscapes and marvel at the natural wonders. Return to the hotel for a peaceful overnight stay."
           , "image": sohra1,
         },
         {
           "day": "Day 4",
-          "title": "Sohra (Sohra) to Mawlynnong and Dawki",
+          "title": "Sohra to Mawlynnong and Dawki",
           "description": "Begin the day with a delightful breakfast at the hotel. Depart for Mawlynnong village, often referred to as \"Asia's Cleanest Village.\" Explore the picturesque village, known for its well-maintained cleanliness and fascinating living root bridges. Later, proceed to Dawki and visit the breathtaking Umngot River, renowned for its crystal clear waters. Enjoy boating on the river and soak in the scenic beauty surrounding you. Return to Sohra (Sohra) and spend a comfortable night at the hotel."
           , "image": dawki1,
         },
@@ -933,7 +934,7 @@ export const TourPackages = {
       "packageName": "NONGRIAT AND DOUBLE DECKER LIVING ROOT BRIDGE TREK",
       "duration": "7 days",
       "Title": "Nongriat And Double Decker Living Root Bridge Trek",
-      "description": "Write a small description for this package.",
+      "description": "The Nongriat and Double Decker Living Root Bridge Trek itineraries are mainly treks for nature lovers and thrill seekers. Located inside the lovely country of Meghalaya, India, this trek takes you to the picturesque village of Nongriat and its specific two-story terrace for a stroll through dense forests and waterfalls. It is a pleasant experience as you stroll alongside that astonishing residential foundation. These bridges are a wonder of nature, shaped just like the roots of rubber trees, patiently studied by nearby people to construct robust and sturdy bridges over rivers. On this ride, you'll see the beautiful landscapes of Meghalaya in immaculate condition, where every step has superb perspectives. Nongriat and Double Decker Living Root Bridge Trek excursion bundle deals provide an unforgettable journey where you can disconnect from the hustle and bustle of city lifestyles and reconnect with nature. So, 100 percent go to your luggage and get the necessities for a ride of a lifetime in serene and mind-blowing Meghalaya.",
       "image": nongriat,
       "itinerary": [
         {
@@ -997,7 +998,7 @@ export const TourPackages = {
       "packageName": "MAWSYNRAM CAVES AND WATERFALLS TOUR",
       "duration": "7 days",
       "Title": "Mawsynram Caves and Falls Tour Package",
-      "description": "Embark on an unforgettable adventure in the stunning landscape of Mawsynram. Known as the wettest place on earth, Mawsynram is a hidden gem nestled in the lush green hills of Meghalaya, India. With this itinerary, you'll embark on an exciting journey through the ancient and mysterious caves of Mawsynram. Explore the expanses of limestone and marvel at natural wonders carved over hundreds of thousands of years. Prepare to be awestruck by the impressive pillars and columns that adorn the cave walls. After exploring the cave, you will be mesmerized by the breathtaking beauty of Mawsynram waterfalls. Enjoy the absolute pleasure of seeing the stunning waterfalls in a peaceful and untouched atmosphere. Immerse yourself in the peace of nature while listening to the soothing sound of waterfalls and enjoy a cool mist for your face. Throughout the tour, there will be expert classes taught by fun and informative guides about caves and waterfalls that will enlighten you along the way. The Mawsynram Caves and Waterfalls Tour bundle is perfect for nature lovers, adventure seekers, and people looking for an escape from the hustle and bustle of city life. So, embark on this first-class tour and discover the hidden treasures of Mawsynram.",
+      "description": "Experience the Stunning and Breathtaking Panorama of Mawsynram, referred to as the “Wettest Place on Earth” alongwith our Professional Guides. Marvel at Lovely Historical Caves and the Breathtaking Beauty of Mawsynram Waterfalls.",
       "image": mawsy,
       "itinerary": [
         {
@@ -1008,19 +1009,19 @@ export const TourPackages = {
         },
         {
           "day": "Day 2",
-          "title": "Sightseeing in Shillong and Sohra (Sohra)",
+          "title": "Sightseeing in Shillong and Sohra",
           "description": "Explore the enchanting sights of Shillong, including the famous Elephant Falls, Shillong Peak, and the captivating Ward's Lake. In the afternoon, proceed to Sohra, commonly known as Sohra, famous for its stunning waterfalls and lush green landscapes."
           , "image": shillong_market,
         },
         {
           "day": "Day 3",
-          "title": "Explore Sohra (Sohra)",
+          "title": "Explore Sohra",
           "description": "Spend an entire day exploring the wonders of Sohra. Visit the mesmerizing Nohkalikai Falls, Seven Sisters Falls, and the living root bridges of Mawlynnong, an award-winning cleanest village in Asia."
           , "image": davi_scott,
         },
         {
           "day": "Day 4",
-          "title": "Sohra (Sohra) to Mawlynnong",
+          "title": "Sohra to Mawlynnong",
           "description": "After breakfast, travel to Mawlynnong, a picturesque village known for its pristine natural beauty. Explore the village and experience the warm hospitality of the locals. Don't miss the opportunity to walk across the famous skywalk and enjoy panoramic views of the surrounding forests."
           , "image": mawsy,
         },
@@ -1034,7 +1035,7 @@ export const TourPackages = {
           "day": "Day 6",
           "title": "Explore Nongriat",
           "description": "Head to Nongriat, a village famous for its living root bridges. Take a trek through beautiful landscapes and dense forests to reach the Double Decker Living Root Bridge. Marvel at the unique architectural beauty of these bridges made from tree roots."
-          , "image": donBosco,
+          , "image": doubleBridge,
         },
         {
           "day": "Day 7",
@@ -1126,7 +1127,7 @@ export const TourPackages = {
           "day": "Day 2",
           "title": "Explore Shillong and Visit Sohra (Cherrapunjee)",
           "description": "Explore Balpakram National Park Embark on an exciting full-day excursion to Balpakram National Park, one of the prominent wildlife destinations in Garo Hills. Enjoy a thrilling jeep safari in the park to witness various wildlife species such as elephants, golden langurs, Indian bison, and many more. Take in the mesmerizing views of the landscape adorned with deep gorges and rolling hills."
-          , "image": caves,
+          , "image": balpakram1,
         },
         {
           "day": "Day 3",
@@ -1171,7 +1172,7 @@ export const TourPackages = {
         {
           "day": "Day 1",
           "title": "Arrive at Guwahati and Transfer to Shillong",
-          "description": " Begin your Mawsynram Caves and Waterfalls Tour by arriving in Guwahati, the gateway to Northeast India. From there, embark on a scenic drive to Shillong, the capital of Meghalaya. Check into your hotel and spend the evening exploring the vibrant markets and local cuisine of Shillong."
+          "description": " Begin your by arriving in Guwahati, the gateway to Northeast India. From there, embark on a scenic drive to Shillong, the capital of Meghalaya. Check into your hotel and spend the evening exploring the vibrant markets and local cuisine of Shillong."
           , "image": arrival,
         },
         {
@@ -1212,7 +1213,7 @@ export const TourPackages = {
         }
       ],
       "inclusion": [
-        "Accommodation: The Shillong tour package includes a comfortable stay in well-appointed hotels or resorts, providing a relaxing and enjoyable experience throughout your trip.",
+        "Accommodation: This tour package includes a comfortable stay in well-appointed hotels or resorts, providing a relaxing and enjoyable experience throughout your trip.",
         "Sightseeing: The package includes guided tours to all the major tourist attractions in Shillong, allowing you to explore the natural beauty and cultural heritage of the city.",
         "Transport: The package covers transportation to and from the airport or railway station, as well as convenient transfers to the different sightseeing spots in and around Shillong.",
         "Guide: You will have the assistance of an experienced guide who can provide you with valuable insights and information about the places you visit."

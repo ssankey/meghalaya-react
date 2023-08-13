@@ -2,16 +2,20 @@ import React, { useState } from 'react';
 import axios from 'axios'
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useNavigate } from 'react-router';
-const FormPage = () => {
-    const [captchaValue, setCaptchaValue] = useState('');
-    const [name, setName] = useState('');
-    const [phoneNumber, setphoneNumber] = useState('');
-    const [email, setemail] = useState('');
-    const [address, setaddress] = useState('');
-    const [message, setmessage] = useState('');
-    const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
-    const navigate = useNavigate();
+import StarRatings from 'react-star-ratings';
 
+const FormPage = () => {
+  const [captchaValue, setCaptchaValue] = useState('');
+  const [name, setName] = useState('');
+  const [phoneNumber, setphoneNumber] = useState('');
+  const [email, setemail] = useState('');
+  const [address, setaddress] = useState('');
+  const [message, setmessage] = useState('');
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+  const [rating, setRating] = useState(0); // Initialize rating state
+
+  const navigate = useNavigate();
+  console.log(rating);
   const handleCaptchaChange = (value) => {
     setCaptchaValue(value);
     setIsCaptchaVerified(true);
@@ -23,24 +27,26 @@ const FormPage = () => {
       alert('Please verify the reCAPTCHA.');
       return;
     }
+
     const formData = {
       name: name,
       phone_number: phoneNumber,
       email: email,
       address: address,
       message: message,
+      rating: rating, // Include the rating in the form data
     };
     axios.post('https://meghalaya-tourism.onrender.com/api/reviews', formData)
-    .then((response) => {
-    })
-    .catch((error) => {
-      console.error('Error saving data:', error);
-    });
+      .then((response) => {
+      })
+      .catch((error) => {
+        console.error('Error saving data:', error);
+      });
 
     navigate('/thank-you')
   };
   return (
-    <div className="flex justify-center my-[10rem] sm:my-24   items-center drop-shadow-2xl h-screen">
+    <div className="flex justify-center my-[15rem] sm:my-48     items-center drop-shadow-2xl h-screen">
       <div className="bg-white p-8  rounded shadow-md w-full max-w-5xl  ">
         <h2 className="sm:text-[48px] text-[30px] text-center  font-bold mb-4">We value your feedback! Help us improve by sharing your thoughts.</h2>
         <form>
@@ -65,7 +71,24 @@ const FormPage = () => {
             <textarea required id="message" rows="4" className="mt-1 p-2 w-full border rounded" value={message} onChange={(e) => setmessage(e.target.value)}></textarea>
           </div>
           <div className="mb-4">
-          <ReCAPTCHA
+            <label htmlFor="rating" className="block text-gray-600 font-semibold">
+              Star Rating
+            </label>
+            <StarRatings
+              rating={rating}
+              starRatedColor="green" // Color of selected stars (change as needed)
+              starEmptyColor="#E0E0E0" // Color of empty stars (change as needed)
+              starHoverColor="green" // Color of stars on hover (change as needed)
+              starDimension="30px" // Size of stars
+              changeRating={(newRating) => setRating(newRating)} // Update state with new rating
+              numberOfStars={5} // Total number of stars
+              name="rating" // Name of the rating input
+            />
+          </div>
+
+
+          <div className="mb-4">
+            <ReCAPTCHA
               sitekey="6Le26XQnAAAAAMj8FfW56DvjnXvBfuoEx1L6VuD8"
               onChange={handleCaptchaChange}
             />

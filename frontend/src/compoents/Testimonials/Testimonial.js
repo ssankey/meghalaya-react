@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router';
 // import 'react-slideshow-image/dist/styles.css';
 import './styles.css'
 import axios from 'axios';
+import StarRatings from 'react-star-ratings';
 
 
 
@@ -65,6 +66,16 @@ const TestimonialsSlider = () => {
                 <p className="text-gray-900 text-[18px]" style={{ maxWidth: "900px", maxHeight: "auto", overflow: 'auto' }}>
                   "{testimonial.message}"
                 </p>
+                <div className="flex justify-center items-center">
+                  <StarRatings
+                    rating={testimonial.rating}
+                    starRatedColor="green" // Color of selected stars (change as needed)
+                    starEmptyColor="#E0E0E0" // Color of empty stars (change as needed)
+                    starDimension="30px" // Size of stars
+                    numberOfStars={5} // Total number of stars
+                    name={`rating-${index}`} // Name of the rating input
+                  />
+                </div>
                 <h3 className="text-lg font-semibold mb-2">{testimonial.name}</h3>
               </div>
             ))}

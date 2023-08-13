@@ -18,7 +18,11 @@ const Footer = () => {
             </p>
             <p className="mb-2">
               <FiPhone size={18} className="inline mr-2" />
-              +91 87944 13317
+                +91 87947 95255
+            </p>
+            <p className="mb-2">
+              <FiPhone size={18} className="inline mr-2" />
+                +91 87947 95255
             </p>
             <p>
               <FiMapPin size={18} className="inline mr-2" />
