@@ -871,7 +871,7 @@ export const TourPackages = {
       "Title": "Dawki And Umngot River Tour",
       "duration": "6 days",
       "image": dawki1,
-      "description": "DAWKI AND UMNGOT RIVER TOUR gives you the fine opportunity to enjoy the fascinating beauty of Dawki and its famous Umngot River. In this short day trip, you may move the stunning panorama of Meghalaya.You will see the emerald inexperienced waters of the Umngot River, that's famous for its distinct satisfactory. Sail in comfort and experience the tranquil scenery. Take stunning snap shots of a stunning placing and create memories in an effort to ultimate an entire life. The DAWKI AND UMNGOT RIVER TOUR package deal is ideal for human beings looking for a relaxing vacation and an opportunity to realize the natural beauty.     ",
+      "description": "Dawki and Umngot River Tour gives you the fine opportunity to enjoy the fascinating beauty of Dawki and its famous Umngot River. In this short day trip, you may move the stunning panorama of Meghalaya.You will see the emerald inexperienced waters of the Umngot River, that's famous for its distinct satisfactory. Sail in comfort and experience the tranquil scenery. Take stunning snap shots of a stunning placing and create memories in an effort to ultimate an entire life. The DAWKI AND UMNGOT RIVER TOUR package deal is ideal for human beings looking for a relaxing vacation and an opportunity to realize the natural beauty.     ",
       "itinerary": [
         {
           "day": "Day 1",
