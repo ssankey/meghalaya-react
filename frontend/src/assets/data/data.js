@@ -1062,7 +1062,7 @@ export const TourPackages = {
       "packageName": "ASSAM TOUR",
       "duration": "5 days",
       "Title": "ASSAM TOUR PACKAGES",
-      "description": "Write a small description for this package.",
+      "description": "Assam is a state in northeastern India, south of the eastern Himalayas. It is known for its wildlife preserves, including the UNESCO World Heritage sites of Kaziranga National Park, home to the majority of the world's one-horned rhinos, and Manas National Park. The capital, Dispur, is a suburb of the larger city of Guwahati.Assam has a diverse population belonging to different ethnic and religious groups. The Assamese culture is a rich melting pot of various indigenous groups. Assamese cuisine is known for dishes like khar, tenga and pitika which use local ingredients like herbs, greens, fish and rice.",
       "image": assam,
       "itinerary": [
         {
@@ -1114,7 +1114,7 @@ export const TourPackages = {
       "packageName": "GARO HILLS WILDLIFE TOUR",
       "duration": "5 days",
       "Title": "GARO HILLS WILDLIFE TOUR PACKAGE",
-      "description": "This tour is designed to get you acquainted with the fascinating Jaintia traditions and customs. Then, venture into the depths of the Jaintia Caves, exploring the mysterious chambers that offer a breathtaking adventure among the fascinating rocks and subterranean rivers, and the practical features of nature’s masterpiece.",
+      "description": "Plan your Exciting Journey through the wildlife wonder and Explore Exciting Adventure of Garo Hills that will leave you thirst for more. Wander through dense forests, encounter exotic wildlife species, immerse yourself in the breathtaking beauty of the natural paradise of Garo Hills in Meghalaya. Unleash the inner nomad and discover hidden treasures waiting to be discovered.",
       "image": wah_kba,
       "itinerary": [
         {
