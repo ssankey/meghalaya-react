@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-.each-slide-effects > div {
+.each-slide-effects-ban > div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     height: calc(100vh - 30px);
+    font-family: 'Great Vibes', cursive;
+
   }
 
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
 
+    text-align: center;
+    color: #ffffff;
+  }
   .overlay {
     position: absolute;
     top: 0;

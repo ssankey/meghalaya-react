@@ -7,6 +7,7 @@ import sohra1 from '../../assets/images/image5.jpg'
 import arrival from '../../assets/images/arrival.jpg'
 import departure from '../../assets/images/departure.jpg'
 import boating from '../images/boating.jpg'
+import smit from '../images/smit.jpg'
 import mawkdok_bridge1 from '../images/mawkdok.jpg'
 import mawlynong from '../../assets/images/Mawlynnong-The-cleanest-city-in-Asia-soulveda.jpg'
 import mawkdok_bridge5 from '../../assets/images/image16.jpg'
@@ -25,7 +26,7 @@ import golf_course from '../../assets/images/Golf-course.jpeg'
 import doubleBridge from '../images/image23.jpg'
 import lady_hyadri from '../../assets/images/Meghalaya-Lady-Hydari.webp'
 import shillong_market from '../../assets/images/shillong-market.jpg'
-import local_cuisine from '../../assets/images/local-cuisine.jpg'
+import local_cuisine from '../../assets/images/jadoh.jpg'
 import davi_scott from '../../assets/images/davi-scott.jpeg'
 import assam from '../../assets/images/ashwina-kumar-MZS-QFeeVPc-unsplash.webp'
 import local_festival from '../../assets/images/local-festival.jpg'
@@ -77,6 +78,8 @@ import siju from '../images/siju-cave.jpg'
 import wari from '../images/Wari-chora.jpg'
 import rongren from '../images/Meghalaya2.jpg'
 import garo_culture from '../images/garo-culture.webp'
+import beadon from '../images/beadon-falls.jpg'
+import sweet_falls from '../images/sweet-falls.jpg'
 export const navLinks = {
   "locations": [
     {
@@ -174,10 +177,10 @@ export const locationData = {
           "images": shillongPeak,
         },
         {
-          "name": "Wards Lake",
-          "description": "Wards Lake is a central tourist spot in Shillong. This lake is a piece right out of nature's basket of scenic sites. This must-visit lake is surrounded by a green and lush garden and also has a fountain. ",
+          "name": "Police Bazar",
+          "description": "The most famous shopping destination for both locals and tourists in Shillong, the Police Bazar is a market that has it all - from traditional handicraft stores, merchandise, and regional clothing to hotels and eating joints. The Police Bazar is also known as Khyndailad and is one of the best places to book a hotel while travelling to Shillong. Street shopping and food stalls are the highlights of the bazaar. ",
           "images":
-            wardLake,
+          shillong_market,
 
 
         },
@@ -189,12 +192,36 @@ export const locationData = {
 
 
         },
+        {
+          "name": "Bishop And Beadon Falls",
+          "description": "Located at Shillong's Suna Valley, the Beadon-Bishop Falls is a sight to cherish. These twin falls are considered to be Meghalaya's most beautiful waterfalls. The highest point of these falls is at 135 m. This is a popular picnic spot for tourists. The falling water from the top of the hills is said to look like a white ribbon",
+          "images":
+            beadon,
+        },
 
         {
           "name": "Umden Silk Weaving Village",
-          "description": "The Elephant Falls is a popular waterfall near Shillong, cascading down in multiple steps.",
+          "description": "The silk-weaving village of Umden-Diwon is the world's first Eri Silk village. It is located in the Ri-Bhoi district of Meghalaya. Popularly known as the Ahimsa Silk, the silk at Umden-Diwon is processed from cocoons without killing the larvae inside.Tourists will get to experience the rich textile heritage and culture of the village along with the diverse surroundings and variety of attractions. ",
           "images":
             silk,
+        },
+        {
+          "name": "Mawphlang David Scott Trail",
+          "description": "TThe David Scott Trail is one of the oldest trails of Meghalaya, which passes through the Eastern Khasi Hills and takes its course through two popular villages of Khasi, Mawphlang and Lad Mawphlang. It is a 16 km trek through the picturesque valleys, majestic mountains, lush green forests, and the scenic Umiam Rive",
+          "images":
+            davi_scott,
+        },
+        {
+          "name": "Smit Village",
+          "description": "Smit Village is popularly known as the cultural centre of the Khasi Hills. It is located in the Mawryngkneng block of the East Khasi Hills district and is the largest village in the block. This calm and serene village is the best spot for travellers to have an experience of rural life. Smit offers an otherworldy experience to those who visit it",
+          "images":
+            smit,
+        },
+        {
+          "name": "Sweet Falls",
+          "description": "Sweet Falls of Shilong, also called Kshaid Weitden, is a waterfall that is considered the most spectacular waterfall in Shillong. However, despite its name, this waterfall is said to be the most dangerous waterfall in Shillong owing to poorly maintained routes and slippery surfaces. The waterfall has a tall height of 96 m making it impossible to swim in the waters. The surrounding area of the falls is filled with lush greenery that is made up of trees like Eupatorium, Phegopteris, Lantana, Osmundastrum, Rubus, and more.",
+          "images":
+            sweet_falls,
         },
 
       ],
@@ -234,6 +261,7 @@ export const locationData = {
           "image": shillong_market,
           description: "Police Bazaar is a one-stop shop offering hotels, restaurants, malls, and shops for locals and tourists, offering exquisite handicrafts and indigenous ornaments for home-made gifts."
         },
+        
         {
           name: "Taste Local Cuisine",
           "image": local_cuisine,
@@ -246,14 +274,13 @@ export const locationData = {
         },
         {
           name: "Enjoy Local Festivals",
-          "image": local_festival,
+          image: local_festival,
           description: "The Khasi people, an indigenous ethnic group in Meghalaya, form the majority of the eastern part of the state, accounting for 48% of the population. They follow a matrilineal system of descent and inheritance and are granted Scheduled Tribe status under the Indian Constitution."
         },
                 {
-          "name": "Boating And View Point",
-          "description": "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
-          "images":
-            boating,
+          name: "Boating And View Point",
+          description: "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
+          image: boating,
 
         },
       ]
@@ -778,7 +805,7 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrival in Shillong",
           "description": "Arrive at Guwahati Airport or Railway Station. Transfer to Shillong, Enroute Umiam Lake on the way. Explore the local markets in the evening. Overnight stay at the hotel in Shillong."
-          , "image": arrival,
+          , "image": shillongPeak,
         },
         {
           "day": "Day 2",
@@ -795,8 +822,7 @@ export const TourPackages = {
         {
           "day": "Day 4",
           "title": "Departure",
-          "description": "After breakfast, check-out from the hotel. Transfer to Guwahati Airport or Railway Station for onward journey. Note: This is a basic itinerary and can be customized as per your preferences and the number of days you have for the tour."
-          , "image": departure,
+          "description": "After breakfast, check-out from the hotel. Transfer to Guwahati Airport or Railway Station for onward journey. "         , "image": departure,
         }
       ],
       "inclusion": [
@@ -848,7 +874,7 @@ export const TourPackages = {
         {
           "day": "Day 5",
           "title": "Sightseeing in Shillong and Departure",
-          "description": "Enjoy a scrumptious breakfast at the hotel. Take a final opportunity to explore Shillong. Visit attractions like Ward's Lake, Lady Hydari Park, and Shillong Golf Course. In the evening, our representative will escort you to Guwahati for departure. Note: This is a suggested itinerary and can be customized as per your preferences."
+          "description": "Enjoy a scrumptious breakfast at the hotel. Take a final opportunity to explore Shillong. Visit attractions like Ward's Lake, Lady Hydari Park, and Shillong Golf Course. In the evening, our representative will escort you to Guwahati for departure."
           , "image": departure
         }
       ],
@@ -1144,7 +1170,7 @@ export const TourPackages = {
         {
           "day": "Day 5",
           "title": "Departure from Shillong",
-          "description": "Departure from Tura After breakfast, check out from your hotel in Tura and proceed towards Guwahati for your onward journey. Bid adieu to the charming Garo Hills as you take with you unforgettable memories of your wildlife adventure. Note: This itinerary can be customized according to your preferences and the duration of your tour."
+          "description": "Departure from Tura After breakfast, check out from your hotel in Tura and proceed towards Guwahati for your onward journey. Bid adieu to the charming Garo Hills as you take with you unforgettable memories of your wildlife adventure."
           , "image": departure,
         }
       ],
@@ -1293,7 +1319,7 @@ export const TourPackages = {
       "packageName": "FAMILY TRIP",
       "duration": "4 days",
       "Title": "FAMILY TRIP PACKAGE",
-      "description": "Arrive at Guwahati Airport and drive to Shillong, Meghalaya's capital city. Visit the Don Bosco Centre for Indigenous Cultures, explore Ward's Lake, and enjoy boating. Explore Police Bazaar, a vibrant commercial hub, and enjoy local delicacies before returning to the hotel for a comfortable overnight stay. On Day 2, visit Sohra, the wettest place on Earth, and explore the Nohkalikai Falls, Mawsmai Caves, Seven Sisters Falls, and Mawkdok Dympep Valley Viewpoint. Enjoy the breathtaking views and eco-friendly Mawkdok Dympep Valley Viewpoint. Return to Shillong and stay overnight. On Day 3, visit Dawki and experience the Umngot River's crystal-clear waters, then visit Mawlynnong Village, known for its cleanest village in Asia. Explore unique living root bridges and visit the Skywalk viewpoint for stunning views. Return to Shillong for overnight stay. On Day 4, visit Shillong Peak, the highest point in Shillong, and explore Elephant Falls, a popular tourist spot. Visit the Cathedral of Mary Help of Christians and Lady Hydari Park before departing to Guwahati Airport. Note: The above itinerary is a suggestion and can be customized as per",
+      "description": "Arrive at Guwahati Airport and drive to Shillong, Meghalaya's capital city. Visit the Don Bosco Centre for Indigenous Cultures, explore Ward's Lake, and enjoy boating. Explore Police Bazaar, a vibrant commercial hub, and enjoy local delicacies before returning to the hotel for a comfortable overnight stay. On Day 2, visit Sohra, the wettest place on Earth, and explore the Nohkalikai Falls, Mawsmai Caves, Seven Sisters Falls, and Mawkdok Dympep Valley Viewpoint. Enjoy the breathtaking views and eco-friendly Mawkdok Dympep Valley Viewpoint. Return to Shillong and stay overnight. On Day 3, visit Dawki and experience the Umngot River's crystal-clear waters, then visit Mawlynnong Village, known for its cleanest village in Asia. Explore unique living root bridges and visit the Skywalk viewpoint for stunning views. Return to Shillong for overnight stay. On Day 4, visit Shillong Peak, the highest point in Shillong, and explore Elephant Falls, a popular tourist spot. Visit the Cathedral of Mary Help of Christians and Lady Hydari Park before departing to Guwahati Airport.",
       "image": family_trip,
       "itinerary": [
         {
@@ -1338,7 +1364,7 @@ export const TourPackages = {
       "packageName": "FRIENDS TRIP",
       "duration": "5 days",
       "Title": "FRIENDS TRIP PACKAGE",
-      "description": "Arrive at Guwahati airport and transfer to Shillong, Meghalaya's hill station. Enjoy a leisurely day exploring local markets and enjoying pleasant weather before an overnight stay. On Day 2, visit Shillong's famous attractions, including Umiam Lake, Don Bosco Museum, and Laitlum Grand Canyon, to explore North East India's rich cultural heritage. Enjoy a comfortable overnight stay before returning to your hotel. On Day 3, explore Sohra, renowned for its wettest places, including Seven Sisters Falls, Nohkalikai Falls, and Mawsmai Cave. Enjoy the Eco Park and return to Shillong for an overnight stay. On Day 4, enjoy an early breakfast and trek to Sohra's Double Decker Living Root Bridge, a natural wonder created by Khasi tribes using Ficus elastica tree roots. Return to Shillong and relax before an overnight stay. On Day 5: Bid farewell to Meghalaya, and transfer to Guwahati airport for Meghalaya adventure. Note: This itinerary is customizable according to your preferences, and additional activities like river rafting, zip-lining, and camping can be included upon request.",
+      "description": "Arrive at Guwahati airport and transfer to Shillong, Meghalaya's hill station. Enjoy a leisurely day exploring local markets and enjoying pleasant weather before an overnight stay. On Day 2, visit Shillong's famous attractions, including Umiam Lake, Don Bosco Museum, and Laitlum Grand Canyon, to explore North East India's rich cultural heritage. Enjoy a comfortable overnight stay before returning to your hotel. On Day 3, explore Sohra, renowned for its wettest places, including Seven Sisters Falls, Nohkalikai Falls, and Mawsmai Cave. Enjoy the Eco Park and return to Shillong for an overnight stay. On Day 4, enjoy an early breakfast and trek to Sohra's Double Decker Living Root Bridge, a natural wonder created by Khasi tribes using Ficus elastica tree roots. Return to Shillong and relax before an overnight stay. On Day 5: Bid farewell to Meghalaya, and transfer to Guwahati airport for Meghalaya adventure.",
       "image": friends_trip,
       "itinerary": [
         {
