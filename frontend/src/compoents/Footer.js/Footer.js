@@ -89,7 +89,7 @@ const Footer = () => {
 
         {/* Copyright Statement */}
         <p className="mt-8 text-white">
-          © {new Date().getFullYear()} Meghalaya- Into the Mountains. All rights reserved.
+          © {new Date().getFullYear()} Meghalaya - Into the Mountains. All rights reserved.
         </p>
       </div>
     </footer>

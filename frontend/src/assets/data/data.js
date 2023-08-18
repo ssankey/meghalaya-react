@@ -897,7 +897,7 @@ export const TourPackages = {
       "Title": "Dawki And Umngot River Tour",
       "duration": "6 days",
       "image": dawki1,
-      "description": "DAWKI AND UMNGOT RIVER TOUR gives you the fine opportunity to enjoy the fascinating beauty of Dawki and its famous Umngot River. In this short day trip, you may move the stunning panorama of Meghalaya.You will see the emerald inexperienced waters of the Umngot River, that's famous for its distinct satisfactory. Sail in comfort and experience the tranquil scenery. Take stunning snap shots of a stunning placing and create memories in an effort to ultimate an entire life. The DAWKI AND UMNGOT RIVER TOUR package deal is ideal for human beings looking for a relaxing vacation and an opportunity to realize the natural beauty.     ",
+      "description": "Dawki and Umngot River Tour gives you the fine opportunity to enjoy the fascinating beauty of Dawki and its famous Umngot River. In this short day trip, you may move the stunning panorama of Meghalaya.You will see the emerald inexperienced waters of the Umngot River, that's famous for its distinct satisfactory. Sail in comfort and experience the tranquil scenery. Take stunning snap shots of a stunning placing and create memories in an effort to ultimate an entire life. The DAWKI AND UMNGOT RIVER TOUR package deal is ideal for human beings looking for a relaxing vacation and an opportunity to realize the natural beauty.     ",
       "itinerary": [
         {
           "day": "Day 1",
@@ -1088,7 +1088,7 @@ export const TourPackages = {
       "packageName": "ASSAM TOUR",
       "duration": "5 days",
       "Title": "ASSAM TOUR PACKAGES",
-      "description": "Write a small description for this package.",
+      "description": "Assam is a state in northeastern India, south of the eastern Himalayas. It is known for its wildlife preserves, including the UNESCO World Heritage sites of Kaziranga National Park, home to the majority of the world's one-horned rhinos, and Manas National Park. The capital, Dispur, is a suburb of the larger city of Guwahati.Assam has a diverse population belonging to different ethnic and religious groups. The Assamese culture is a rich melting pot of various indigenous groups. Assamese cuisine is known for dishes like khar, tenga and pitika which use local ingredients like herbs, greens, fish and rice.",
       "image": assam,
       "itinerary": [
         {
@@ -1140,7 +1140,7 @@ export const TourPackages = {
       "packageName": "GARO HILLS WILDLIFE TOUR",
       "duration": "5 days",
       "Title": "GARO HILLS WILDLIFE TOUR PACKAGE",
-      "description": "This tour is designed to get you acquainted with the fascinating Jaintia traditions and customs. Then, venture into the depths of the Jaintia Caves, exploring the mysterious chambers that offer a breathtaking adventure among the fascinating rocks and subterranean rivers, and the practical features of nature’s masterpiece.",
+      "description": "Plan your Exciting Journey through the wildlife wonder and Explore Exciting Adventure of Garo Hills that will leave you thirst for more. Wander through dense forests, encounter exotic wildlife species, immerse yourself in the breathtaking beauty of the natural paradise of Garo Hills in Meghalaya. Unleash the inner nomad and discover hidden treasures waiting to be discovered.",
       "image": wah_kba,
       "itinerary": [
         {
