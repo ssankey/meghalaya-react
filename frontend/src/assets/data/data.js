@@ -143,7 +143,7 @@ export const locationData = {
   "mainLocations": [
     {
       "name": "Shillong",
-      "description": "The Shillong journey package offers a charming tour to the adorable city of Shillong, which is located some of the lush Meghalayan hills. Shillong, additionally known as the 'Scotland of the East',enchants tourists with its lovely surroundings, agreeable weather, and lively way of life. With this excursion package deal, you could discover Shillong's pinnacle points of interest, consisting of as the well-known Elephant Falls, the tranquil Ward's Lake, the beautiful Shillong Peak, and the bustling marketplaces wherein you could buy neighborhood specialties and handicrafts. The Shillong tour package ensures a memorable revel in so that it will enthrall you, whether you're a fan of nature, an adventurer, or a tradition vulture.",
+      "description": "The Shillong journey package offers a charming tour to the adorable city of Shillong, which is located some of the lush Meghalayan hills. Shillong, additionally known as the 'Scotland of the East', enchants tourists with its lovely surroundings, agreeable weather, and lively way of life. With this excursion package deal, you could discover Shillong's pinnacle points of interest, consisting of as the well-known Elephant Falls, the tranquil Ward's Lake, the beautiful Shillong Peak, and the bustling marketplaces wherein you could buy neighborhood specialties and handicrafts. The Shillong tour package ensures a memorable revel in so that it will enthrall you, whether you're a fan of nature, an adventurer, or a tradition vulture.",
       "image": shillong_bg,
       "facts": [
         "Shillong is the capital and largest city of the Indian state of Meghalaya.",
