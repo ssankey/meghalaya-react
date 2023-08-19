@@ -12,14 +12,21 @@ import serviceBg from '../assets/images/serviceBg.jpg'
 import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage'
 import hero from '../assets/images/hero.jpg'
 import awardSection from '../assets/images/awardSection.jpg'
+import awardSection1 from '../assets/images/award1.jpeg'
+import awardSection2 from '../assets/images/award2.jpeg'
+import awardSection3 from '../assets/images/award3.jpeg'
+
 import Testimonial from '../compoents/Testimonials/Testimonial'
 import { Fade, Slide } from "react-awesome-reveal";
+import { Slide as SlideshowSlide } from "react-slideshow-image";
+
 import itineraries from '../assets/images/Around the world-amico.png'
 import tour_packaging from '../assets/images/Traveling-bro.png'
 import reservation from '../assets/images/Flight Booking-rafiki.png'
 import tour_guide from '../assets/images/Tour-guide-bro.png'
 import activities from '../assets/images/travel-selfie-bro.png'
 import PremiumCustomer from '../compoents/premium/premiumCustomer'
+
 const Home = () => {
 
   return (
@@ -331,14 +338,25 @@ const Home = () => {
               With the company's continued focus on providing top-quality services, it is likely to remain a leading player in the tourism industry in the region for years to come.
             </p>
           </div>
-          <div className="md:w-1/2 mb-8 md:mb-0">
-            <img src={awardSection} alt="Award Illustration" className="w-full h-auto" />
+          <div className="md:w-1/2 w-full mb-8 md:mb-0">
+            <SlideshowSlide infinite>
+              <div className="each-slide-effect-2 text-center">
+                <img src={awardSection} alt="Award Illustration" className="w-full sm:h-[600px] h-[300px] object-cover" />
+              </div>
+              <div className="each-slide-effect-2 text-center">
+                <img src={awardSection1} alt="Award Illustration" className="w-full sm:h-[600px] h-[300px] object-cover" />
+              </div>
+              <div className="each-slide-effect-2 text-center">
+                <img src={awardSection2} alt="Award Illustration" className="w-full sm:h-[600px] h-[300px] object-cover" />
+              </div>
+
+            </SlideshowSlide>
           </div>
         </div>
       </section>
 
       <section>
-        <PremiumCustomer/>
+        <PremiumCustomer />
       </section>
 
       <section className='bg-[#7e827d] bg-opacity-20'>

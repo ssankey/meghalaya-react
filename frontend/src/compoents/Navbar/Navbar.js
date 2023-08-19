@@ -4,7 +4,7 @@ import { navLinks } from '../../assets/data/data';
 import ContactBar from '../Contact/contactBar';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/mountain forest.svg';
-
+import './Navbar.css'
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -57,8 +57,11 @@ const Navbar = () => {
         <div className="flex items-center px-3 justify-between sm:justify-around">
           <Link to={'/'} >
             <div className="flex items-center space-x-4">
-              <div className="text-xl w-16 h-16 rounded-full bg-cover bg-center object-cover font-bold">
+              <div className="text-xl w-10  h-10 sm:w-16 sm:h-16 rounded-full bg-cover bg-center object-cover font-bold">
                 <img src={logo} className='rounded-full  bg-green-900' alt='logo' />
+              </div>
+              <div className='text-xs sm:text-lg'>
+                <p>Meghalaya - Into The Mountains</p>
               </div>
             </div>
           </Link>

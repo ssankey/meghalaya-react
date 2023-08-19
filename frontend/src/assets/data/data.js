@@ -1256,7 +1256,7 @@ export const TourPackages = {
       "packageName": "COUPLE TRIP",
       "duration": "7 days",
       "Title": "COUPLE TRIP PACKAGE",
-      "description": "Arrive at Shillong Airport/Railway Station, meet agent, enjoy leisurely day exploring local markets, and stay overnight. Explore Shillong, visit Elephant Falls, Don Bosco Museum, Shillong Peak, Lady Hydari Park, and enjoy local cafes and nightlife before staying overnight. Sohra Excursion: Explore wettest place, Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls, and Living Root Bridges, enjoy mist-covered hills, lush green landscapes, and return to Shillong. Transfer to Mawlynnong, a cleanest village in Asia, for a picturesque tour, visiting the living root bridge, and enjoying a romantic Sky View Ropeway. Dawki and Shnongpdeng Excursion: Enjoy boat rides on the Umngot River, visit Shnongpdeng campsite, and engage in activities like kayaking, snorkeling, and river tubing before returning to Mawlynnong. Transfer to Jaintia Hills, visit Krang Suri Waterfall, enjoy serene atmosphere, and enjoy the beautiful surroundings before staying overnight. Depart for Shillong Airport/Railway station",
+      "description": "Indulge in the perfect romantic escapade with our tailor-made couples trip that promises to ignite sparks and create unforgettable memories. Picture yourselves in a world where time slows down, allowing you to savor each cherished moment together. Our exquisite destination offers a haven of tranquility, where love takes center stage against a backdrop of breathtaking vistas.Immerse yourselves in the lap of luxury as you stay in our handpicked accommodations, where every detail has been meticulously designed to enhance your connection. Whether it's a cozy cottage nestled amidst lush landscapes or a sophisticated beachfront villa with stunning sunsets as your daily spectacle, your abode will be a haven of comfort and intimacy.",
       "image": couple_trip,
       "itinerary": [
         {
@@ -1319,7 +1319,7 @@ export const TourPackages = {
       "packageName": "FAMILY TRIP",
       "duration": "4 days",
       "Title": "FAMILY TRIP PACKAGE",
-      "description": "Arrive at Guwahati Airport and drive to Shillong, Meghalaya's capital city. Visit the Don Bosco Centre for Indigenous Cultures, explore Ward's Lake, and enjoy boating. Explore Police Bazaar, a vibrant commercial hub, and enjoy local delicacies before returning to the hotel for a comfortable overnight stay. On Day 2, visit Sohra, the wettest place on Earth, and explore the Nohkalikai Falls, Mawsmai Caves, Seven Sisters Falls, and Mawkdok Dympep Valley Viewpoint. Enjoy the breathtaking views and eco-friendly Mawkdok Dympep Valley Viewpoint. Return to Shillong and stay overnight. On Day 3, visit Dawki and experience the Umngot River's crystal-clear waters, then visit Mawlynnong Village, known for its cleanest village in Asia. Explore unique living root bridges and visit the Skywalk viewpoint for stunning views. Return to Shillong for overnight stay. On Day 4, visit Shillong Peak, the highest point in Shillong, and explore Elephant Falls, a popular tourist spot. Visit the Cathedral of Mary Help of Christians and Lady Hydari Park before departing to Guwahati Airport.",
+      "description": "Pack your bags, gather your loved ones, and get ready for a journey filled with laughter, bonding, and cherished memories. Our exclusive family trip is designed to whisk you away from the everyday hustle and bustle, and into a world of togetherness and exploration.Picture yourself basking in the beauty of nature's wonders, as you traverse through stunning landscapes hand in hand with your family. Whether it's building sandcastles on sun-kissed beaches, or venturing into lush forests teeming with life, each moment promises to be a treasure trove of joy.Our carefully crafted itinerary balances adventure and relaxation, ensuring there's something for every family member. Unleash your inner thrill-seeker with exciting activities that spark adrenaline, or simply unwind and bond during serene moments of tranquility.",
       "image": family_trip,
       "itinerary": [
         {
@@ -1364,13 +1364,13 @@ export const TourPackages = {
       "packageName": "FRIENDS TRIP",
       "duration": "5 days",
       "Title": "FRIENDS TRIP PACKAGE",
-      "description": "Arrive at Guwahati airport and transfer to Shillong, Meghalaya's hill station. Enjoy a leisurely day exploring local markets and enjoying pleasant weather before an overnight stay. On Day 2, visit Shillong's famous attractions, including Umiam Lake, Don Bosco Museum, and Laitlum Grand Canyon, to explore North East India's rich cultural heritage. Enjoy a comfortable overnight stay before returning to your hotel. On Day 3, explore Sohra, renowned for its wettest places, including Seven Sisters Falls, Nohkalikai Falls, and Mawsmai Cave. Enjoy the Eco Park and return to Shillong for an overnight stay. On Day 4, enjoy an early breakfast and trek to Sohra's Double Decker Living Root Bridge, a natural wonder created by Khasi tribes using Ficus elastica tree roots. Return to Shillong and relax before an overnight stay. On Day 5: Bid farewell to Meghalaya, and transfer to Guwahati airport for Meghalaya adventure.",
+      "description": "",
       "image": friends_trip,
       "itinerary": [
         {
           "day": "Day 1",
           "title": "Arrive at Shillong",
-          "description": "Arrive at Guwahati airport and transfer to Shillong, Meghalaya's hill station. Enjoy a leisurely day exploring local markets and enjoying pleasant weather before an overnight stay."
+          "description": "Embark on an unforgettable journey with your closest companions and make memories that will last a lifetime. Our Friends Trip experience is designed to whisk you away from the ordinary and immerse you in a world of laughter, adventure, and camaraderie.Savor the joy of discovering hidden gems hand in hand with your friends, as you traverse through breathtaking landscapes and capture candid moments that reflect the true essence of friendship. With carefully curated activities and accommodations, we ensure that every aspect of your journey is infused with comfort and delight.Join us for a Friends Trip that promises laughter, bonding, and the sheer pleasure of being in the company of those who understand you best. Let the adventure begin!"
           , "image": arrival,
         },
         {
