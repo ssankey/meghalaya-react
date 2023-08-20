@@ -6,11 +6,12 @@ import silk from '../../assets/images/silk-vill.webp'
 import sohra1 from '../../assets/images/image5.jpg'
 import arrival from '../../assets/images/arrival.jpg'
 import departure from '../../assets/images/departure.jpg'
-import boating from '../images/boating.jpg'
+import boating from '../images/image2.jpeg'
 import smit from '../images/smit.jpg'
 import mawkdok_bridge1 from '../images/mawkdok.jpg'
 import mawlynong from '../../assets/images/Mawlynnong-The-cleanest-city-in-Asia-soulveda.jpg'
 import mawkdok_bridge5 from '../../assets/images/image16.jpg'
+import mawsmai from '../images/mawsmai.jpg'
 import dawki1 from '../../assets/images/image38.jpg'
 import Wei_Sawdong_Falls from '../../assets/images/wei.jpg'
 import Kudengrim from '../../assets/images/evenezer-marak-xVvc3L5quPU-unsplash.jpg'
@@ -26,7 +27,7 @@ import golf_course from '../../assets/images/Golf-course.jpeg'
 import doubleBridge from '../images/image23.jpg'
 import lady_hyadri from '../../assets/images/Meghalaya-Lady-Hydari.webp'
 import shillong_market from '../../assets/images/shillong-market.jpg'
-import local_cuisine from '../../assets/images/jadoh.jpg'
+import local_cuisine from '../../assets/images/shillong-cuisine.jpeg'
 import davi_scott from '../../assets/images/davi-scott.jpeg'
 import assam from '../../assets/images/ashwina-kumar-MZS-QFeeVPc-unsplash.webp'
 import local_festival from '../../assets/images/local-festival.jpg'
@@ -79,7 +80,13 @@ import wari from '../images/Wari-chora.jpg'
 import rongren from '../images/Meghalaya2.jpg'
 import garo_culture from '../images/garo-culture.webp'
 import beadon from '../images/beadon-falls.jpg'
+import arwah from '../images/arwah.jpg'
 import sweet_falls from '../images/sweet-falls.jpg'
+import kynrem from '../images/kynrem.jpg'
+import dainthlen from '../images/Dain-Thlen.jpg'
+import mawmluh from '../images/Mawmluh.jpg'
+import thangkharang from '../images/Thangkharang.jpg'
+import ecopark from '../images/EcoPark.jpg'
 export const navLinks = {
   "locations": [
     {
@@ -180,7 +187,7 @@ export const locationData = {
           "name": "Police Bazar",
           "description": "The most famous shopping destination for both locals and tourists in Shillong, the Police Bazar is a market that has it all - from traditional handicraft stores, merchandise, and regional clothing to hotels and eating joints. The Police Bazar is also known as Khyndailad and is one of the best places to book a hotel while travelling to Shillong. Street shopping and food stalls are the highlights of the bazaar. ",
           "images":
-          shillong_market,
+            shillong_market,
 
 
         },
@@ -261,7 +268,7 @@ export const locationData = {
           "image": shillong_market,
           description: "Police Bazaar is a one-stop shop offering hotels, restaurants, malls, and shops for locals and tourists, offering exquisite handicrafts and indigenous ornaments for home-made gifts."
         },
-        
+
         {
           name: "Taste Local Cuisine",
           "image": local_cuisine,
@@ -277,9 +284,9 @@ export const locationData = {
           image: local_festival,
           description: "The Khasi people, an indigenous ethnic group in Meghalaya, form the majority of the eastern part of the state, accounting for 48% of the population. They follow a matrilineal system of descent and inheritance and are granted Scheduled Tribe status under the Indian Constitution."
         },
-                {
+        {
           name: "Boating And View Point",
-          description: "Travellers step into a world unknown as they enter the Mawphlang Sacred Grove. Based near Shillong, this sacred forest is one of the oldest and most popular groves of Meghalaya. Mawphlang literally means Moss-covered stone and this sacred forest is also known as 'Nature's Museum'.",
+          description: "Take to the tranquil waters and enjoy boating on Shillong's pristine lakes. Feel the serenity of the surroundings as you glide across the water, surrounded by lush greenery and the gentle whispers of nature. Whether you're seeking a romantic escape or a peaceful moment of solitude, boating offers an enchanting way to connect with the natural wonders of Shillong.",
           image: boating,
 
         },
@@ -299,7 +306,7 @@ export const locationData = {
       "sublocations": [
 
         {
-          "name": "Mawkdok Bridge View Point",
+          "name": "Mawkdok Dympep Valley",
           "description": "On the Shillong - Sohra road in Meghalaya, the Mawkdok-Dympep Valley Viewpoint is an alluring valley to behold. It is also called Duwan Sing Syiem Bridge Viewpoint and is one of the major destinations to visit in Sohra. ",
           "images":
             mawkdok_bridge1,
@@ -334,6 +341,13 @@ export const locationData = {
 
         },
         {
+          "name": "Double Decker Living Root Bridge",
+          "description": "Umshiang Double-Decker Root Bridge in Meghalaya is one of nature and man's many amazing co-creations. This living root bridge is crafted by the people of the Khasi tribe. The most thrilling part about the bridge is that it is 3 km long and stands at a height of 2400 feet! The Umshiang River flows beneath the bridge. This bridge is made up of two root bridges stacked one on the other. These roots are of the ancient rubber trees that are indigenous to the Northeast region.",
+          "images":
+            doubleBridge,
+
+        },
+        {
           "name": "Prut Falls",
           "description": "The Prut Falls is situated at the Laitlyndop village in Sohra. The falls have gained popularity since they were inaugurated and are steadily becoming a tourist hub.Tourists will love to visit this waterfall as it offers an opportunity to view it from behind the falls, unlike most other waterfalls.",
           "images":
@@ -346,6 +360,54 @@ export const locationData = {
           "images":
             Wei_Sawdong_Falls,
 
+        },
+        {
+          "name": "Nohkalikai Falls",
+          "description": "Nohkalikai Falls is the tallest plunge waterfall in India. It is a popular tourist destination in Cherrapunji. Travellers visiting the waterfall are impressed by the formation of the falls, the surroundings, and the panoramic views of the waterfall.  The water from the falls gathers at the base in a pool-like formation which is very pleasing to the eyes. Also, the water at the base has a greenish shade. The best time to visit this waterfall is in the monsoons.  ",
+          "images":
+            nohkalikai,
+        },
+        {
+          "name": "Arwah Cave",
+          "description": "Arwah Caves is the perfect offbeat destination for travellers. The Arwah Caves are way more mesmerising than travellers think. They are located in the Khliehshnong area of Cherrapunji. The caves are known for their limestone formations and fossils which are considered to be millions of years old. Certain sections of the caves host stalagmites and stalactites, and there also flows a stream in the caves. The walk to the entrance of the caves is also an experience of its own.  ",
+          "images":
+            arwah,
+        },
+        {
+          "name": "Mawsmai Cave",
+          "description": "One of the most historically popular caves in Meghalaya and also one of the longest, the Mawsmai Cave is a splendid experience for travellers. It is located in Cherrapunji. The cave might be long but the cave route accessible to tourists is short and a very interesting experience. Mawsmai Cave is a limestone cave and is also known for the fossils that can be seen on the walls of the cave as travellers explore the cave and its formations.",
+          "images":
+            mawsmai,
+        },
+        {
+          "name": "Kynrem Falls",
+          "description": "Kynrem Falls is the seventh-highest waterfall in India. It is located inside Thangkharang Park in Cherrapunji.This is a three-tiered waterfall and the tourist are impressed by the loud roar of this waterfall. At the top, Kynrem Falls start in two streams and later, merge into one single water flow in the third tier of the waterfall.The best time to visit Kynrem Falls is monsoon. ",
+          "images":
+            kynrem,
+        },
+        {
+          "name": "Mawmluh Cave",
+          "description": "The Mawmluh Cave, locally known as Krem Mawmluh, has been listed as UNESCO’s one of the ‘First 100 IUGS (International Union of Geological Sciences) Geological Sites’ in the world.It is said to be the fourth longest cave in the Indian subcontinent. The most interesting feature of the cave is the pool that has formed inside due to five different rivers making their way through the cave. ",
+          "images":
+            mawmluh,
+        },
+        {
+          "name": "Dainthlen and Wei Sawdong Falls",
+          "description": "Wei Sawdong Falls seems straight out of a wallpaper. That is how spectacular this waterfall is. Nearby, situated is Dainthlen Falls. These two falls are visited together by tourists.Wei Sawdong Falls is a 3 tiered waterfall and is especially known for its bluish-green, crystal-clear water. Dainthlen Falls, on the other hand, is best known for its gorgeous vista. ",
+          "images":
+            dainthlen,
+        },
+        {
+          "name": "Thangkharang Park",
+          "description": "The Thangkharang Park in Cherrapunji acts as a great relaxation point and picnic spot for tourists and locals alike. It is spread over 100 acres and hosts an array of trees and plant species. The park has an eye-catching fountain, a greenhouse, and two amazing viewpoints that offer excellent views of the Khor Ramhah and the valley below. The park has two footbridges which also offer good views of the surroundings.",
+          "images":
+            thangkharang,
+        },
+        {
+          "name": "Eco Park",
+          "description": "The Mawsmai Nongthymmai Eco Park is the perfect spot for a picnic. The chilly and misty atmosphere of the park adds to the overall experience of the park. Tourists have a lot of things they can do at the Eco Park. There is a children's play area, boating, swimming, monoliths, footbridges, and many shelters as well. The Southern corner of Eco Park is the originating point of the Seven Sister Falls",
+          "images":
+            ecopark,
         },
       ],
       "thingsToDo": [
@@ -822,7 +884,8 @@ export const TourPackages = {
         {
           "day": "Day 4",
           "title": "Departure",
-          "description": "After breakfast, check-out from the hotel. Transfer to Guwahati Airport or Railway Station for onward journey. "         , "image": departure,
+          "description": "After breakfast, check-out from the hotel. Transfer to Guwahati Airport or Railway Station for onward journey. ",
+          "image": departure,
         }
       ],
       "inclusion": [
@@ -856,7 +919,7 @@ export const TourPackages = {
         {
           "day": "Day 2",
           "title": "Explore Shillong and Drive to Sohra",
-          "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra (Sohra), known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
+          "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra, known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
           , "image": shillong_bg,
         },
         {
@@ -868,7 +931,7 @@ export const TourPackages = {
         {
           "day": "Day 4",
           "title": "Sohra to Mawlynnong and Dawki",
-          "description": "Begin the day with a delightful breakfast at the hotel. Depart for Mawlynnong village, often referred to as \"Asia's Cleanest Village.\" Explore the picturesque village, known for its well-maintained cleanliness and fascinating living root bridges. Later, proceed to Dawki and visit the breathtaking Umngot River, renowned for its crystal clear waters. Enjoy boating on the river and soak in the scenic beauty surrounding you. Return to Sohra (Sohra) and spend a comfortable night at the hotel."
+          "description": "Begin the day with a delightful breakfast at the hotel. Depart for Mawlynnong village, often referred to as \"Asia's Cleanest Village.\" Explore the picturesque village, known for its well-maintained cleanliness and fascinating living root bridges. Later, proceed to Dawki and visit the breathtaking Umngot River, renowned for its crystal clear waters. Enjoy boating on the river and soak in the scenic beauty surrounding you. Return to Sohra  and spend a comfortable night at the hotel."
           , "image": dawki1,
         },
         {
@@ -1204,7 +1267,7 @@ export const TourPackages = {
         {
           "day": "Day 2",
           "title": "SIGHTSEEING IN SHILLONG - SOHRA",
-          "description": " After breakfast, set out for a full day of sightseeing in Shillong, also known as the 'Scotland of the East'. Visit popular attractions like the Shillong Peak, Elephant Falls, and the Don Bosco Museum. In the afternoon, continue your journey to the enchanting town of Sohra (Sohra), famous for its breathtaking waterfalls and living root bridges. Check into your hotel and enjoy a relaxing evening. "
+          "description": " After breakfast, set out for a full day of sightseeing in Shillong, also known as the 'Scotland of the East'. Visit popular attractions like the Shillong Peak, Elephant Falls, and the Don Bosco Museum. In the afternoon, continue your journey to the enchanting town of Sohra, famous for its breathtaking waterfalls and living root bridges. Check into your hotel and enjoy a relaxing evening. "
           , "image": shillong_bg,
         },
         {
@@ -1319,7 +1382,7 @@ export const TourPackages = {
       "packageName": "FAMILY TRIP",
       "duration": "4 days",
       "Title": "FAMILY TRIP PACKAGE",
-      "description": "Pack your bags, gather your loved ones, and get ready for a journey filled with laughter, bonding, and cherished memories. Our exclusive family trip is designed to whisk you away from the everyday hustle and bustle, and into a world of togetherness and exploration.Picture yourself basking in the beauty of nature's wonders, as you traverse through stunning landscapes hand in hand with your family. Whether it's building sandcastles on sun-kissed beaches, or venturing into lush forests teeming with life, each moment promises to be a treasure trove of joy.Our carefully crafted itinerary balances adventure and relaxation, ensuring there's something for every family member. Unleash your inner thrill-seeker with exciting activities that spark adrenaline, or simply unwind and bond during serene moments of tranquility.",
+      "description": "Pack your bags, gather your loved ones, and get ready for a journey filled with laughter, bonding, and cherished memories. Our exclusive family trip is designed to whisk you away from the everyday hustle and bustle, and into a world of togetherness and exploration. Picture yourself basking in the beauty of nature's wonders, as you traverse through stunning landscapes hand in hand with your family. Whether it's building sandcastles on sun-kissed beaches, or venturing into lush forests teeming with life, each moment promises to be a treasure trove of joy. Our carefully crafted itinerary balances adventure and relaxation, ensuring there's something for every family member. Unleash your inner thrill-seeker with exciting activities that spark adrenaline, or simply unwind and bond during serene moments of tranquility.",
       "image": family_trip,
       "itinerary": [
         {
@@ -1364,7 +1427,7 @@ export const TourPackages = {
       "packageName": "FRIENDS TRIP",
       "duration": "5 days",
       "Title": "FRIENDS TRIP PACKAGE",
-      "description": "",
+      "description": "Picture yourself strolling along pristine beaches, sharing stories around a bonfire under a starlit sky, and exploring hidden gems that only true adventurers discover. Our Friends Trip is more than just a vacation; it's a celebration of friendship, a fusion of exploration and relaxation that promises to rejuvenate your spirit.",
       "image": friends_trip,
       "itinerary": [
         {
@@ -1415,7 +1478,7 @@ export const TourPackages = {
       "packageName": "BUSINESS TRIP",
       "duration": "3 days, 2 nights",
       "Title": "BUSINESS TRIP PACKAGE",
-      "description": "Meghalaya offers a perfect blend of natural beauty and business opportunities in Package 1: Essence of Meghalaya (3 days, 2 nights). Arrive at Guwahati Airport, transfer to Shillong, visit Umiam Lake, relax, explore local markets, and enjoy dinner and an overnight stay. Explore Sohra, the wettest place on Earth, including Mawsmai Cave and Sisters Falls, and engage in corporate meetings. On Day 3, visit Shillong Peak for panoramic views, explore Don Bosco Museum, and explore charming streets with vibrant cafes and traditional food stalls before departing from Guwahati Airport/Railway Station.",
+      "description": "Our meticulously curated business trips are designed to elevate your corporate experience. Imagine stepping into a realm where boardroom meetings merge seamlessly with cultural immersions. Whether you're a trailblazing entrepreneur, a corporate powerhouse, or a visionary leader, our business trips are tailored to meet your objectives and aspirations.",
       "image": business_trip,
       "itinerary": [
         {
