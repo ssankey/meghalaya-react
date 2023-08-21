@@ -1,38 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import { Slide } from 'react-slideshow-image';
 import { useNavigate } from 'react-router';
-// import 'react-slideshow-image/dist/styles.css';
-import './styles.css'
+import './styles.css';
 import axios from 'axios';
 import StarRatings from 'react-star-ratings';
 
-
-
-
 const TestimonialsSlider = () => {
-  const [testimonials, settestimonials] = useState([]);
-  const [isDataFetched, setIsDataFetched] = useState(false); // Add state to track data fetching
+  const [testimonials, setTestimonials] = useState([]);
+  const [isDataFetched, setIsDataFetched] = useState(false);
 
   useEffect(() => {
     fetchReviews();
-  }, [testimonials])
+  }, []);
 
   const fetchReviews = async () => {
     try {
       const response = await axios.get('https://meghalaya-tourism.onrender.com/api/reviews');
-      settestimonials(response.data)
+      setTestimonials(response.data);
       setIsDataFetched(true);
     } catch (error) {
       console.error('Error fetching reviews', error.message);
     }
-  }
-
-
+  };
 
   const navigate = useNavigate();
   const takeToReview = () => {
     navigate('/write-review');
-  }
+  };
+
   const responsiveSettings = [
     {
       breakpoint: 800,
@@ -50,20 +45,19 @@ const TestimonialsSlider = () => {
     }
   ];
 
-
   return (
-    <div className="mt-10 ">
-      <h2 className='text-[30px] leading-10 px-5 sm:text-5xl'>
+    <div className="mt-10">
+      <h2 className="text-[30px] leading-10 px-5 sm:text-5xl">
         Don't just take our word for it...
         <br />
         Read reviews from our customers
       </h2>
-      {isDataFetched &&
+      {isDataFetched && testimonials.length > 0 && (
         <div style={{ position: 'relative' }}>
           <Slide responsive={responsiveSettings} className="overflow-hidden">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="mx-5 p-8 shadow-lg text-center testimonial-text h-full  rounded-lg flex flex-col gap-16 my-20 bg-white">
-                <p className="text-gray-900 text-[18px]" style={{ maxWidth: "900px", maxHeight: "auto", overflow: 'auto' }}>
+              <div key={index} className="mx-5 p-8 shadow-lg text-center testimonial-text h-full rounded-lg flex flex-col gap-16 my-20 bg-white">
+                 <p className="text-gray-900 text-[18px]" style={{ maxWidth: "900px", maxHeight: "auto", overflow: 'auto' }}>
                   "{testimonial.message}"
                 </p>
                 <div className="flex justify-center items-center">
@@ -81,13 +75,15 @@ const TestimonialsSlider = () => {
             ))}
           </Slide>
         </div>
-      }
-      <div className='text-center my-10'>
-        <button onClick={takeToReview} className='bg-green-900 font-bold px-6 py-2 rounded-lg text-white '>Give Your Word</button>
+      )}
+      <div className="text-center my-10">
+        <button onClick={takeToReview} className="bg-green-900 font-bold px-6 py-2 rounded-lg text-white">
+          Give Your Word
+        </button>
       </div>
     </div>
-
   );
 };
 
 export default TestimonialsSlider;
+ 
