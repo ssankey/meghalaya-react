@@ -42,6 +42,9 @@ app.get('/send-message', (req, res) => {
     });
 });
 
+app.use(express.static(path.join(__dirname, 'frontend'),{maxAge: 86400000}));
+
+
 
 // Connect to MongoDB
 const mongoURI = process.env.DATABASE; // Replace with your MongoDB connection URI

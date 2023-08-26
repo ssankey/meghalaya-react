@@ -6,6 +6,7 @@ import { CiLocationOn } from 'react-icons/ci'
 import Form from '../compoents/Form/Form';
 import { Fade } from 'react-slideshow-image'
 import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage'
+import { Helmet } from 'react-helmet';
 
 const TourDetails = () => {
   // console.log('URL',packageName);
@@ -27,6 +28,9 @@ const TourDetails = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>{selectedPackage.Title} | Meghalaya Into The Mountains</title>
+      </Helmet>
       <div className='flex justify-center items-center uppercase ' style={{ position: 'relative', width: '100%', height: '560px' }}>
         <img
           src={selectedPackage.image}

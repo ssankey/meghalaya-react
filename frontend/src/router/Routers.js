@@ -1,7 +1,5 @@
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import Home from "../Pages/Home";
-import Login from '../Pages/Login';
-import Register from '../Pages/Register'
 import TourDetails from '../Pages/TourDetails';
 import Tour from '../Pages/Tour';
 import ThankYou from '../Pages/ThankYou';
@@ -17,8 +15,7 @@ const Routers = () =>  {
             <Route path='/home' element={<Home/>} />
             <Route path='/:mainLocation' element={<Tour/>} />
             <Route path='/tour-package/:packageDetails' element={<TourDetails/>} />
-            <Route path='/login' element={<Login/>} />
-            <Route path='/register' element={<Register/>} />
+
             <Route path='/thank-you' element={<ThankYou/>} />
             <Route path="/write-review" element={<Review />} />
             <Route path="/services" element={<Services/>}/>

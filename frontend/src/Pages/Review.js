@@ -3,6 +3,7 @@ import axios from 'axios'
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useNavigate } from 'react-router';
 import StarRatings from 'react-star-ratings';
+import { Helmet } from 'react-helmet';
 
 const FormPage = () => {
   const [captchaValue, setCaptchaValue] = useState('');
@@ -47,6 +48,9 @@ const FormPage = () => {
   };
   return (
     <div className="flex justify-center my-[15rem] sm:my-48     items-center drop-shadow-2xl h-screen">
+      <Helmet>
+        <title>Add Review - Meghalaya - Into The Mountains</title>
+      </Helmet>
       <div className="bg-white p-8  rounded shadow-md w-full max-w-5xl  ">
         <h2 className="sm:text-[48px] text-[30px] text-center  font-bold mb-4">We value your feedback! Help us improve by sharing your thoughts.</h2>
         <form>

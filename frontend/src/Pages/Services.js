@@ -6,10 +6,14 @@ import TrekkingImage from '../assets/images/hiking.jpg';
 import SightseeingImage from '../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.jpg';
 import RaftingImage from '../assets/images/rafting.jpg'
 import Form from '../compoents/Form/Form';
+import { Helmet } from 'react-helmet'
 
 const Services = () => {
     return (
         <div className="container mx-auto">
+            <Helmet>
+                <title>Services | Meghalaya - Into The Mountains</title>
+            </Helmet>
             {/* Banner Section */}
             <section className='banner'>
                 <div className='flex  justify-center items-center' style={{ position: 'relative', width: '100%', height: '400px' }}>

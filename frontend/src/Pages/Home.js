@@ -26,12 +26,18 @@ import reservation from '../assets/images/Flight Booking-rafiki.png'
 import tour_guide from '../assets/images/Tour-guide-bro.png'
 import activities from '../assets/images/travel-selfie-bro.png'
 import PremiumCustomer from '../compoents/premium/premiumCustomer'
+import { Helmet } from 'react-helmet'
 
 const Home = () => {
 
   return (
 
     <div>
+      <Helmet>
+        <title>Meghalaya - Into The Mountains</title>
+        <meta name="description" content="Experience the beauty of Meghalaya with Into The Mountains - a leading travel agency offering personalized tours and adventures. Explore Shillong, Cherrapunji, and more." />
+
+      </Helmet>
       <Banner />
       <section className=" bg-[#7f837c] bg-opacity-10 py-16">
         <h1 className=' text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'>About Us </h1>
@@ -341,13 +347,13 @@ const Home = () => {
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             <SlideshowSlide infinite>
               <div className="each-slide-effect-2 text-center">
-                <img src={awardSection} alt="Award Illustration" className="w-full sm:h-[600px] h-[300px] object-cover" />
+                <img src={awardSection}alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
               </div>
               <div className="each-slide-effect-2 text-center">
-                <img src={awardSection1} alt="Award Illustration" className="w-full sm:h-[600px] h-[300px] object-cover" />
+                <img src={awardSection1} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
               </div>
               <div className="each-slide-effect-2 text-center">
-                <img src={awardSection2} alt="Award Illustration" className="w-full sm:h-[600px] h-[300px] object-cover" />
+                <img src={awardSection2} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
               </div>
 
             </SlideshowSlide>

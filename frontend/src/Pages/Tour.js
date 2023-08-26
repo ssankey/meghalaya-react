@@ -6,6 +6,8 @@ import { Fade, Slide } from 'react-slideshow-image';
 import FeaturedDestination from '../compoents/FeaturedDestinations/FeaturedDestination';
 import './page.css'
 import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage';
+import { Helmet } from 'react-helmet';
+
 import Form from '../compoents/Form/Form';
 const Tour = () => {
   const { mainLocation } = useParams();
@@ -34,8 +36,11 @@ const Tour = () => {
 
   return (
     <div>
-
+      <Helmet>
+        <title>{selectedMainLocationData.name} Tour | Meghalaya Into The Mountains</title>
+      </Helmet>
       <section className='banner'>
+
         <div className='flex justify-center items-center' style={{ position: 'relative', width: '100%', height: '700px' }}>
           <img
             src={selectedMainLocationData.image}
@@ -70,8 +75,8 @@ const Tour = () => {
       <section className='flex sm:flex-row flex-col'>
         <div className=" sm:w-2/3 sm:px-[2rem] py-5 mt-16 flex flex-col " >
           <div className='px-5 py-10 bg-white rounded-2xl drop-shadow-xl'>
-          <h1 className='text-[45px]'>Explore The Beauty Of {selectedMainLocationData.name}</h1>
-          <p className="md:text-lg">{selectedMainLocationData.description}  </p>
+            <h1 className='text-[45px]'>Explore The Beauty Of {selectedMainLocationData.name}</h1>
+            <p className="md:text-lg">{selectedMainLocationData.description}  </p>
           </div>
           <div className="text-left px-5 py-10 bg-white rounded-2xl drop-shadow-xl mt-5">
             <h2 className="text-2xl font-semibold mb-2">Facts about {selectedMainLocationData.name}</h2>
@@ -115,7 +120,7 @@ const Tour = () => {
             <h1 className='text-2xl text-white font-extrabold pb-3 text-center'>Things To Do</h1>
             <Slide infinite responsive={responsiveSettings}>
               {selectedMainLocationData.thingsToDo.map((todo, index) => (
-                <div className="each-slide-effect-2 text-center"  key={index}>
+                <div className="each-slide-effect-2 text-center" key={index}>
                   <div className='rounded-lg ' style={{ 'backgroundImage': `url(${todo.image})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
                   </div>
                   <section className='py-5'>
@@ -136,7 +141,7 @@ const Tour = () => {
 
       <section className='bg-[#414341] bg-opacity-5'>
         <div className='flex flex-col my-20'>
-            <h1 className='text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'>Explore Our Most Selling Packages </h1>
+          <h1 className='text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'>Explore Our Most Selling Packages </h1>
           <MostSellingPackage />
         </div>
       </section>
