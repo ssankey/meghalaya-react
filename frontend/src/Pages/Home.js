@@ -35,7 +35,7 @@ const Home = () => {
     <div>
       <Helmet>
         <title>Meghalaya - Into The Mountains</title>
-        <meta name="description" content="Experience the beauty of Meghalaya with Into The Mountains - a leading travel agency offering personalized tours and adventures. Explore Shillong, Cherrapunji, and more." />
+        <meta name="description" content="Experience the beauty of Meghalaya with Meghalaya - Into The Mountains - a leading travel agency offering personalized tours and adventures. Explore Shillong, Cherrapunji, and more." />
 
       </Helmet>
       <Banner />

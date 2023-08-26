@@ -30,6 +30,10 @@ const TourDetails = () => {
     <div>
       <Helmet>
         <title>{selectedPackage.Title} | Meghalaya Into The Mountains</title>
+        <meta
+          name="description"
+          content={`Explore the details of ${selectedPackage.Title} package offered by Lets See Tour and Travels. Discover the itinerary, inclusions, exclusions, and more.`}
+        />
       </Helmet>
       <div className='flex justify-center items-center uppercase ' style={{ position: 'relative', width: '100%', height: '560px' }}>
         <img

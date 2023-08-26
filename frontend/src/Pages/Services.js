@@ -13,6 +13,10 @@ const Services = () => {
         <div className="container mx-auto">
             <Helmet>
                 <title>Services | Meghalaya - Into The Mountains</title>
+                <meta
+                    name="description"
+                    content="Explore a variety of adventure services offered by Meghalaya - Into The Mountains. From camping and trekking to safari and rafting, discover thrilling experiences with Lets See Tour and Travels."
+                />
             </Helmet>
             {/* Banner Section */}
             <section className='banner'>

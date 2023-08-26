@@ -9,7 +9,12 @@ const ContactUs = () => {
     <div className="container mx-auto">
       <Helmet>
         <title>Contact Us | Meghalaya - Into The Mountains</title>
+        <meta
+          name="description"
+          content="Contact us for more information about Meghalaya - Into The Mountains. Find our office address, contact numbers, and contact person details."
+        />
       </Helmet>
+
       {/* Banner Section */}
       <section className="banner">
         <div className="flex justify-center items-center" style={{ position: 'relative', width: '100%', height: '550px' }}>

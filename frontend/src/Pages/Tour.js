@@ -38,6 +38,10 @@ const Tour = () => {
     <div>
       <Helmet>
         <title>{selectedMainLocationData.name} Tour | Meghalaya Into The Mountains</title>
+        <meta
+          name="description"
+          content={`Explore the beauty of ${selectedMainLocationData.name}. Discover places to visit, things to do, and more with Lets See Tour and Travels.`}
+        />
       </Helmet>
       <section className='banner'>
 

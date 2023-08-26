@@ -4,6 +4,13 @@ import bodyParser from 'body-parser';
 import twilio from 'twilio'
 import mongoose from 'mongoose';
 import dotenv from 'dotenv'; // Import dotenv
+import { fileURLToPath } from 'url'; // Import fileURLToPath
+import { dirname } from 'path'; // Import dirname
+import path from 'path';
+// Get the directory path using ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 
 dotenv.config();
 const app = express();
