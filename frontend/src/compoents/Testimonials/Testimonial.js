@@ -8,6 +8,7 @@ import StarRatings from 'react-star-ratings';
 const TestimonialsSlider = () => {
   const [testimonials, setTestimonials] = useState([]);
   const [isDataFetched, setIsDataFetched] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // State to track loading status
 
   useEffect(() => {
     fetchReviews();
@@ -18,8 +19,10 @@ const TestimonialsSlider = () => {
       const response = await axios.get('https://meghalaya-tourism.onrender.com/api/reviews');
       setTestimonials(response.data);
       setIsDataFetched(true);
+      setIsLoading(false); // Set loading to false after data is fetched
     } catch (error) {
       console.error('Error fetching reviews', error.message);
+      setIsLoading(false); // Set loading to false even on error
     }
   };
 
@@ -52,12 +55,14 @@ const TestimonialsSlider = () => {
         <br />
         Read reviews from our customers
       </h2>
-      {isDataFetched && testimonials.length > 0 && (
+      {isLoading ? ( // Render preloader if data is loading
+        <div className="text-center">Loading...</div>
+      ) : isDataFetched && testimonials.length > 0 ? (
         <div style={{ position: 'relative' }}>
           <Slide responsive={responsiveSettings} className="overflow-hidden">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="mx-5 p-8 shadow-lg text-center testimonial-text h-full rounded-lg flex flex-col gap-16 my-20 bg-white">
-                 <p className="text-gray-900 text-[18px]" style={{ maxWidth: "900px", maxHeight: "auto", overflow: 'auto' }}>
+                <p className="text-gray-900 text-[18px]" style={{ maxWidth: "900px", maxHeight: "auto", overflow: 'auto' }}>
                   "{testimonial.message}"
                 </p>
                 <div className="flex justify-center items-center">
@@ -75,6 +80,8 @@ const TestimonialsSlider = () => {
             ))}
           </Slide>
         </div>
+      ) : (
+        <div>No testimonials available.</div>
       )}
       <div className="text-center my-10">
         <button onClick={takeToReview} className="bg-green-900 font-bold px-6 py-2 rounded-lg text-white">
@@ -86,4 +93,3 @@ const TestimonialsSlider = () => {
 };
 
 export default TestimonialsSlider;
- 
