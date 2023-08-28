@@ -226,7 +226,7 @@ export const locationData = {
         },
         {
           "name": "Sweet Falls",
-          "description": "Sweet Falls of Shilong, also called Kshaid Weitden, is a waterfall that is considered the most spectacular waterfall in Shillong. However, despite its name, this waterfall is said to be the most dangerous waterfall in Shillong owing to poorly maintained routes and slippery surfaces. The waterfall has a tall height of 96 m making it impossible to swim in the waters. The surrounding area of the falls is filled with lush greenery that is made up of trees like Eupatorium, Phegopteris, Lantana, Osmundastrum, Rubus, and more.",
+          "description": "Sweet Falls of Shilong, also called Kshaid Weitden, is a waterfall that is considered the most spectacular waterfall in Shillong. However, despite its name, this waterfall is said to be the most dangerous waterfall in Shillong owing to poorly maintained routes and slippery surfaces. The waterfall has a tall height of 96 m making it impossible to swim in the waters.",
           "images":
             sweet_falls,
         },

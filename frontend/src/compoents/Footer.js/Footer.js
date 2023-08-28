@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Contact Us Section */}
           <div className="text-white">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-            <p className="mb-2">
+            <p className="mb-2 text-sm sm:text-lg">
               <FiMail size={18} className="inline mr-2" />
               meghalayaintothemountains@gmail.com
             </p>

@@ -24,9 +24,8 @@ const FeaturedDestination = (props) => {
           <Slide indicators={true} infinite responsive={responsiveSettings}>
             {sublocations.map((subLocation) => (
                 <div className="each-slide-effect-2 h-[650px] text-center bg-white border-2 sm:mx-24 sm:w-[450px] w-full">
-                    <div className=' w-full h-full' style={{ 'backgroundImage': `url(${subLocation.images})`}}>
-                    </div>
-                    <section className=' flex flex-col  my-0 p-10 justify-start text-center'>
+                    <img src={subLocation.images} alt={` ${subLocation.name} featured tour`} className='w-full h-[17rem] object-cover'/>
+                    <section className=' flex flex-col  my-0 p-6 justify-start text-center'>
                         <h1 className='text-2xl text-black font-black'>{subLocation.name}</h1>
                         <p className='text-gray-600 pt-10' >{subLocation.description}</p>
                     </section>
