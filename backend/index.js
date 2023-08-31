@@ -49,7 +49,17 @@ app.get('/send-message', (req, res) => {
     });
 });
 
-app.use(express.static(path.join(__dirname, 'frontend'),{maxAge: 86400000}));
+const cacheTime = 86400000; // 1 day in milliseconds
+
+// Serve static files from the "build" directory of your frontend
+app.use(express.static(path.join(__dirname, 'frontend/build'), { maxAge: cacheTime }));
+
+// Other routes and configurations for your backend
+
+// Send index.html for all other requests to support React routing
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'));
+});
 
 
 
