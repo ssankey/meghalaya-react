@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../assets/images/arrival.jpg';
+import banner from '../assets/images/arrival.webp';
 import { Helmet } from 'react-helmet';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
 import Form from '../compoents/Form/Form';

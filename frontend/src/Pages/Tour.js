@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router'
 import { locationData } from '../assets/data/data';
-import image1 from '../assets/images/image12.jpg'
+import image1 from '../assets/images/image12.webp'
 import { Fade, Slide } from 'react-slideshow-image';
 import FeaturedDestination from '../compoents/FeaturedDestinations/FeaturedDestination';
 import './page.css'

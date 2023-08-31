@@ -1,10 +1,10 @@
 import React from 'react';
-import BannerImage from '../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.jpg'
-import CampingImage from '../assets/images/camping.jpg';
-import SafariImage from '../assets/images/safari.jpg';
-import TrekkingImage from '../assets/images/hiking.jpg';
-import SightseeingImage from '../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.jpg';
-import RaftingImage from '../assets/images/rafting.jpg'
+import BannerImage from '../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.webp'
+import CampingImage from '../assets/images/camping.webp';
+import SafariImage from '../assets/images/safari.webp';
+import TrekkingImage from '../assets/images/hiking.webp';
+import SightseeingImage from '../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.webp';
+import RaftingImage from '../assets/images/rafting.webp'
 import Form from '../compoents/Form/Form';
 import { Helmet } from 'react-helmet'
 

@@ -1,20 +1,20 @@
 import React from 'react'
 import Banner from '../compoents/Banner/Banner'
-import image1 from '../assets/images/image14.jpg'
-import image2 from '../assets/images/image16.jpg'
-import image3 from '../assets/images/image34.jpg'
+import image1 from '../assets/images/image14.webp'
+import image2 from '../assets/images/image16.webp'
+import image3 from '../assets/images/image34.webp'
 import ImageSlider from '../compoents/popularPlaces/ImageSlider'
 import hiking from '../assets/images/hiking.png'
 import adventours from '../assets/images/adventure.png'
 import tourGuide from '../assets/images/tour-guide.png'
 import travelItinerary from '../assets/images/travel-itinerary.png'
-import serviceBg from '../assets/images/serviceBg.jpg'
+import serviceBg from '../assets/images/serviceBg.webp'
 import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage'
-import hero from '../assets/images/hero.jpg'
-import awardSection from '../assets/images/awardSection.jpg'
-import awardSection1 from '../assets/images/award1.jpeg'
-import awardSection2 from '../assets/images/award2.jpeg'
-import awardSection3 from '../assets/images/award3.jpeg'
+import hero from '../assets/images/hero.webp'
+import awardSection from '../assets/images/awardSection.webp'
+import awardSection1 from '../assets/images/award1.webp'
+import awardSection2 from '../assets/images/award2.webp'
+import awardSection3 from '../assets/images/award3.webp'
 
 import Testimonial from '../compoents/Testimonials/Testimonial'
 import { Fade, Slide } from "react-awesome-reveal";
@@ -347,7 +347,7 @@ const Home = () => {
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             <SlideshowSlide infinite>
               <div className="each-slide-effect-2 text-center">
-                <img src={awardSection}alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
+                <img src={awardSection} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
               </div>
               <div className="each-slide-effect-2 text-center">
                 <img src={awardSection1} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />

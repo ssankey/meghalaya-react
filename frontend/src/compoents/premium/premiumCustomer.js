@@ -1,13 +1,13 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import './styles.css'
-import Sarah from '../../assets/images/Sarah-Todd.jpg'
-import Sarah1 from '../../assets/images/IMG-20230502-WA0034.jpg'
-import sarah2 from '../../assets/images/sarah2.jpg'
-import sarah3 from '../../assets/images/sarah3.jpg'
+import Sarah from '../../assets/images/Sarah-Todd.webp'
+import Sarah1 from '../../assets/images/IMG-20230502-WA0034.webp'
+import sarah2 from '../../assets/images/sarah2.webp'
+import sarah3 from '../../assets/images/sarah3.webp'
 const PremiumCustomer = () => {
   const slideImages = [
-    Sarah, 
+    Sarah,
     Sarah1,
     sarah2,
     sarah3,
@@ -48,11 +48,11 @@ const PremiumCustomer = () => {
         Nothing we say about her is enough.
       </h1>
       <div className="slide-container">
-        <Slide  responsive={responsiveSettings} {...slideProperties}>
+        <Slide responsive={responsiveSettings} {...slideProperties}>
           {slideImages.map((image, index) => (
             <div key={index} className="each-slide">
               <div className="square-image">
-                <img src={image} alt={`Slide ${index + 1}`} />
+                <img src={image} loading='lazy' alt={`Slide ${index + 1}`} />
               </div>
             </div>
           ))}
