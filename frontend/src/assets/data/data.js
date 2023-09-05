@@ -439,8 +439,8 @@ export const locationData = {
             mawmluh,
         },
         {
-          "name": "Dainthlen and Wei Sawdong Falls",
-          "description": "Wei Sawdong Falls seems straight out of a wallpaper. That is how spectacular this waterfall is. Nearby, situated is Dainthlen Falls. These two falls are visited together by tourists.Wei Sawdong Falls is a 3 tiered waterfall and is especially known for its bluish-green, crystal-clear water. Dainthlen Falls, on the other hand, is best known for its gorgeous vista. ",
+          "name": "Dainthlen Falls",
+          "description": " Dainthlen Falls seems straight out of a wallpaper. That is how spectacular this waterfall is. Nearby, situated is Dainthlen Falls. These two falls are visited together by tourists.Dainthlen Falls is a 3 tiered waterfall and is especially known for its bluish-green, crystal-clear water. Dainthlen Falls, on the other hand, is best known for its gorgeous vista. ",
           "images":
             dainthlen,
         },
