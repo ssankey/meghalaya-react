@@ -124,6 +124,10 @@ import garo1 from '../images/garo-itinerary.webp'
 import garo2 from '../images/garo-itinerary-1.webp'
 import garo3 from '../images/garo-itinerary-2.webp'
 import garo4 from '../images/garo-itinerary-3.webp'
+import cathedral from '../images/cathedral.webp'
+import krangsuri from '../images/krangsuri.webp'
+import chympe from '../images/chympe.webp'
+import wei_saw from '../images/wei-saw.webp'
 export const navLinks = {
   "locations": [
     {
@@ -245,7 +249,7 @@ export const locationData = {
 
         {
           "name": "Umden Silk Weaving Village",
-          "description": "The silk-weaving village of Umden-Diwon is the world's first Eri Silk village. It is located in the Ri-Bhoi district of Meghalaya. Popularly known as the Ahimsa Silk, the silk at Umden-Diwon is processed from cocoons without killing the larvae inside.Tourists will get to experience the rich textile heritage and culture of the village along with the diverse surroundings and variety of attractions. ",
+          "description": "The Silk-Weaving Village of Umden-Diwon is the world's first Eri Silk village. It is located in the Ri-Bhoi district of Meghalaya. Popularly known as the Ahimsa Silk, the silk at Umden-Diwon is processed from cocoons without killing the larvae inside.Tourists will get to experience the rich textile heritage and culture of the village along with the diverse surroundings and variety of attractions. ",
           "images":
             silk,
         },
@@ -267,6 +271,12 @@ export const locationData = {
           "images":
             sweet_falls,
         },
+        {
+          "name": "Cathedral of Mary Help of Christians",
+          "description": "The Cathedral of Mary Help of Christians is also known as Laitumkhrah Church and stands on the site where the very first church of Shillong was built. It is named after the mother of Jesus, Mary. Tourists are delighted at the sight of this cathedral with its architectural elegance and pristine scriptures. The Church has tall arches and huge stained-glass windows.",
+          "images":
+            cathedral,
+        },
 
       ],
       "thingsToDo": [
@@ -278,7 +288,7 @@ export const locationData = {
         {
           "name": "Don Bosco Museum",
           "image": donBosco,
-          "description": "The Don Bosco Museum, hailed as Asia's largest Museum of Indigenous Cultures, is the home of Northeast India's magnificent culture and history."
+          "description": "TDon Bosco Centre for Indigenous Cultures: You can gain insight into our rich cultural heritage of our Northeast region at this Impressive Centre. It has galleries and exhibitions showcasing magnificent arts, crafts, fashion and traditions          "
         },
         {
           "name": "Shillong Peak",
@@ -332,7 +342,7 @@ export const locationData = {
     {
       "name": "Sohra",
       "description": "Khasi Hills, a part of the Meghalaya plateau, is a mesmerizing region blessed with lush greenery, cascading waterfalls, and captivating valleys. This area is predominantly inhabited by the Khasi tribe, known for their unique customs and traditions. The town of Sohra, formerly known as Sohra, is famous for being one of the wettest places on Earth and offers breathtaking vistas of verdant landscapes and cascading waterfalls. Visitors to Khasi Hills can explore attractions like Mawkdok Bridge Viewpoint, Wah Kba Falls, and the Garden of Caves, immersing themselves in the natural beauty and cultural richness of the region.",
-      "image": khasi,
+      "image": seven_sisters,
       "facts": [
         "Sohra, also known as Sohra, is famous for being one of the wettest places on Earth.",
         "It holds the record for the highest annual rainfall, making it a lush and green region.",
@@ -351,7 +361,7 @@ export const locationData = {
         },
         {
           "name": "Wah Kba Falls",
-          "description": "Wah-Kaba Falls is a seasonal waterfall located in Sohra. It is one of the most popular waterfalls in Sohra. It is located on the Shillong-Sohra road. This waterfall's roar is audible from a distance and descends from a cliff into a deep gorge. It is a treat to the eyes. The water of the falls is crystal clear in nature. Tourists are amazed at the views of the gushing waters surrounded by beautiful green hills.",
+          "description": "Wah-Kba Falls is a seasonal waterfall located in Sohra. It is one of the most popular waterfalls in Sohra. It is located on the Shillong-Sohra road. This waterfall's roar is audible from a distance and descends from a cliff into a deep gorge. It is a treat to the eyes. The water of the falls is crystal clear in nature. Tourists are amazed at the views of the gushing waters surrounded by beautiful green hills.",
           "images":
             wah_kba,
 
@@ -395,7 +405,7 @@ export const locationData = {
           "name": "Wei Sawdong Falls",
           "description": "Wei Sawdong Falls seems straight out of a wallpaper. That is how spectacular this waterfall is. Nearby, situated is Dainthlen Falls. These two falls are visited together by tourists. Wei Sawdong Falls is a 3 tiered waterfall and is especially known for its bluish-green, crystal-clear water.",
           "images":
-            Wei_Sawdong_Falls,
+            wei_saw,
 
         },
         {
@@ -464,11 +474,6 @@ export const locationData = {
           "image": mawlynong,
           "description": "Visit Asia's cleanest village, with well-kept streets, explore the Living Root Bridge, and have beautiful views from the Sky View Point."
         },
-        {
-          "name": "Dawki River",
-          "image": dawki1,
-          "description": "Take a boat journey on the crystal-clear Dawki River, which runs along the border between India and Bangladesh. The calm and clear water provides for a brilliant experience."
-        },
 
         {
           "name": "Khasi Cuisine",
@@ -497,7 +502,7 @@ export const locationData = {
       ],
       "sublocations": [
         {
-          "name": "Dawki - Shnongpdeng",
+          "name": "Dawki",
           "description": "Remember the crystal clear waters where boats seem floating in the air? These places are Dawki and Shnongpdeng in Meghalaya. One's trip to Meghalaya is truly incomplete without visiting the town of Dawki and the village of Shnongpdeng.Both Dawki and Shnongpdeng are picturesque places situated along the banks of the stunning Dawki (Umngot) River. .",
           "images":
             dawki1,
@@ -506,7 +511,7 @@ export const locationData = {
         {
           "name": "Krangsuri Falls",
           "description": "The glistening blue waters of the Krangsuri Falls are bound to pull tourists to this place. This waterfall is located in Jaintia Hills, Meghalaya. The Krangsuri Falls are a result of the waters of a calm river dropping over a cave. Tourists describe the water pouring down to be like white curtains. One can set up a camp upstream and indulge themselves in the serenity of nature. ",
-          "images": krang_suri,
+          "images": krangsuri,
 
         },
         {
@@ -554,7 +559,7 @@ export const locationData = {
             dawki1,
         },
         {
-          "name": "Chympe Cave - Chympe Falls",
+          "name": "Chympe Cave",
           "description": "The Chympe Cave is a unique river cave formation in the Jaintia Hills. On the journey to the Chympe Cave, the path bifurcates where one leads to the Chympe Waterfall while the other goes to the Cave.Krem Chympe as it is called, Krem meaning 'Cave', is India's 5th longest cave and requires swimming to navigate the course of the cave. The entrance of the cave is a spectacular sight and stunning art of nature. ",
           "images":
             caves,
@@ -564,6 +569,12 @@ export const locationData = {
           "description": "Ttyrshi Falls is one of those treasures of Meghalaya that is lesser-visited but offers much more in terms of beauty. This waterfall is connected by an arched bridge. Tourists can step in and enjoy the cool waters at the base of this picturesque waterfall. This is a place perfect for nature admirers. At the waterfall, tourists can also treat their eyes to the panoramic views of the Pynthor Nein Paddy fields. ",
           "images":
             Tyrshi,
+        },
+        {
+          "name": "Chympe Falls",
+          "description": "When we talk about the Chympe Waterfall, it is yet another breathtaking attraction. The way the water pours down the green and rocky terrain, it seems like the roots of a tree. The water that collects below is a shade of emerald and makes the sight unforgettable!",
+          "images":
+            chympe,
         },
       ],
       "thingsToDo": [
@@ -719,7 +730,7 @@ export const locationData = {
         },
         {
           "name": "Mawtynhiang Caves",
-          "description": "Mawtynhiang caves located in Khasi Hills, are popular among adventure seekers and nature lovers. The 100-meter-long cave is made of natural hot rock and features unusual plant organisms. Visitors must walk through dense forests and meadows, crossing deep rivers for an unforgettable experience. The cave's geological features, biodiversity, and breathtaking environment make it a highlight of any trip.",
+          "description": "Mawtynhiang Caves located in Khasi Hills, are popular among adventure seekers and nature lovers. The 100-meter-long cave is made of natural hot rock and features unusual plant organisms. Visitors must walk through dense forests and meadows, crossing deep rivers for an unforgettable experience. The cave's geological features, biodiversity, and breathtaking environment make it a highlight of any trip.",
           "images": mawtynhiang_caves
         },
         {
@@ -748,11 +759,6 @@ export const locationData = {
           "name": "Experience Local Cuisine",
           "description": "Indulge in the delicious and unique flavors of Khasi cuisine. Try traditional dishes like Jadoh (rice and meat), Dohneiiong (pork with black sesame), and Putharo (rice cake).",
           "image": khasi_cuisine
-        },
-        {
-          "name": "Visit Dawki River",
-          "description": "Head to Dawki to witness the crystal-clear waters of the Umngot River. Enjoy boating on the pristine river and take in the surreal views of the riverbed.",
-          "image": dawki1
         },
         {
           "name": "Explore Mawsynram",
