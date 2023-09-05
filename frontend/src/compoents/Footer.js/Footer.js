@@ -14,15 +14,15 @@ const Footer = () => {
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <p className="mb-2 text-sm sm:text-lg">
               <FiMail size={18} className="inline mr-2" />
-              meghalayaintothemountains@gmail.com
+              services@meghalayaintothemountains.com
             </p>
             <p className="mb-2">
               <FiPhone size={18} className="inline mr-2" />
-                +91 87947 95255
+              +91 87947 95255
             </p>
             <p className="mb-2">
               <FiPhone size={18} className="inline mr-2" />
-                +91 81198 29466
+              +91 81198 29466
             </p>
             <p>
               <FiMapPin size={18} className="inline mr-2" />

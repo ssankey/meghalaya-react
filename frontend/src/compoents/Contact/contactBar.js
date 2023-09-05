@@ -15,7 +15,7 @@ const ContactBar = () => {
           <span>+91 81198 29466</span>
         </div>
         <div className="flex items-center gap-2 sm:ml-4">
-          <span>meghalayaintothemountains@gmail.com</span>
+          <span>services@meghalayaintothemountains.com</span>
         </div>
       </div>
       <Link to={'/contact-us'}>
