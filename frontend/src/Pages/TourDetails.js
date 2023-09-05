@@ -152,11 +152,19 @@ const TourDetails = () => {
                       <p>
                         {day.description}
                       </p>
-                      <div className='w-36 mt-5 rounded-xl'>
-                        <img className='w-full h-auto' alt='img' src={day.image} />
+                      <div className='w-16 sm:w-36 mt-5 flex gap-3 sm:gap-10'>
+                        {(Array.isArray(day.image) ? day.image : [day.image]).map((image, imageIndex) => (
+                          <img
+                            key={imageIndex}
+                            className='w-full outline-black object-cover outline-2 rounded-xl h-auto'
+                            alt={`Image ${imageIndex + 1}`}
+                            src={image}
+                          />
+                        ))}
                       </div>
                     </div>
                   )}
+
                 </div>
               ))}
             </div>

@@ -87,6 +87,43 @@ import dainthlen from '../images/Dain-Thlen.webp'
 import mawmluh from '../images/Mawmluh.webp'
 import thangkharang from '../images/Thangkharang.webp'
 import ecopark from '../images/EcoPark.webp'
+import shillong1 from '../images/shillong-itinerary-1.webp';
+import shillong2 from '../images/shillong-itinerary-2.webp';
+import shillong3 from '../images/shillong-itinerary-3.webp';
+import shillong4 from '../images/shillong-itinerary-4.webp';
+import shillong5 from '../images/shillong-itinerary-5.webp';
+import shillong6 from '../images/shillong-itinerary-6.webp';
+import shillong7 from '../images/shillong-itinerary-7.webp';
+import shillong8 from '../images/shillong-itinerary-8.webp';
+import shillong9 from '../images/shillong-itinerary-9.webp';
+import shillong10 from '../images/shillong-itinerary-10.webp';
+import shillong11 from '../images/shillong-itinerary-11.webp';
+import shillong12 from '../images/shillong-itinerary-12.webp';
+import shillong13 from '../images/shillong-itinerary-13.webp';
+import shillong14 from '../images/shillong-itinerary-14.webp';
+import shillong15 from '../images/shillong-itinerary-15.webp';
+import shillong16 from '../images/shillong-itinerary-16.webp';
+import shillong17 from '../images/shillong-itinerary-17.webp';
+import shillong18 from '../images/shillong-itinerary-18.webp';
+import shillong19 from '../images/shillong-itinerary-19.webp';
+import shillong20 from '../images/shillong-itinerary-20.webp';
+import shillong21 from '../images/shillong-itinerary-21.webp';
+import mawlynong1 from '../images/mawlynnong-itinerary.webp'
+import mawlynong2 from '../images/mawlynnong-itinerary-1.webp'
+import mawlynong3 from '../images/mawlynnong-itinerary-2.webp'
+import mawlynong4 from '../images/mawlynnong-itinerary-3.webp'
+import nongriat1 from '../images/nongriat-itinerary.png'
+import nongriat2 from '../images/nongriat-itinerary-1.png'
+import nongriat3 from '../images/image23.webp'
+import mawsynram1 from '../images/mawsynram-itinerary.webp'
+import mawsynram2 from '../images/mawsynram-itinerary-1.webp'
+import mawsynram3 from '../images/mawsynram-itinerary-2.webp'
+import jainitia1 from '../images/jaintia-itinerary.webp'
+import jainitia2 from '../images/jaintia-itinerary-1.webp'
+import garo1 from '../images/garo-itinerary.webp'
+import garo2 from '../images/garo-itinerary-1.webp'
+import garo3 from '../images/garo-itinerary-2.webp'
+import garo4 from '../images/garo-itinerary-3.webp'
 export const navLinks = {
   "locations": [
     {
@@ -867,25 +904,43 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrival in Shillong",
           "description": "Arrive at Guwahati Airport or Railway Station. Transfer to Shillong, Enroute Umiam Lake on the way. Explore the local markets in the evening. Overnight stay at the hotel in Shillong."
-          , "image": shillongPeak,
+          , "image": [
+            shillong1,
+            shillong2
+          ]
         },
         {
           "day": "Day 2",
           "title": "Sightseeing in Shillong",
           "description": "After breakfast, head out for a full day sightseeing tour in Shillong. Visit the popular attractions like Shillong Peak, Elephant Falls, Ward's Lake, and Don Bosco Museum. Return to the hotel in the evening. Overnight stay at the hotel in Shillong."
-          , "image": shillong_bg,
+          , "image": [
+            shillong2,
+            shillong6,
+            shillong7,
+            shillong9
+          ]
         },
         {
           "day": "Day 3",
           "title": "Excursion to Sohra",
           "description": "After breakfast, depart for Sohra known as the \"Land of Living Roots.\" Visit Nohkalikai Falls, Seven Sisters Falls, Mawsmai Cave, and Eco Park. Experience the lush green landscapes and the abundant rainfall in Sohra. Return to Shillong in the evening. Overnight stay at the hotel in Shillong."
-          , "image": sohra1,
+          , "image": [
+            shillong11,
+            shillong14,
+            shillong16,
+            shillong17,
+          ]
         },
         {
           "day": "Day 4",
           "title": "Departure",
           "description": "After breakfast, check-out from the hotel. Transfer to Guwahati Airport or Railway Station for onward journey. ",
-          "image": departure,
+          "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ]
         }
       ],
       "inclusion": [
@@ -913,32 +968,40 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrival in Guwahati - Visit Kamakhya Temple - Drive to Shillong",
           "description": "Upon arrival in Guwahati, you will be greeted by our representative. Visit the Kamakhya Temple, a famous Hindu pilgrimage site dedicated to Goddess Kamakhya. Afterward, embark on a scenic drive to Shillong, the capital city of Meghalaya. Check-in at the hotel and relax for the night."
-          , "image": kamakhya_temple,
+          , "image": [
+            kamakhya_temple,
+            shillong1
+          ],
 
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong and Drive to Sohra",
           "description": "Start the day with a delicious breakfast at the hotel. Embark on a sightseeing tour of Shillong, including attractions like Umiam Lake, Elephant Falls, Shillong Peak, and Don Bosco Museum. Enjoy the beauty of nature as you drive to Sohra, known as the \"wettest place on earth.\" Check-in at the hotel in Sohra and spend a comfortable night."
-          , "image": shillong_bg,
+          , "image": [shillong_bg, shillong6, shillong7, shillong9],
         },
         {
           "day": "Day 3",
           "title": "Explore Sohra",
           "description": "After breakfast, set out to explore the magnificent attractions of Sohra. Visit popular sites like Nohkalikai Falls (the tallest plunge waterfall in India), Mawsmai Cave, Seven Sisters Falls, and Eco Park. Immerse yourself in the breathtaking landscapes and marvel at the natural wonders. Return to the hotel for a peaceful overnight stay."
-          , "image": sohra1,
+          , "image": [shillong11, shillong18, shillong14, shillong17],
         },
         {
           "day": "Day 4",
           "title": "Sohra to Mawlynnong and Dawki",
           "description": "Begin the day with a delightful breakfast at the hotel. Depart for Mawlynnong village, often referred to as \"Asia's Cleanest Village.\" Explore the picturesque village, known for its well-maintained cleanliness and fascinating living root bridges. Later, proceed to Dawki and visit the breathtaking Umngot River, renowned for its crystal clear waters. Enjoy boating on the river and soak in the scenic beauty surrounding you. Return to Sohra  and spend a comfortable night at the hotel."
-          , "image": dawki1,
+          , "image": [mawlynong1, mawlynong2, mawlynong3, mawlynong4],
         },
         {
           "day": "Day 5",
           "title": "Sightseeing in Shillong and Departure",
           "description": "Enjoy a scrumptious breakfast at the hotel. Take a final opportunity to explore Shillong. Visit attractions like Ward's Lake, Lady Hydari Park, and Shillong Golf Course. In the evening, our representative will escort you to Guwahati for departure."
-          , "image": departure
+          , "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ]
         }
       ],
       "inclusion": [
@@ -966,43 +1029,37 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive in Guwahati and proceed to visit Kamakhya Temple, a famous Hindu pilgrimage site.",
           "description": "After temple visit, drive to Shillong. Check-in at the hotel and rest for the day."
-          , "image": arrival,
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong, visit popular attractions like Shillong Peak, Ward's Lake, and Don Bosco Museum",
           "description": "In the afternoon, drive to Sohra (also known as Cherrapunjee). Check-in at the hotel in Sohra and relax."
-          , "image": donBosco,
+          , "image": [shillong7, donBosco, shillong9, shillong2],
         },
         {
           "day": "Day 3",
           "title": "Spend the day exploring Sohra",
           "description": "Visit places like Nohkalikai Falls, Mawsmai Cave, and Seven Sisters Falls. Enjoy the panoramic views of the lush green valleys of Cherrapunjee."
-          , "image": sohra1,
+          , "image": [seven_sisters, shillong11, shillong16, shillong10],
         },
         {
           "day": "Day 4",
           "title": "After breakfast, proceed towards Mawlynnong, known as the cleanest village in Asia",
           "description": "Enroute, visit the living root bridges of Riwai Village. Reach Mawlynnong and check-in at the homestay. Explore the village, witness the unique culture, and interact with the locals."
-          , "image": mawlynong,
+          , "image": [mawlynong2, mawlynong3],
         },
         {
           "day": "Day 5",
           "title": "Explore Mawlynnong in the morning and then proceed to Dawki",
           "description": "Visit the famous Umngot River, known for its crystal-clear waters and stunning green riverbed. Take a boat ride on the Umngot River and witness the breathtaking views of the river bed. For the adventurous souls, indulge in kayaking or cliff jumping activities. Return to Mawlynnong for an overnight stay."
-          , "image": dawki1,
-        },
-        {
-          "day": "Day 6",
-          "title": "Begin the day by hiking to Nongriat, home to the famous double-decker living root bridges",
-          "description": "Trek down to the village and explore the beautiful bridges and the surrounding nature. Return to Mawlynnong in the evening and relax."
-          , "image": nongnah_view_point,
+          , "image": [mawlynong1, mawlynong4, dawki1],
         },
         {
           "day": "Day 7",
           "title": "After breakfast, head back to Shillong",
           "description": "Spend the day sightseeing in Shillong, visiting popular attractions like Elephant Falls and the Cathedral of Mary Help of Christians. In the evening, drop-off at the airport or railway station for departure. This simple and short itinerary covers the major highlights of the Dawki and Umngot River Tour, allowing you to experience the natural beauty and cultural richness of the region."
-          , "image": departure,
+          , "image": [shillong21, shillong20, shillong6],
         }
       ],
       "inclusion": [
@@ -1030,43 +1087,43 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Itinerary for Dawki and Umngot River Tour Packages",
           "description": "Arrive in Guwahati and proceed to visit the Kamakhya Temple. After temple visit, drive to Shillong. Check-in at the hotel and rest for the day."
-          , "image": arrival,
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong, visit popular attractions like Shillong Peak, Ward's Lake, and Don Bosco Museum",
           "description": "In the afternoon, drive to Sohra (also known as Cherrapunjee). Check-in at the hotel in Sohra and relax."
-          , "image": shillongPeak,
+          , "image": [shillong7, donBosco, shillong9, shillong2],
         },
         {
           "day": "Day 3",
           "title": "Spend the day exploring Sohra",
           "description": "Visit places like Nohkalikai Falls, Mawsmai Cave, and Seven Sisters Falls. Enjoy the panoramic views of the lush green valleys of Cherrapunjee."
-          , "image": lady_hyadri,
+          , "image": [seven_sisters, shillong11, shillong16, shillong10],
         },
         {
           "day": "Day 4",
           "title": "After breakfast, proceed towards Mawlynnong, known as the cleanest village in Asia",
           "description": "Enroute, visit the living root bridges of Riwai Village. Reach Mawlynnong and check-in at the homestay. Explore the village, witness the unique culture, and interact with the locals."
-          , "image": mawlynong,
+          , "image": [mawlynong2, mawlynong3],
         },
         {
           "day": "Day 5",
           "title": "Explore Mawlynnong in the morning and then proceed to Dawki",
           "description": "Visit the famous Umngot River, known for its crystal-clear waters and stunning green riverbed. Take a boat ride on the Umngot River and witness the breathtaking views of the river bed. For the adventurous souls, indulge in kayaking or cliff jumping activities. Return to Mawlynnong for an overnight stay."
-          , "image": mawkdok_bridge5,
+          , "image": [mawlynong1, mawlynong4, dawki1],
         },
         {
           "day": "Day 6",
           "title": "Begin the day by hiking to Nongriat, home to the famous double-decker living root bridges",
           "description": "Trek down to the village and explore the beautiful bridges and the surrounding nature. Return to Mawlynnong in the evening and relax."
-          , "image": nongriat,
+          , "image": [nongriat1, nongriat2, nongriat3],
         },
         {
           "day": "Day 7",
           "title": "After breakfast, head back to Shillong",
           "description": "Spend the day sightseeing in Shillong, visiting popular attractions like Elephant Falls and the Cathedral of Mary Help of Christians. In the evening, drop-off at the airport or railway station for departure. This simple and short itinerary covers the major highlights of the Dawki and Umngot River Tour, allowing you to experience the natural beauty and cultural richness of the region."
-          , "image": departure,
+          , "image": [shillong21, shillong20, shillong6],
         }
       ],
       "inclusion": [
@@ -1094,43 +1151,43 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrival in Guwahati and Transfer to Shillong",
           "description": "Begin your journey by arriving in Guwahati and transferring to the beautiful city of Shillong, also known as the 'Scotland of the East'."
-          , "image": arrival,
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Sightseeing in Shillong and Sohra",
           "description": "Explore the enchanting sights of Shillong, including the famous Elephant Falls, Shillong Peak, and the captivating Ward's Lake. In the afternoon, proceed to Sohra, commonly known as Sohra, famous for its stunning waterfalls and lush green landscapes."
-          , "image": shillong_market,
+          , "image": [shillong2, shillong6, shillong7],
         },
         {
           "day": "Day 3",
           "title": "Explore Sohra",
           "description": "Spend an entire day exploring the wonders of Sohra. Visit the mesmerizing Nohkalikai Falls, Seven Sisters Falls, and the living root bridges of Mawlynnong, an award-winning cleanest village in Asia."
-          , "image": davi_scott,
+          , "image": [shillong11, seven_sisters, mawlynong1],
         },
         {
           "day": "Day 4",
           "title": "Sohra to Mawlynnong",
           "description": "After breakfast, travel to Mawlynnong, a picturesque village known for its pristine natural beauty. Explore the village and experience the warm hospitality of the locals. Don't miss the opportunity to walk across the famous skywalk and enjoy panoramic views of the surrounding forests."
-          , "image": mawsy,
+          , "image": [mawlynong2, mawlynong3, mawlynong4],
         },
         {
           "day": "Day 5",
           "title": "Explore Dawki",
           "description": "Embark on a trip to Dawki, a small town situated on the India-Bangladesh border. Explore the crystal clear waters of the Umngot River and indulge in boating and kayaking activities. Don't forget to capture the breathtaking views of the Dawki Bridge."
-          , "image": dawki1,
+          , "image": [nongriat1, dawki1],
         },
         {
           "day": "Day 6",
           "title": "Explore Nongriat",
           "description": "Head to Nongriat, a village famous for its living root bridges. Take a trek through beautiful landscapes and dense forests to reach the Double Decker Living Root Bridge. Marvel at the unique architectural beauty of these bridges made from tree roots."
-          , "image": doubleBridge,
+          , "image": [doubleBridge, mawsynram1, mawsynram2, mawsynram3],
         },
         {
           "day": "Day 7",
           "title": "Explore Mawsynram",
           "description": "Conclude your tour by visiting Mawsynram, known as one of the wettest places on Earth. Explore the captivating Mawsmai Caves, rock formations, and the enchanting natural beauty of the region. Experience the thrill of exploring caves and waterfalls and immerse yourself in the natural wonders of Mawsynram on this incredible tour package."
-          , "image": caves,
+          , "image": [shillong21, shillong20, shillong6],
         }
       ],
       "inclusion": [
@@ -1158,31 +1215,39 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Guwahati and Transfer to Shillong",
           "description": "Arrive at Guwahati airport and transfer to Shillong, Meghalaya's capital, to visit Barapani Lake. Enjoy picturesque views and water sports before checking in at a hotel and exploring local markets. Overnight stay in Shillong."
-          , "image": arrival,
+          , "image": [
+            kamakhya_temple,
+            shillong1
+          ],
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong and Visit Sohra (Cherrapunjee)",
           "description": "Explore Shillong, then drive to Sohra to visit Nohkalikai Waterfall, Mawsmai Cave, and Seven Sisters Falls. Also Explore Eco Park, Living Root Bridges, and Elephants Falls before returning to Shillong. Overnight stay."
-          , "image": wardLake,
+          , "image": [
+            shillong2,
+            shillong6,
+            shillong7,
+            shillong9,
+          ],
         },
         {
           "day": "Day 3",
           "title": "Explore Sohra and Visit Mawlynnong and Dawki",
           "description": "Spend the day exploring Sohra. Visit Mawlynnong village, Asia's cleanest village, and Dawki, a border town with crystal-clear Umngot River waters. Enjoy the village's cleanliness and natural beauty, witnessing the famous living root bridge. Return to Shillong for leisurely exploration and overnight stay."
-          , "image": chum_chum_falls,
+          , "image": [chum_chum_falls, mawlynong1, mawlynong4, dawki1],
         },
         {
           "day": "Day 4",
           "title": "Visit Mawlynnong Village and Dawki",
           "description": "After breakfast, proceed towards Mawlynnong, known as the cleanest village in Asia. Enroute, visit the living root bridges of Riwai Village. Reach Mawlynnong and check-in at the homestay. Explore the village, witness the unique culture, and interact with the locals."
-          , "image": mawlynong,
+          , "image": [mawlynong, mawlynong2, mawlynong3],
         },
         {
           "day": "Day 5",
           "title": "Departure from Shillong",
           "description": "Explore Mawlynnong in the morning and then proceed to Dawki. Shillong to Guwahati, visit Kamakhya Temple on Nilachal Hill, Umananda Temple on Peacock Island, and enjoy a sunset cruise on the Brahmaputra River. Overnight stay."
-          , "image": departure,
+          , "image": [shillong21, shillong20, shillong6],
         }
       ],
       "inclusion": [
@@ -1210,31 +1275,31 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Guwahati and Transfer to Shillong",
           "description": "Arrival in Guwahati - Transfer to Tura Upon arrival at Guwahati Airport, you will be greeted by our representative who will assist you in your transfer to Tura, a picturesque town in the Garo Hills region. After reaching Tura, check-in to your hotel and spend the rest of the day at leisure, exploring the nearby surroundings."
-          , "image": arrival,
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong and Visit Sohra (Cherrapunjee)",
           "description": "Explore Balpakram National Park Embark on an exciting full-day excursion to Balpakram National Park, one of the prominent wildlife destinations in Garo Hills. Enjoy a thrilling jeep safari in the park to witness various wildlife species such as elephants, golden langurs, Indian bison, and many more. Take in the mesmerizing views of the landscape adorned with deep gorges and rolling hills."
-          , "image": balpakram1,
+          , "image": [garo1, garo2, garo3, garo4],
         },
         {
           "day": "Day 3",
           "title": "Explore Sohra and Visit Mawlynnong and Dawki",
           "description": "Visit Siju Caves and Nokrek National Park Start your day with a visit to Siju Caves, a network of limestone caves known for their stalagmites and stalactites. Explore the magnificent underground formations and witness the unique biodiversity that thrives inside the caves. Afterward, proceed to Nokrek National Park, home to the endangered red panda and various species of birds. Take a nature walk and soak in the tranquil ambiance of the park."
-          , "image": dawki1,
+          , "image": [dawki1, siju, nonkred],
         },
         {
           "day": "Day 4",
           "title": "Visit Mawlynnong Village and Dawki",
           "description": "Leisure day in Garo Hills On this day, you have the freedom to relax and explore the pristine beauty of Garo Hills at your own pace. You can visit local markets, interact with the friendly locals, or simply unwind amidst the natural surroundings. In the evening, you can enjoy a bonfire with traditional music and dance performances"
-          , "image": mawlynong,
+          , "image": [mawlynong, shillong_market, khasi_tradition],
         },
         {
           "day": "Day 5",
           "title": "Departure from Shillong",
           "description": "Departure from Tura After breakfast, check out from your hotel in Tura and proceed towards Guwahati for your onward journey. Bid adieu to the charming Garo Hills as you take with you unforgettable memories of your wildlife adventure."
-          , "image": departure,
+          , "image": [shillong21, shillong20, shillong6],
         }
       ],
       "inclusion": [
@@ -1262,43 +1327,53 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Guwahati and Transfer to Shillong",
           "description": " Begin your by arriving in Guwahati, the gateway to Northeast India. From there, embark on a scenic drive to Shillong, the capital of Meghalaya. Check into your hotel and spend the evening exploring the vibrant markets and local cuisine of Shillong."
-          , "image": arrival,
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "SIGHTSEEING IN SHILLONG - SOHRA",
           "description": " After breakfast, set out for a full day of sightseeing in Shillong, also known as the 'Scotland of the East'. Visit popular attractions like the Shillong Peak, Elephant Falls, and the Don Bosco Museum. In the afternoon, continue your journey to the enchanting town of Sohra, famous for its breathtaking waterfalls and living root bridges. Check into your hotel and enjoy a relaxing evening. "
-          , "image": shillong_bg,
+          , "image": [
+            shillong2,
+            shillong6,
+            shillong7,
+            shillong9
+          ],
         },
         {
           "day": "Day 3",
           "title": "EXPLORE SOHRA",
           "description": " After breakfast, explore the natural wonders of Sohra. Visit attractions like Nohkalikai Falls, renowned as the tallest plunge waterfall in India, and the Seven Sisters Falls, a magnificent cascade formed by seven distinct streams. Additionally, explore the Mawsmai Caves, which are natural limestone formations known for their impressive stalagmites and stalactites."
-          , "image": sohra1,
+          , "image": [seven_sisters, shillong11, shillong16, shillong10],
         },
         {
           "day": "Day 4",
           "title": "SOHRA – MAWLYNNONG - DAWKI ",
           "description": "Today, embark on a scenic drive from Sohra to Mawlynnong, a picturesque village known as the cleanest village in Asia. Marvel at the pristine beauty of this village, adorned with beautiful gardens and bamboo bridges. Afterward, proceed to Dawki, a small town famous for its crystal-clear Umngot River and the breathtaking Dawki Bridge. Enjoy a boat ride on the Umngot River and immerse yourself in the surreal beauty of the surroundings.           ."
-          , "image": mawlynong,
+          , "image": [mawlynong, dawki1],
         },
         {
           "day": "Day 5",
           "title": "EXPLORE JAINTIA HILLS ",
           "description": " Set out on an adventure to explore the lesser-known Jaintia Hills. Visit the enchanting Krang Suri Falls, surrounded by lush greenery and turquoise pools. Explore the sacred Siddheswar Temple and enjoy the scenic beauty of the Jaintia Hills before returning to your hotel in Sohra for the night"
-          , "image": jainitia,
+          , "image": [jainitia, jainitia1, jainitia2],
         },
         {
           "day": "Day 6",
           "title": "EXPLORE NONGRIAT AND MAWSYNRAM ",
           "description": "Today, embark on a thrilling trek to Nongriat village, famous for its double-decker living root bridges. Trek through dense forests, cross hanging bridges, and reach the mesmerizing waterfalls in this remote village. Afterward, visit Mawsynram, the wettest place on earth, known for its unique landscapes and abundant rainfall. Explore the fascinating caves and waterfalls in Mawsynram before returning to Shillong."
-          , "image": mawsy,
+          , "image": [mawsy, doubleBridge, nongriat1, nongriat2],
         },
         {
           "day": "Day 7",
           "title": "GUWAHATI DEPARTURE",
           "description": " After breakfast, bid farewell to the scenic beauty of Meghalaya and proceed."
-          , "image": departure,
+          , "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ],
         }
       ],
       "inclusion": [
@@ -1326,43 +1401,48 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Shillong",
           "description": "Arrive at Shillong Airport/Railway Station, meet agent, enjoy a leisurely day exploring local markets, and stay overnight."
-          , "image": arrival
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong",
           "description": "Explore Shillong, visit Elephant Falls, Don Bosco Museum, Shillong Peak, Lady Hydari Park, and enjoy local cafes and nightlife before staying overnight."
-          , "image": shillong_bg
+          , "image": [shillong11, shillong18, shillong14, shillong17],
         },
         {
           "day": "Day 3",
           "title": "Sohra Excursion",
           "description": "Sohra Excursion: Explore the wettest place, Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls, and Living Root Bridges, enjoy mist-covered hills, lush green landscapes, and return to Shillong."
-          , "image": sohra1
+          , "image": [mawsy, doubleBridge, nongriat1, nongriat2],
         },
         {
           "day": "Day 4",
           "title": "Transfer to Mawlynnong",
           "description": "Transfer to Mawlynnong, the cleanest village in Asia, for a picturesque tour, visiting the living root bridge, and enjoying a romantic Sky View Ropeway."
-          , "image": mawlynong
+          , "image": [chum_chum_falls, mawlynong1, mawlynong4, dawki1],
         },
         {
           "day": "Day 5",
           "title": "Dawki and Shnongpdeng Excursion",
           "description": "Dawki and Shnongpdeng Excursion: Enjoy boat rides on the Umngot River, visit Shnongpdeng campsite, and engage in activities like kayaking, snorkeling, and river tubing before returning to Mawlynnong."
-          , "image": dawki1
+          , "image": [mawlynong, dawki1],
         },
         {
           "day": "Day 6",
           "title": "Explore Jaintia Hills",
           "description": "Transfer to Jaintia Hills, visit Krang Suri Waterfall, enjoy a serene atmosphere, and enjoy the beautiful surroundings before staying overnight."
-          , "image": jainitia
+          , "image": [jainitia, jainitia1, jainitia2],
         },
         {
           "day": "Day 7",
           "title": "Departure",
           "description": "Depart for Shillong Airport/Railway station"
-          , "image": departure
+          , "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ],
         }
       ],
       "inclusion": [
@@ -1389,25 +1469,30 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Shillong",
           "description": "Arrive at Guwahati Airport and drive to Shillong, Meghalaya's capital city. Visit the Don Bosco Centre for Indigenous Cultures, explore Ward's Lake, and enjoy boating. Explore Police Bazaar, a vibrant commercial hub, and enjoy local delicacies before returning to the hotel for a comfortable overnight stay."
-          , "image": shillong_bg
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Sohra",
           "description": "Visit Sohra, the wettest place on Earth, and explore the Nohkalikai Falls, Mawsmai Caves, Seven Sisters Falls, and Mawkdok Dympep Valley Viewpoint. Enjoy the breathtaking views and eco-friendly Mawkdok Dympep Valley Viewpoint. Return to Shillong and stay overnight."
-          , "image": sohra1
+          , "image": [seven_sisters, shillong11, shillong16, shillong10],
         },
         {
           "day": "Day 3",
           "title": "Dawki and Mawlynnong Excursion",
           "description": "Visit Dawki and experience the Umngot River's crystal-clear waters, then visit Mawlynnong Village, known for its cleanest village in Asia. Explore unique living root bridges and visit the Skywalk viewpoint for stunning views. Return to Shillong for overnight stay."
-          , "image": mawlynong
+          , "image": [mawlynong, dawki1],
         },
         {
           "day": "Day 4",
           "title": "Shillong Sightseeing",
           "description": "Visit Shillong Peak, the highest point in Shillong, and explore Elephant Falls, a popular tourist spot. Visit the Cathedral of Mary Help of Christians and Lady Hydari Park before departing to Guwahati Airport."
-          , "image": shillong_market
+          , "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ],
         }
       ],
       "inclusion": [
@@ -1434,31 +1519,36 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Shillong",
           "description": "Embark on an unforgettable journey with your closest companions and make memories that will last a lifetime. Our Friends Trip experience is designed to whisk you away from the ordinary and immerse you in a world of laughter, adventure, and camaraderie.Savor the joy of discovering hidden gems hand in hand with your friends, as you traverse through breathtaking landscapes and capture candid moments that reflect the true essence of friendship. With carefully curated activities and accommodations, we ensure that every aspect of your journey is infused with comfort and delight.Join us for a Friends Trip that promises laughter, bonding, and the sheer pleasure of being in the company of those who understand you best. Let the adventure begin!"
-          , "image": arrival,
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Shillong",
           "description": "Visit Shillong's famous attractions, including Umiam Lake, Don Bosco Museum, and Laitlum Grand Canyon, to explore North East India's rich cultural heritage. Enjoy a comfortable overnight stay before returning to your hotel."
-          , "image": shillong_market
+          , "image": [shillong11, shillong18, shillong14, shillong17],
         },
         {
           "day": "Day 3",
           "title": "Explore Sohra",
           "description": "Explore Sohra, renowned for its wettest places, including Seven Sisters Falls, Nohkalikai Falls, and Mawsmai Cave. Enjoy the Eco Park and return to Shillong for an overnight stay."
-          , "image": sohra1
+          , "image": [seven_sisters, shillong11, shillong16, shillong10],
         },
         {
           "day": "Day 4",
           "title": "Trek to Double Decker Living Root Bridge",
           "description": "Enjoy an early breakfast and trek to Sohra's Double Decker Living Root Bridge, a natural wonder created by Khasi tribes using Ficus elastica tree roots. Return to Shillong and relax before an overnight stay."
-          , "image": nongriat
+          , "image": [mawsy, doubleBridge, nongriat1, nongriat2],
         },
         {
           "day": "Day 5",
           "title": "Departure",
           "description": "Bid farewell to Meghalaya, and transfer to Guwahati airport for Meghalaya adventure."
-          , "image": departure
+          , "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ],
         }
       ],
       "inclusion": [
@@ -1485,20 +1575,25 @@ export const TourPackages = {
           "day": "Day 1",
           "title": "Arrive at Shillong",
           "description": "Arrive at Guwahati Airport, transfer to Shillong, visit Umiam Lake, relax, explore local markets, and enjoy dinner and an overnight stay."
-          , "image": arrival
+          , "image": [kamakhya_temple, shillong1],
         },
         {
           "day": "Day 2",
           "title": "Explore Sohra",
           "description": "Explore Sohra, the wettest place on Earth, including Mawsmai Cave and Sisters Falls, and engage in corporate meetings."
-          , "image": sohra1
+          , "image": [shillong11, shillong18, shillong14, shillong17],
         }
         ,
         {
           "day": "Day 3",
           "title": "Shillong Sightseeing",
           "description": "Visit Shillong Peak for panoramic views, explore Don Bosco Museum, and explore charming streets with vibrant cafes and traditional food stalls before departing from Guwahati Airport/Railway Station."
-          , "image": shillong_market
+          , "image": [
+            shillong19,
+            shillong20,
+            shillong21,
+
+          ],
         }
       ],
       "inclusion": [
