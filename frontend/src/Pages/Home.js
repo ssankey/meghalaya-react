@@ -254,7 +254,7 @@ const Home = () => {
               <div className="flex flex-col items-center ftco-animate">
                 <div className="bg-white rounded-full p-4 mb-4">
                   {/* Replace the image path with the correct path to your image */}
-                  <img src={hiking} alt="Adventurous" />
+                  <img src={adventours} alt="Adventurous" />
                 </div>
                 <h3 className="text-lg font-extrabold">ADVENTUROUS</h3>
                 <p className="max-w-md text-center">Meghalaya - Into the Mountains is an excellent choice for those looking to explore the beauty and diversity of Meghalaya, a state in northeast India known for its stunning natural landscapes and rich cultural heritage.</p>
