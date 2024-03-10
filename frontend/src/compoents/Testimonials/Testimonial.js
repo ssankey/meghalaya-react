@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Slide } from 'react-slideshow-image';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import './styles.css';
 import axios from 'axios';
 import StarRatings from 'react-star-ratings';

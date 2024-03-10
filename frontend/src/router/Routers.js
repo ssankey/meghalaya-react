@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from "../Pages/Home";
 import TourDetails from '../Pages/TourDetails';
 import Tour from '../Pages/Tour';
@@ -13,7 +13,7 @@ const Routers = () =>  {
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/home' element={<Home/>} />
-            <Route path='/:mainLocation' element={<Tour/>} />
+            <Route path='/:locationName' element={<Tour/>} />
             <Route path='/tour-package/:packageDetails' element={<TourDetails/>} />
 
             <Route path='/thank-you' element={<ThankYou/>} />
