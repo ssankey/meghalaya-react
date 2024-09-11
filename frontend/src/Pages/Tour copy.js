@@ -3,12 +3,12 @@ import { useParams } from 'react-router'
 import { locationData } from '../assets/data/data';
 import image1 from '../assets/images/image12.webp'
 import { Fade, Slide } from 'react-slideshow-image';
-import FeaturedDestination from '../compoents/FeaturedDestinations/FeaturedDestination';
+import FeaturedDestination from '../components/FeaturedDestinations/FeaturedDestination';
 import './page.css'
-import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage';
+import MostSellingPackage from '../components/PackageSlider/MostSellingPackage';
 import { Helmet } from 'react-helmet';
 
-import Form from '../compoents/Form/Form';
+import Form from '../components/Form/Form';
 const Tour = () => {
   const { mainLocation } = useParams();
   const selectedMainLocationData = locationData.mainLocations.find(

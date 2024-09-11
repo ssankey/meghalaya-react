@@ -1,190 +1,194 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-import { Fade, Slide } from 'react-slideshow-image';
-import './page.css'
-import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import Slider from 'react-slick';
 import axios from 'axios';
-import Form from '../compoents/Form/Form';
 import { Helmet } from 'react-helmet';
+import Form from '../components/Form/Form';
+import MostSellingPackage from '../components/PackageSlider/MostSellingPackage';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 const Tour = () => {
   const [selectedMainLocationData, setSelectedMainLocationData] = useState(null);
   const { locationName } = useParams();
-  const token = 'ece9c3aefa07ede929f0cecbc605e5ee18a300a59ad1cf54a8b5daf835585799fb39b403d217787c9d546de1354d007642b2739617d314699b0efeda93938fe62e1c42ad4d1f9582af5219b508512b8c7b332afa8ec2a9a01035fd5ba12887bc068f764cc72829f1ebc3ef39e1ff7fc779629f641b850e3b1b42925a6ecf46a1';
 
   useEffect(() => {
-    axios.get('https://meghalaya.onrender.com/api/location-datas?populate=deep', {
-      headers: {
-        'Authorization': `Bearer ${token}`
-      }
-    })
-      .then(response => {
-        const locationData = response.data.data;
-        let selectedLocation = null;
-        locationData.forEach(location => {
-          if (location.attributes.mainLocation === locationName) {
-            selectedLocation = location.attributes;
+    const fetchLocationData = async () => {
+      try {
+        const response = await axios.get(
+          `${process.env.REACT_APP_API_URL}/api/locations?populate[0]=image&populate[1]=facts&populate[2]=sublocations&populate[3]=sublocations.image&populate[4]=things_to_dos&populate[5]=things_to_dos.image`,
+          {
+            headers: {
+              Authorization: `Bearer ${process.env.REACT_APP_API_TOKEN}`,
+            },
           }
-        });
+        );
 
-        setSelectedMainLocationData(selectedLocation);
+        const locationData = response.data.data;
+        const foundLocation = locationData.find(
+          (location) => location.attributes.name.toLowerCase() === locationName.toLowerCase()
+        );
 
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  }, [locationName, token]);
-
-
-
-  // Use selectedMainLocationData as needed
-
-  const responsiveSettings = [
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+        setSelectedMainLocationData(foundLocation?.attributes || null);
+      } catch (error) {
+        console.error('Error fetching location data:', error);
       }
-    },
-    {
-      breakpoint: 500,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
+    };
+
+    fetchLocationData();
+  }, [locationName]);
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
+  if (!selectedMainLocationData) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 text-xl font-semibold text-gray-800">
+        Location not found
+      </div>
+    );
+  }
+
+  const { name, description, image, facts, sublocations, things_to_dos } = selectedMainLocationData;
+
+  const getImageUrl = (imageData) => {
+    if (imageData && imageData.data && imageData.data.attributes) {
+      return `${process.env.REACT_APP_API_URL}${imageData.data.attributes.url}`;
     }
-  ];
+    return null;
+  };
+
+  const renderDescription = (description) => {
+    if (
+      Array.isArray(description) &&
+      description.length > 0 &&
+      description[0].children &&
+      description[0].children.length > 0
+    ) {
+      return description[0].children[0].text;
+    }
+    return "Description not available.";
+  };
+
   return (
-    <div>
-      {selectedMainLocationData && (
-        <>
-          <Helmet>
-            <title> {selectedMainLocationData.mainLocation} Tour | Meghalaya Into The Mountains</title>
-            <meta
-              name="description"
-              content={`Explore the beauty of ${selectedMainLocationData.mainLocation}. Discover places to visit, things to do, and more with Lets See Tour and Travels.`}
-            />
-          </Helmet>
-          <section className='banner'>
+    <div className="bg-gray-50">
+      <Helmet>
+        <title>{name} Tour | Meghalaya Into The Mountains</title>
+        <meta
+          name="description"
+          content={`Explore the beauty of ${name}. Discover places to visit, things to do, and more with Lets See Tour and Travels.`}
+        />
+      </Helmet>
 
-            <div className='flex justify-center items-center' style={{ position: 'relative', width: '100%', height: '700px' }}>
-              <img
-                src={selectedMainLocationData.image.data[0].attributes.url}
-                alt="Background"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  position: 'absolute',
-                  backgroundPosition: 'center',
-                  backgroundSize: 'cover',
-                  top: 0,
-                  left: 0,
-                  zIndex: -1,
-                }}
-              /><div
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  width: '100%',
-                  height: '100%',
-                  backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the opacity (0.5 in this example) for the black shade
-                }}
-              ></div>
-              <h1 className='font-black z-20 uppercase' style={{ color: 'white', fontSize: '36px' }}>
-                {selectedMainLocationData.mainLocation}
-              </h1>
+      {/* Hero Section */}
+      <section className="relative h-[70vh] flex items-center justify-center">
+        <div className="absolute inset-0">
+          <img
+            src={getImageUrl(image)}
+            alt={name}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+        <h1 className="text-5xl font-bold text-white z-10 text-center uppercase tracking-wider">
+          {name}
+        </h1>
+      </section>
+
+      {/* Main Content */}
+      <div className="container mx-auto px-4 py-12">
+        <div className="flex flex-col md:flex-row gap-12">
+          {/* Left Column */}
+          <div className="md:w-2/3">
+            <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+              <h2 className="text-3xl font-semibold mb-4">Explore The Beauty Of {name}</h2>
+              <p className="text-lg leading-relaxed text-gray-700">{renderDescription(description)}</p>
             </div>
 
-          </section>
-          <section className='flex sm:flex-row flex-col'>
-            <div className=" sm:w-2/3 sm:px-[2rem] py-5 mt-16 flex flex-col " >
-              <div className='px-5 py-10 bg-white rounded-2xl drop-shadow-xl'>
-                <h1 className='text-[45px]'>Explore The Beauty Of {selectedMainLocationData.mainLocation}</h1>
-                <p className="md:text-lg">{selectedMainLocationData.description}  </p>
-              </div>
-              <div className="text-left px-5 py-10 bg-white rounded-2xl drop-shadow-xl mt-5">
-                <h2 className="text-2xl font-semibold mb-2">Facts about {selectedMainLocationData.mainLocation}</h2>
-                <ul>
-                  {selectedMainLocationData.locationFacts.map(fact => (
-                    <li key={fact.id}>
-                      <ul className="list-disc list-inside">
-                        <li>{fact.fact1}</li>
-                        <li>{fact.fact2}</li>
-                        <li>{fact.fact3}</li>
-                        <li>{fact.fact4}</li>
-                        <li>{fact.fact5}</li>
-                      </ul>
-                    </li>
-                  ))}
-                </ul>
-
-              </div>
-            </div>
-            <div className='mt-20 md:w-1/3 w-full'>
-              <Form />
-            </div>
-          </section>
-
-          <section>
-            {/* package details */}
-          </section>
-
-          <div className='my-10 relative' style={{backgroundImage: `url('${selectedMainLocationData.image.data[0].attributes.url}')`, backgroundPosition: 'center center', backgroundSize: 'cover'}}>
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div> {/* Black Overlay */}
-            <h1 className='text-center p-10 text-white font-black text-4xl relative z-10'>What's in it for Travellers?</h1>
-
-            <div className='flex flex-col sm:flex-row w-full gap-40 justify-around sm:px-[12rem] p-2  sm:p-14 '>
-              <div className=' sm:w-1/2 w-full bg-[#80b328]  rounded-lg relative z-10 p-5'>
-                <h1 className='text-2xl text-white text-center font-extrabold  pb-3'>Places To Visit</h1>
-                <Slide infinite responsive={responsiveSettings}>
-                  {selectedMainLocationData.sublocations.map((subLocation, index) => (
-                    <div key={index} className="each-slide-effect-2 text-center">
-                      <div className='rounded-lg' style={{ 'backgroundImage': `url(${subLocation.image.data[0].attributes.url})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
-                      </div>
-                      <section className='py-5'>
-                        <h1 className='text-2xl text-white font-bold'>{subLocation.name}</h1>
-                        <p className='text-[1.1rem] text-white font-semibold py-5'>{subLocation.sublocationdescription}</p>
-                      </section>
-                    </div>
-                  ))}
-
-                </Slide>
-              </div>
-              <div className=' sm:w-1/2 bg-green-900 relative z-10  rounded-lg p-5'>
-                <h1 className='text-2xl text-white font-extrabold pb-3 text-center'>Things To Do</h1>
-                <Slide infinite responsive={responsiveSettings}>
-                  {selectedMainLocationData.ThingsToDo.map((todo, index) => (
-                    <div className="each-slide-effect-2 text-center" key={index}>
-                      <div className='rounded-lg ' style={{ 'backgroundImage': `url(${todo.image.data[0].attributes.url})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
-                  </div>
-                      <section className='py-5'>
-                        <h1 className='text-2xl text-white font-bold'>{todo.name}</h1>
-                        <p className='text-[1.1rem] text-white font-semibold py-5'>{todo.description}</p>
-                      </section>
-                    </div>
-                  ))}
-                </Slide>
-              </div>
+            <div className="bg-white rounded-lg shadow-lg p-8">
+              <h2 className="text-2xl font-semibold mb-4">Facts about {name}</h2>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                {facts.map((fact, index) => (
+                  <li key={index}>{fact.children[0].children[0].text}</li>
+                ))}
+              </ul>
             </div>
           </div>
 
-          <section>
-            {/* <h1 className='text-center p-2 sm:p-10 text-4xl'>Featured {selectedMainLocationData.name} Tour</h1>
-        <FeaturedDestination {...selectedMainLocationData} /> */}
-          </section>
+          {/* Right Column */}
+          <div className="md:w-1/3">
+            <Form />
+          </div>
+        </div>
+      </div>
 
-          <section className='bg-[#414341] bg-opacity-5'>
-            <div className='flex flex-col my-20'>
-              <h1 className='text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'>Explore Our Most Selling Packages </h1>
-              <MostSellingPackage />
+      {/* Places to Visit and Things to Do */}
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">What's in it for Travellers?</h2>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Places to Visit */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <h3 className="text-2xl font-semibold bg-green-600 text-white p-4">Places To Visit</h3>
+              <Slider {...sliderSettings}>
+                {sublocations.data.map((subLocation, index) => (
+                  <div key={index} className="p-6">
+                    <img
+                      src={getImageUrl(subLocation.attributes.image)}
+                      alt={subLocation.attributes.name}
+                      className="w-full h-64 object-cover rounded-lg mb-4"
+                    />
+                    <h4 className="text-xl font-semibold mb-2">{subLocation.attributes.name}</h4>
+                    <p className="text-gray-600">{subLocation.attributes.description.replace(/(<([^>]+)>)/gi, "")}</p>
+                  </div>
+                ))}
+              </Slider>
             </div>
-          </section>
-        </>
-      )}
-    </div>
-  )
-}
 
-export default Tour
+            {/* Things to Do */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <h3 className="text-2xl font-semibold bg-green-800 text-white p-4">Things To Do</h3>
+              <Slider {...sliderSettings}>
+                {things_to_dos?.data?.length > 0 ? (
+                  things_to_dos.data.map((todo, index) => (
+                    <div key={index} className="p-6">
+                      <img
+                        src={getImageUrl(todo.attributes.image)}
+                        alt={todo.attributes.name}
+                        className="w-full h-64 object-cover rounded-lg mb-4"
+                      />
+                      <h4 className="text-xl font-semibold mb-2">{todo.attributes.name}</h4>
+                      <p className="text-gray-600">{todo.attributes.description}</p>
+                    </div>
+                  ))
+                ) : (
+                  <div className="p-6">
+                    <p className="text-gray-600">No activities listed for this location.</p>
+                  </div>
+                )}
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Most Selling Packages */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Explore Our Most Selling Packages</h2>
+          <MostSellingPackage />
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Tour;

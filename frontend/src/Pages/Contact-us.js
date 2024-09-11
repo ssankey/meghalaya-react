@@ -2,7 +2,7 @@ import React from 'react';
 import banner from '../assets/images/arrival.webp';
 import { Helmet } from 'react-helmet';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
-import Form from '../compoents/Form/Form';
+import Form from '../components/Form/Form';
 
 const ContactUs = () => {
   return (

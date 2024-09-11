@@ -1,22 +1,22 @@
 import React from 'react'
-import Banner from '../compoents/Banner/Banner'
+import Banner from '../components/Banner/Banner'
 import image1 from '../assets/images/image14.webp'
 import image2 from '../assets/images/image16.webp'
 import image3 from '../assets/images/image34.webp'
-import ImageSlider from '../compoents/popularPlaces/ImageSlider'
+import ImageSlider from '../components/popularPlaces/ImageSlider'
 import hiking from '../assets/images/hiking.webp'
 import adventours from '../assets/images/adventure.webp'
 import tourGuide from '../assets/images/tour-guide.webp'
 import travelItinerary from '../assets/images/travel-itinerary.webp'
 import serviceBg from '../assets/images/serviceBg.webp'
-import MostSellingPackage from '../compoents/PackageSlider/MostSellingPackage'
+import MostSellingPackage from '../components/PackageSlider/MostSellingPackage'
 import hero from '../assets/images/hero.webp'
 import awardSection from '../assets/images/awardSection.webp'
 import awardSection1 from '../assets/images/award1.webp'
 import awardSection2 from '../assets/images/award2.webp'
 import awardSection3 from '../assets/images/award3.webp'
 
-import Testimonial from '../compoents/Testimonials/Testimonial'
+import Testimonial from '../components/Testimonials/Testimonial'
 import { Fade, Slide } from "react-awesome-reveal";
 import { Slide as SlideshowSlide } from "react-slideshow-image";
 
@@ -25,7 +25,7 @@ import tour_packaging from '../assets/images/Traveling-bro.webp'
 import reservation from '../assets/images/Flight Booking-rafiki.webp'
 import tour_guide from '../assets/images/Tour-guide-bro.webp'
 import activities from '../assets/images/travel-selfie-bro.webp'
-import PremiumCustomer from '../compoents/premium/premiumCustomer'
+import PremiumCustomer from '../components/premium/premiumCustomer'
 import { Helmet } from 'react-helmet'
 
 const Home = () => {
@@ -144,12 +144,7 @@ const Home = () => {
       </section>
 
       <section className='bg-[#414341] bg-opacity-5'>
-        <div className='flex flex-col my-20'>
-          <Fade direction='up' triggerOnce>
-            <h1 className='text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'> OUR MOST SELLING TOUR PACKAGES </h1>
-          </Fade>
           <MostSellingPackage />
-        </div>
       </section>
 
       <section className='bg-[#555555] relative bg-opacity-10 '>

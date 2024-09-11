@@ -5,7 +5,7 @@ import SafariImage from '../assets/images/safari.webp';
 import TrekkingImage from '../assets/images/hiking.webp';
 import SightseeingImage from '../assets/images/iftekhar-nibir-XKCFg-wJx8M-unsplash.webp';
 import RaftingImage from '../assets/images/rafting.webp'
-import Form from '../compoents/Form/Form';
+import Form from '../components/Form/Form';
 import { Helmet } from 'react-helmet'
 
 const Services = () => {
