@@ -144,7 +144,7 @@ const Home = () => {
       </section>
 
       <section className='bg-[#414341] bg-opacity-5'>
-        <MostSellingPackage />
+          <MostSellingPackage />
       </section>
 
       <section className='bg-[#555555] relative bg-opacity-10 '>
@@ -232,104 +232,128 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
-            Our Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <ServiceItem
-              icon="/path/to/itineraries-icon.svg"
-              title="Personalized Itineraries"
-              description="Tailored travel plans based on your preferences and interests."
-            />
-            <ServiceItem
-              icon="/path/to/packaging-icon.svg"
-              title="Tour Packaging"
-              description="Comprehensive packages with transparent pricing for the best value."
-            />
-            <ServiceItem
-              icon="/path/to/reservation-icon.svg"
-              title="Reservation Services"
-              description="Hassle-free booking for accommodations and transportation."
-            />
-            <ServiceItem
-              icon="/path/to/guide-icon.svg"
-              title="Expert Local Guides"
-              description="Knowledgeable companions to enhance your travel experience."
-            />
-            <ServiceItem
-              icon="/path/to/activities-icon.svg"
-              title="Exciting Activities"
-              description="From trekking to caving, unforgettable adventures await."
-            />
+      <section className='bg-white'>
+        <div className="container relative p-10">
+          <img
+            className="absolute top-0 left-0 w-full h-full object-cover object-center opacity-20"
+            src={serviceBg}
+            alt="Mountains Background"
+          />
+          <Slide direction='up' triggerOnce>
+            <div className="md:mt-5 heading-section text-center text-[30px] sm:text-[48px] font-black mx-auto mb-10">
+              <h2 className="mb-2">WHY CHOOSE OUR SERVICES</h2>
+            </div>
+          </Slide>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <Slide direction='up' triggerOnce cascade damping={0.1}>
+              <div className="flex flex-col items-center ftco-animate">
+                <div className="bg-white rounded-full p-4 mb-4">
+                  {/* Replace the image path with the correct path to your image */}
+                  <img src={adventours} alt="Adventurous" />
+                </div>
+                <h3 className="text-lg font-extrabold">ADVENTUROUS</h3>
+                <p className="max-w-md text-center">Meghalaya - Into the Mountains is an excellent choice for those looking to explore the beauty and diversity of Meghalaya, a state in northeast India known for its stunning natural landscapes and rich cultural heritage.</p>
+              </div>
+
+              <div className="flex flex-col items-center ftco-animate">
+                <div className="bg-white rounded-full p-4 mb-4">
+                  {/* Replace the image path with the correct path to your image */}
+                  <img src={travelItinerary} alt="Itineraries" />
+                </div>
+                <h3 className="text-lg font-extrabold">ITINERARIES</h3>
+                <p className="max-w-md text-center">With years of experience in the travel industry, Meghalaya - Into the Mountains Tour offers customized itineraries that cater to the unique interests and needs of each traveler.</p>
+              </div>
+
+              <div className="flex flex-col items-center ftco-animate">
+                <div className="bg-white rounded-full p-4 mb-4">
+                  {/* Replace the image path with the correct path to your image */}
+                  <img src={tourGuide} alt="Guides" />
+                </div>
+                <h3 className="text-lg font-extrabold">GUIDES</h3>
+                <p className="max-w-md text-center">The team of experienced and knowledgeable guides ensures that visitors can fully immerse themselves in the local culture and history while exploring the state's natural wonders.</p>
+              </div>
+
+              <div className="flex flex-col items-center ftco-animate">
+                <div className="bg-white rounded-full p-4 mb-4">
+                  {/* Replace the image path with the correct path to your image */}
+                  <img src={adventours} alt="Ecotourism" />
+                </div>
+                <h3 className="text-lg font-bold">ECOTOURISM</h3>
+                <p className="max-w-md text-center">We are also committed to responsible tourism practices, working closely with local communities to promote sustainable tourism development and preserve regions and cultural resources.</p>
+              </div>
+            </Slide>
           </div>
         </div>
       </section>
 
-      <section className="py-20 relative">
-        <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('/path/to/background-image.jpg')" }}
-        />
-        <div className="absolute inset-0 bg-black opacity-50 z-10" />
-        <div className="container mx-auto px-4 relative z-20">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">
-            Why Choose Our Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <FeatureItem
-              icon="/path/to/adventurous-icon.svg"
-              title="Adventurous"
-              description="Explore the stunning landscapes and rich culture of Meghalaya."
-            />
-            <FeatureItem
-              icon="/path/to/itineraries-icon.svg"
-              title="Custom Itineraries"
-              description="Tailored travel plans to match your unique interests and needs."
-            />
-            <FeatureItem
-              icon="/path/to/guides-icon.svg"
-              title="Expert Guides"
-              description="Knowledgeable local guides to enhance your cultural experience."
-            />
-            <FeatureItem
-              icon="/path/to/ecotourism-icon.svg"
-              title="Eco-friendly"
-              description="Sustainable practices to preserve Meghalaya's natural beauty."
-            />
+      <section className="py-16 md:py-16 bg-[#959a93] bg-opacity-10">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Left Column (Image) */}
+            <Slide direction='left' triggerOnce>
+              <div className="relative h-48 md:h-96">
+                <img
+                  src={hero}
+                  alt="About Us"
+                  className="object-cover w-full h-full rounded-lg shadow-lg"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-green-900 to-blue-900 opacity-10 rounded-lg" style={{ borderRadius: '3em 8em 10em 6em /3em 6em 10em 8em' }}> </div>
+                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                </div>
+              </div>
+            </Slide>
+
+            {/* Right Column (Text) */}
+            <Slide direction='right' triggerOnce>
+              <div className="text-black">
+                <h4 className="text-[30px] sm:text-[44px] font-black mb-4">PERSON BEHIND MEGHALAYA – INTO THE MOUNTAINS</h4>
+                <p className="mb-4">
+                  <span className='text-xl underline'>Mr. Raynauld Mark Pasi </span> which everyone loves to call him Bonn is the person behind Meghalaya - Into the Mountains, who started this tour operator 15 years ago. He underwent a change in career path after completing his Bachelor's degree in engineering.</p>
+                <p className="mb-4">
+                  Despite his academic achievements, his love for nature outweighed his interest in the technical field. Driven by his passion, he made a career switch and became a tour operator. He now shares his love and knowledge of nature with others, providing guided tours and an unforgettable experience for his clients            </p>
+                <p>
+                  His decision to follow his heart and pursue his dream has led him to a fulfilling and rewarding career, where he can combine his interests and share his enthusiasm with others. As a tour operator, he is able to offer unique and exciting experiences to his clients, highlighting the beautiful and diverse aspects of nature.            </p>
+              </div>
+            </Slide>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
-    <div className="container mx-auto px-4">
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 mb-8 md:mb-0">
-          <div className="relative">
-            <img 
-              src="/path/to/founder-image.jpg" 
-              alt="Mr. Raynauld Mark Pasi" 
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-green-900 to-blue-900 opacity-20 rounded-lg" />
+      <section className=" py-16 px-4 mt-10 md:px-8 bg-[#7a7a7a] bg-opacity-10">
+        <div className="container mx-auto flex relative flex-col-reverse md:flex-row items-center">
+          <div className="md:w-1/2 md:ml-8">
+            <h2 className="text-3xl md:text-[48px] font-bold text-black mb-8">RECOGNITION AWARD</h2>
+            <p className="text-black text-lg mb-8">
+              Meghalaya - Into the Mountains, based in the northeast Indian state of Meghalaya, was awarded by Chief Minister Shri Conrad Sangma for its exceptional services in promoting high-end tourism in the region.
+            </p>
+            <p className="text-black text-lg mb-8">
+              The company was recognized for its efforts to purchase top-quality tourist vehicles to enhance the overall tourism experience in Meghalaya. This recognition is a testament to the company's commitment to providing its clients with the best possible tourism experience.
+            </p>
+            <p className="text-black text-lg mb-8">
+              The company's focus on high-end services, along with the use of modern and comfortable tourist vehicles, has helped to attract more tourists to the region, thereby promoting local tourism and boosting the economy.
+            </p>
+            <p className="text-black text-lg mb-8">
+              We are confidently saying that Meghalaya Tourism award is a significant achievement and an acknowledgment of its contribution to the development of tourism in Meghalaya.
+            </p>
+            <p className="text-black text-lg mb-8">
+              With the company's continued focus on providing top-quality services, it is likely to remain a leading player in the tourism industry in the region for years to come.
+            </p>
+          </div>
+          <div className="md:w-1/2 w-full mb-8 md:mb-0">
+            <SlideshowSlide infinite>
+              <div className="each-slide-effect-2 text-center">
+                <img src={awardSection} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
+              </div>
+              <div className="each-slide-effect-2 text-center">
+                <img src={awardSection1} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
+              </div>
+              <div className="each-slide-effect-2 text-center">
+                <img src={awardSection2} alt="Award Illustration - Meghalaya Travel Agency" className="w-full sm:h-[600px] h-[300px] object-cover" />
+              </div>
+
+            </SlideshowSlide>
           </div>
         </div>
-        <div className="md:w-1/2 md:pl-12">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">The Person Behind Meghalaya – Into the Mountains</h2>
-          <h3 className="text-xl font-semibold mb-4 text-gray-700">Mr. Raynauld Mark Pasi</h3>
-          <p className="text-gray-600 mb-4">
-            Known affectionately as Bonn, Mr. Pasi is the visionary behind Meghalaya - Into the Mountains, a tour operator he founded 15 years ago. Despite holding a Bachelor's degree in engineering, his profound love for nature led him to change his career path.
-          </p>
-          <p className="text-gray-600 mb-4">
-            Driven by passion, he transitioned from the technical field to become a tour operator. Today, he shares his love and extensive knowledge of nature with clients, providing guided tours and unforgettable experiences.
-          </p>
-          <p className="text-gray-600">
-            His decision to follow his heart has resulted in a fulfilling career where he combines his interests and enthusiasm to offer unique, exciting experiences that highlight the beautiful and diverse aspects of nature.
-          </p>
-        </div>
-      </div>
-    </div>
       </section>
 
       <section>
@@ -343,21 +367,4 @@ const Home = () => {
   )
 }
 
-const ServiceItem = ({ icon, title, description }) => (
-  <div className="flex flex-col items-center p-6 bg-white shadow-md rounded-lg transition-all duration-300 hover:shadow-lg">
-    <div className="w-20 h-20 mb-4 rounded-full bg-gray-100 flex items-center justify-center">
-      <img src={icon} alt={title} className="w-12 h-12" />
-    </div>
-    <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
-    <p className="text-gray-600 text-center">{description}</p>
-  </div>
-);
-
-const FeatureItem = ({ icon, title, description }) => (
-  <div className="flex flex-col items-center p-6 bg-white bg-opacity-90 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
-    <img src={icon} alt={title} className="w-16 h-16 mb-4" />
-    <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
-    <p className="text-gray-600 text-center">{description}</p>
-  </div>
-);
 export default Home
