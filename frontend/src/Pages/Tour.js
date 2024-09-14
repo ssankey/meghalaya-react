@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Tour = () => {
   const [selectedMainLocationData, setSelectedMainLocationData] = useState(null);
+  const [thingsToDo, setThingsToDo] = useState([]);
   const { locationName } = useParams();
 
   useEffect(() => {
@@ -30,6 +31,7 @@ const Tour = () => {
         );
 
         setSelectedMainLocationData(foundLocation?.attributes || null);
+        setThingsToDo(foundLocation?.attributes?.things_to_dos?.data || []);
       } catch (error) {
         console.error('Error fetching location data:', error);
       }
@@ -66,12 +68,7 @@ const Tour = () => {
   };
 
   const renderDescription = (description) => {
-    if (
-      Array.isArray(description) &&
-      description.length > 0 &&
-      description[0].children &&
-      description[0].children.length > 0
-    ) {
+    if (Array.isArray(description) && description.length > 0 && description[0].children && description[0].children.length > 0) {
       return description[0].children[0].text;
     }
     return "Description not available.";
@@ -157,16 +154,18 @@ const Tour = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <h3 className="text-2xl font-semibold bg-green-800 text-white p-4">Things To Do</h3>
               <Slider {...sliderSettings}>
-                {things_to_dos?.data?.length > 0 ? (
-                  things_to_dos.data.map((todo, index) => (
+              {thingsToDo.length > 0 ? (
+                  thingsToDo.map((todo, index) => (
                     <div key={index} className="p-6">
                       <img
-                        src={getImageUrl(todo.attributes.image)}
+                        src={`${process.env.REACT_APP_API_URL}${todo.attributes.image.data.attributes.url}`}
                         alt={todo.attributes.name}
                         className="w-full h-64 object-cover rounded-lg mb-4"
                       />
                       <h4 className="text-xl font-semibold mb-2">{todo.attributes.name}</h4>
-                      <p className="text-gray-600">{todo.attributes.description}</p>
+                      <p className="text-gray-600">
+                        {renderDescription(todo.attributes.description)}
+                      </p>
                     </div>
                   ))
                 ) : (
