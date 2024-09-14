@@ -1,32 +1,34 @@
-import React from 'react'
-import Banner from '../components/Banner/Banner'
-import image1 from '../assets/images/image14.webp'
-import image2 from '../assets/images/image16.webp'
-import image3 from '../assets/images/image34.webp'
-import ImageSlider from '../components/popularPlaces/ImageSlider'
-import hiking from '../assets/images/hiking.webp'
-import adventours from '../assets/images/adventure.webp'
-import tourGuide from '../assets/images/tour-guide.webp'
-import travelItinerary from '../assets/images/travel-itinerary.webp'
-import serviceBg from '../assets/images/serviceBg.webp'
-import MostSellingPackage from '../components/PackageSlider/MostSellingPackage'
-import hero from '../assets/images/hero.webp'
-import awardSection from '../assets/images/awardSection.webp'
-import awardSection1 from '../assets/images/award1.webp'
-import awardSection2 from '../assets/images/award2.webp'
-import awardSection3 from '../assets/images/award3.webp'
+import { lazy, Suspense } from 'react';
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { Fade, Slide } from 'react-awesome-reveal';
+import { Slide as SlideshowSlide } from 'react-slideshow-image';
+const Banner = lazy(() => import('../components/Banner/Banner'));
+const ImageSlider = lazy(() => import('../components/popularPlaces/ImageSlider'));
+const MostSellingPackage = lazy(() => import('../components/PackageSlider/MostSellingPackage'));
+const Testimonial = lazy(() => import('../components/Testimonials/Testimonial'));
+const PremiumCustomer = lazy(() => import('../components/premium/premiumCustomer'));
 
-import Testimonial from '../components/Testimonials/Testimonial'
-import { Fade, Slide } from "react-awesome-reveal";
-import { Slide as SlideshowSlide } from "react-slideshow-image";
+// Lazy load images
+const image1 = lazy(() => import('../assets/images/image14.webp'));
+const image2 = lazy(() => import('../assets/images/image16.webp'));
+const image3 = lazy(() => import('../assets/images/image34.webp'));
+const hiking = lazy(() => import('../assets/images/hiking.webp'));
+const adventours = lazy(() => import('../assets/images/adventure.webp'));
+const tourGuide = lazy(() => import('../assets/images/tour-guide.webp'));
+const travelItinerary = lazy(() => import('../assets/images/travel-itinerary.webp'));
+const serviceBg = lazy(() => import('../assets/images/serviceBg.webp'));
+const hero = lazy(() => import('../assets/images/hero.webp'));
+const awardSection = lazy(() => import('../assets/images/awardSection.webp'));
+const awardSection1 = lazy(() => import('../assets/images/award1.webp'));
+const awardSection2 = lazy(() => import('../assets/images/award2.webp'));
+const awardSection3 = lazy(() => import('../assets/images/award3.webp'));
+const itineraries = lazy(() => import('../assets/images/Around the world-amico.webp'));
+const tour_packaging = lazy(() => import('../assets/images/Traveling-bro.webp'));
+const reservation = lazy(() => import('../assets/images/Flight Booking-rafiki.webp'));
+const tour_guide = lazy(() => import('../assets/images/Tour-guide-bro.webp'));
+const activities = lazy(() => import('../assets/images/travel-selfie-bro.webp'));
 
-import itineraries from '../assets/images/Around the world-amico.webp'
-import tour_packaging from '../assets/images/Traveling-bro.webp'
-import reservation from '../assets/images/Flight Booking-rafiki.webp'
-import tour_guide from '../assets/images/Tour-guide-bro.webp'
-import activities from '../assets/images/travel-selfie-bro.webp'
-import PremiumCustomer from '../components/premium/premiumCustomer'
-import { Helmet } from 'react-helmet'
 
 const Home = () => {
 
@@ -38,7 +40,10 @@ const Home = () => {
         <meta name="description" content="Experience the beauty of Meghalaya with Meghalaya - Into The Mountains - a leading travel agency offering personalized tours and adventures. Explore Shillong, Cherrapunji, and more." />
 
       </Helmet>
-      <Banner />
+
+      <Suspense fallback={<div className="text-center py-8">Loading Banner...</div>}>
+        <Banner />
+      </Suspense>
       <section className=" bg-[#7f837c] bg-opacity-10 py-16">
         <h1 className=' text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'>About Us </h1>
         <div className="relative rounded-lg overflow-hidden">
@@ -143,8 +148,10 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='bg-[#414341] bg-opacity-5'>
+      <section className="bg-[#414341] bg-opacity-5">
+        <Suspense fallback={<div className="text-center py-8">Loading Most Selling Packages...</div>}>
           <MostSellingPackage />
+        </Suspense>
       </section>
 
       <section className='bg-[#555555] relative bg-opacity-10 '>
@@ -152,7 +159,9 @@ const Home = () => {
           <Fade direction='up'>
             <h1 className='text-[30px] sm:text-[48px] text-center font-black mx-auto mb-10'> MOST VISITED DESTINATIONS </h1>
           </Fade>
-          <ImageSlider />
+          <Suspense fallback={<div className="text-center py-8">Loading Image Slider...</div>}>
+            <ImageSlider />
+          </Suspense>
         </div>
       </section>
 
@@ -356,12 +365,14 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <Suspense fallback={<div className="text-center py-8">Loading Premium Customer...</div>}>
         <PremiumCustomer />
-      </section>
+      </Suspense>
 
       <section className='bg-[#7e827d] bg-opacity-20'>
-        <Testimonial />
+        <Suspense fallback={<div className="text-center py-8">Loading Testimonials...</div>}>
+          <Testimonial />
+        </Suspense>
       </section>
     </div>
   )

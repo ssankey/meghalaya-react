@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiPhone, FiMail, FiMapPin, FiFacebook, FiTwitter, FiInstagram, FiChevronDown, FiHome, FiMap } from 'react-icons/fi';
+import { FiPhone, FiMail, FiMapPin, FiInstagram, FiChevronDown, FiHome, FiMap } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/mountain forest.svg';
 import { navLinks } from '../../assets/data/data';
@@ -12,21 +12,36 @@ const Footer = () => {
           {/* Contact Us Section */}
           <div className="text-white">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+
+            {/* Email */}
             <p className="mb-2 text-sm sm:text-lg">
               <FiMail size={18} className="inline mr-2" />
-              services@meghalayaintothemountains.com
+              <a href="mailto:services@meghalayaintothemountains.com" className="hover:underline">
+                services@meghalayaintothemountains.com
+              </a>
+            </p>
+
+            {/* Phone Numbers */}
+            <p className="mb-2">
+              <FiPhone size={18} className="inline mr-2" />
+              <a href="tel:+918794795255" className="hover:underline">+91 87947 95255</a>
             </p>
             <p className="mb-2">
               <FiPhone size={18} className="inline mr-2" />
-              +91 87947 95255
+              <a href="tel:+918119829466" className="hover:underline">+91 81198 29466</a>
             </p>
-            <p className="mb-2">
-              <FiPhone size={18} className="inline mr-2" />
-              +91 81198 29466
-            </p>
+
+            {/* Address */}
             <p>
               <FiMapPin size={18} className="inline mr-2" />
-              Shillong 793008, Meghalaya, India
+              <a
+                href="https://www.google.com/maps/place/Shillong,+Meghalaya"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Shillong 793008, Meghalaya, India
+              </a>
             </p>
           </div>
 
@@ -70,19 +85,18 @@ const Footer = () => {
           </Link>
         </div>
 
-        {/* Additional Links */}
+        {/* Social Links */}
         <div className="flex justify-center mt-8 space-x-8">
           <Link to="/" className="text-white hover:text-blue-200">
             <FiHome size={20} />
           </Link>
-          {/* <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
-            <FiFacebook size={20} />
-          </a>
-          <a href="https://www.twitter.com/example" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
-            <FiTwitter size={20} /> */}
-          {/* </a>
-           */}
-          <a href="https://www.instagram.com/meghalaya_into_the_mountains/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200">
+
+          <a
+            href="https://www.instagram.com/meghalaya_into_the_mountains/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-blue-200"
+          >
             <FiInstagram size={20} />
           </a>
         </div>

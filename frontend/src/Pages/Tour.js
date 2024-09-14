@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, lazy, Suspense } from 'react';
 import { useParams } from 'react-router-dom';
 import Slider from 'react-slick';
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
-import Form from '../components/Form/Form';
-import MostSellingPackage from '../components/PackageSlider/MostSellingPackage';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
+// Lazy loading components
+const Form = lazy(() => import('../components/Form/Form'));
+const MostSellingPackage = lazy(() => import('../components/PackageSlider/MostSellingPackage'));
 
 const Tour = () => {
   const [selectedMainLocationData, setSelectedMainLocationData] = useState(null);
@@ -58,7 +60,7 @@ const Tour = () => {
     );
   }
 
-  const { name, description, image, facts, sublocations, things_to_dos } = selectedMainLocationData;
+  const { name, description, image, facts, sublocations } = selectedMainLocationData;
 
   const getImageUrl = (imageData) => {
     if (imageData && imageData.data && imageData.data.attributes) {
@@ -68,10 +70,15 @@ const Tour = () => {
   };
 
   const renderDescription = (description) => {
-    if (Array.isArray(description) && description.length > 0 && description[0].children && description[0].children.length > 0) {
+    if (
+      Array.isArray(description) &&
+      description.length > 0 &&
+      description[0].children &&
+      description[0].children.length > 0
+    ) {
       return description[0].children[0].text;
     }
-    return "Description not available.";
+    return 'Description not available.';
   };
 
   return (
@@ -91,6 +98,7 @@ const Tour = () => {
             src={getImageUrl(image)}
             alt={name}
             className="w-full h-full object-cover"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
@@ -121,7 +129,9 @@ const Tour = () => {
 
           {/* Right Column */}
           <div className="md:w-1/3">
-            <Form />
+            <Suspense fallback={<div className="text-center py-8">Loading Form...</div>}>
+              <Form />
+            </Suspense>
           </div>
         </div>
       </div>
@@ -142,9 +152,12 @@ const Tour = () => {
                       src={getImageUrl(subLocation.attributes.image)}
                       alt={subLocation.attributes.name}
                       className="w-full h-64 object-cover rounded-lg mb-4"
+                      loading="lazy"
                     />
                     <h4 className="text-xl font-semibold mb-2">{subLocation.attributes.name}</h4>
-                    <p className="text-gray-600">{subLocation.attributes.description.replace(/(<([^>]+)>)/gi, "")}</p>
+                    <p className="text-gray-600">
+                      {subLocation.attributes.description.replace(/(<([^>]+)>)/gi, '')}
+                    </p>
                   </div>
                 ))}
               </Slider>
@@ -154,18 +167,17 @@ const Tour = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <h3 className="text-2xl font-semibold bg-green-800 text-white p-4">Things To Do</h3>
               <Slider {...sliderSettings}>
-              {thingsToDo.length > 0 ? (
+                {thingsToDo.length > 0 ? (
                   thingsToDo.map((todo, index) => (
                     <div key={index} className="p-6">
                       <img
                         src={`${process.env.REACT_APP_API_URL}${todo.attributes.image.data.attributes.url}`}
                         alt={todo.attributes.name}
                         className="w-full h-64 object-cover rounded-lg mb-4"
+                        loading="lazy"
                       />
                       <h4 className="text-xl font-semibold mb-2">{todo.attributes.name}</h4>
-                      <p className="text-gray-600">
-                        {renderDescription(todo.attributes.description)}
-                      </p>
+                      <p className="text-gray-600">{renderDescription(todo.attributes.description)}</p>
                     </div>
                   ))
                 ) : (
@@ -183,7 +195,9 @@ const Tour = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Explore Our Most Selling Packages</h2>
-          <MostSellingPackage />
+          <Suspense fallback={<div className="text-center py-8">Loading Packages...</div>}>
+            <MostSellingPackage />
+          </Suspense>
         </div>
       </section>
     </div>
